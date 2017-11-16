@@ -8,10 +8,6 @@ int state;
 unsigned int buttons;
 unsigned int oldButtons;
 
-// allows scrolling of background
-// int hOff = 0;
-int timer = 0;
-
 #define ROWMASK 0xFF
 #define COLMASK 0x1FF
 
@@ -19,13 +15,68 @@ int main()
 {
     // to enable sprites in the register display control
     REG_DISPCTL = MODE0 | BG0_ENABLE | SPRITE_ENABLE; 
-    REG_BG0CNT = CBB(0) | SBB(27) | BG_SIZE3 | COLOR256;
     
     while(1)
     {
         // allows buttonpressed to work
         oldButtons = buttons;
         buttons = BUTTONS;
-
+        switch (state) {
+        	case SPLASH:
+        		splash();
+        		break;
+        	case GAME:
+        		game();
+        		break;
+        	case WIN:
+        		win();
+        		break;
+        	case LOSE:
+        		lose();
+        		break;
+        	case PAUSE:
+        		pause();
+        		break;
+        }
     }
+}
+
+void goToSplash() {
+
+}
+
+void splash() {
+
+}
+
+void goToGame() {
+
+}
+
+void game() {
+
+}
+
+void goToWin() {
+
+}
+
+void win() {
+
+}
+
+void goToLose() {
+
+}
+
+void lose() {
+
+}
+
+void goToPause() {
+
+}
+
+void pause() {
+
 }
