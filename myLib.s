@@ -31,108 +31,6 @@ setPixel3:
 	.word	.LANCHOR0
 	.size	setPixel3, .-setPixel3
 	.align	2
-	.global	drawRect3
-	.type	drawRect3, %function
-drawRect3:
-	@ Function supports interworking.
-	@ args = 4, pretend = 0, frame = 8
-	@ frame_needed = 0, uses_anonymous_args = 0
-	@ link register save eliminated.
-	str	r4, [sp, #-4]!
-	cmp	r2, #0
-	sub	sp, sp, #12
-	ble	.L4
-	ldr	ip, .L9
-	rsb	r0, r0, r0, asl #4
-	ldr	r4, [ip, #4]
-	ldr	ip, [ip, #0]
-	add	r1, r1, r0, asl #4
-	add	r1, ip, r1, asl #1
-	add	r0, r4, #36
-	mov	ip, #0
-	orr	r4, r3, #-2130706432
-	add	r3, sp, #6
-.L6:
-	add	ip, ip, #1
-	cmp	ip, r2
-	str	r3, [r0, #0]
-	str	r1, [r0, #4]
-	str	r4, [r0, #8]
-	add	r1, r1, #480
-	bne	.L6
-.L4:
-	add	sp, sp, #12
-	ldmfd	sp!, {r4}
-	bx	lr
-.L10:
-	.align	2
-.L9:
-	.word	.LANCHOR0
-	.size	drawRect3, .-drawRect3
-	.align	2
-	.global	drawImage3
-	.type	drawImage3, %function
-drawImage3:
-	@ Function supports interworking.
-	@ args = 4, pretend = 0, frame = 0
-	@ frame_needed = 0, uses_anonymous_args = 0
-	@ link register save eliminated.
-	stmfd	sp!, {r4, r5, r6}
-	cmp	r3, #0
-	ldr	r4, [sp, #12]
-	ble	.L11
-	ldr	r5, .L15
-	rsb	r1, r1, r1, asl #4
-	ldmia	r5, {r6, ip}	@ phole ldm
-	add	r1, r2, r1, asl #4
-	orr	r5, r4, #-2147483648
-	add	ip, ip, #36
-	mov	r4, r4, asl #1
-	add	r1, r6, r1, asl #1
-	mov	r2, #0
-.L13:
-	add	r2, r2, #1
-	cmp	r2, r3
-	str	r0, [ip, #0]
-	str	r1, [ip, #4]
-	add	r0, r0, r4
-	str	r5, [ip, #8]
-	add	r1, r1, #480
-	bne	.L13
-.L11:
-	ldmfd	sp!, {r4, r5, r6}
-	bx	lr
-.L16:
-	.align	2
-.L15:
-	.word	.LANCHOR0
-	.size	drawImage3, .-drawImage3
-	.align	2
-	.global	fillScreen3
-	.type	fillScreen3, %function
-fillScreen3:
-	@ Function supports interworking.
-	@ args = 0, pretend = 0, frame = 8
-	@ frame_needed = 0, uses_anonymous_args = 0
-	@ link register save eliminated.
-	ldr	r3, .L18
-	sub	sp, sp, #8
-	ldmia	r3, {r0, r1}	@ phole ldm
-	mov	r3, #-2130706432
-	add	r2, r1, #36
-	add	r3, r3, #38400
-	add	ip, sp, #6
-	str	ip, [r1, #36]
-	str	r0, [r2, #4]
-	str	r3, [r2, #8]
-	add	sp, sp, #8
-	bx	lr
-.L19:
-	.align	2
-.L18:
-	.word	.LANCHOR0
-	.size	fillScreen3, .-fillScreen3
-	.align	2
 	.global	setPixel4
 	.type	setPixel4, %function
 setPixel4:
@@ -141,369 +39,44 @@ setPixel4:
 	@ frame_needed = 0, uses_anonymous_args = 0
 	@ link register save eliminated.
 	rsb	r0, r0, r0, asl #4
-	mov	r3, r0, asl #3
-	ldr	r0, .L23
-	add	ip, r1, r1, lsr #31
-	add	r3, r3, ip, asr #1
+	add	r3, r1, r0, asl #4
+	ldr	r0, .L7
+	add	r3, r3, r3, lsr #31
 	ldr	ip, [r0, #0]
-	mov	r3, r3, asl #1
+	bic	r3, r3, #1
 	tst	r1, #1
 	ldrh	r1, [ip, r3]
-	biceq	r1, r1, #255
 	andne	r1, r1, #255
-	orreq	r2, r2, r1
+	andeq	r1, r1, #65280
 	orrne	r2, r1, r2, asl #8
-	streqh	r2, [ip, r3]	@ movhi
-	strneh	r2, [ip, r3]	@ movhi
+	orreq	r2, r1, r2
+	strh	r2, [ip, r3]	@ movhi
 	bx	lr
-.L24:
+.L8:
 	.align	2
-.L23:
+.L7:
 	.word	.LANCHOR0
 	.size	setPixel4, .-setPixel4
 	.align	2
-	.global	drawRect4
-	.type	drawRect4, %function
-drawRect4:
-	@ Function supports interworking.
-	@ args = 4, pretend = 0, frame = 40
-	@ frame_needed = 0, uses_anonymous_args = 0
-	stmfd	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
-	sub	sp, sp, #44
-	ldrb	r4, [sp, #80]	@ zero_extendqisi2
-	cmp	r2, #0
-	str	r2, [sp, #4]
-	orr	r2, r4, r4, asl #8
-	str	r4, [sp, #8]
-	str	r1, [sp, #16]
-	strh	r2, [sp, #38]	@ movhi
-	ble	.L25
-	rsb	r6, r0, r0, asl #4
-	add	r7, r1, #1
-	add	ip, r1, r1, lsr #31
-	mov	r6, r6, asl #3
-	add	r7, r7, r7, lsr #31
-	add	r7, r6, r7, asr #1
-	mov	r5, r0
-	add	r6, r6, ip, asr #1
-	add	r0, r3, r3, lsr #31
-	ldr	ip, [sp, #16]
-	mov	r0, r0, asr #1
-	sub	r1, r0, #1
-	sub	ip, ip, #1
-	str	ip, [sp, #20]
-	orr	r1, r1, #-2130706432
-	mov	r2, r3, lsr #31
-	str	r1, [sp, #28]
-	ldr	r1, [sp, #20]
-	add	fp, r3, r2
-	ldr	r4, [sp, #16]
-	and	fp, fp, #1
-	mov	r7, r7, asl #1
-	orr	r0, r0, #-2130706432
-	add	r3, r1, r3
-	and	r9, r4, #1
-	ldr	sl, .L34
-	str	r0, [sp, #12]
-	rsb	fp, r2, fp
-	mov	r6, r6, asl #1
-	mov	r8, r7
-	mov	r4, #0
-	add	ip, sp, #38
-	str	r3, [sp, #20]
-	b	.L30
-.L33:
-	ldmia	sl, {r1, r2}	@ phole ldm
-	add	r3, r2, #36
-	str	ip, [r2, #36]
-	ldr	r2, [sp, #12]
-	add	r1, r1, r6
-	cmp	fp, #1
-	str	r1, [r3, #4]
-	str	r2, [r3, #8]
-	beq	.L32
-.L28:
-	ldr	r1, [sp, #4]
-	add	r4, r4, #1
-	cmp	r1, r4
-	add	r5, r5, #1
-	add	r8, r8, #240
-	add	r7, r7, #240
-	add	r6, r6, #240
-	ble	.L25
-.L30:
-	cmp	r9, #0
-	beq	.L33
-	mov	r0, r5
-	ldr	r1, [sp, #16]
-	ldr	r2, [sp, #8]
-	str	ip, [sp, #0]
-	bl	setPixel4
-	cmp	fp, #1
-	mov	r0, r5
-	ldr	r1, [sp, #20]
-	ldr	r2, [sp, #8]
-	ldr	ip, [sp, #0]
-	bne	.L29
-	ldmia	sl, {r1, r2}	@ phole ldm
-	add	r1, r1, r8
-	add	r3, r2, #36
-	str	ip, [r2, #36]
-	str	r1, [r3, #4]
-	ldr	r1, [sp, #12]
-	str	r1, [r3, #8]
-	ldr	r1, [sp, #4]
-	add	r4, r4, #1
-	cmp	r1, r4
-	add	r5, r5, #1
-	add	r8, r8, #240
-	add	r7, r7, #240
-	add	r6, r6, #240
-	bgt	.L30
-.L25:
-	add	sp, sp, #44
-	ldmfd	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
-	bx	lr
-.L29:
-	ldmia	sl, {r3, lr}	@ phole ldm
-	add	r3, r3, r7
-	str	r3, [sp, #24]
-	str	ip, [lr, #36]
-	add	r3, lr, #36
-	ldr	lr, [sp, #24]
-	str	lr, [r3, #4]
-	ldr	lr, [sp, #28]
-	str	lr, [r3, #8]
-	str	ip, [sp, #0]
-	bl	setPixel4
-	ldr	ip, [sp, #0]
-	b	.L28
-.L32:
-	mov	r0, r5
-	ldr	r1, [sp, #20]
-	ldr	r2, [sp, #8]
-	str	ip, [sp, #0]
-	bl	setPixel4
-	ldr	ip, [sp, #0]
-	b	.L28
-.L35:
-	.align	2
-.L34:
-	.word	.LANCHOR0
-	.size	drawRect4, .-drawRect4
-	.align	2
-	.global	fillScreen4
-	.type	fillScreen4, %function
-fillScreen4:
-	@ Function supports interworking.
-	@ args = 0, pretend = 0, frame = 8
-	@ frame_needed = 0, uses_anonymous_args = 0
-	@ link register save eliminated.
-	ldr	r3, .L37
-	sub	sp, sp, #8
-	ldmia	r3, {r0, r1}	@ phole ldm
-	mov	r3, #-2130706432
-	add	r2, r1, #36
-	add	r3, r3, #19200
-	add	ip, sp, #6
-	str	ip, [r1, #36]
-	str	r0, [r2, #4]
-	str	r3, [r2, #8]
-	add	sp, sp, #8
-	bx	lr
-.L38:
-	.align	2
-.L37:
-	.word	.LANCHOR0
-	.size	fillScreen4, .-fillScreen4
-	.align	2
-	.global	drawBackgroundImage4
-	.type	drawBackgroundImage4, %function
-drawBackgroundImage4:
-	@ Function supports interworking.
-	@ args = 0, pretend = 0, frame = 0
-	@ frame_needed = 0, uses_anonymous_args = 0
-	@ link register save eliminated.
-	ldr	r3, .L40
-	ldr	r1, [r3, #4]
-	ldr	ip, [r3, #0]
-	mov	r3, #-2147483648
-	add	r2, r1, #36
-	add	r3, r3, #19200
-	str	r0, [r1, #36]
-	str	ip, [r2, #4]
-	str	r3, [r2, #8]
-	bx	lr
-.L41:
-	.align	2
-.L40:
-	.word	.LANCHOR0
-	.size	drawBackgroundImage4, .-drawBackgroundImage4
-	.align	2
-	.global	drawImage4
-	.type	drawImage4, %function
-drawImage4:
-	@ Function supports interworking.
-	@ args = 4, pretend = 0, frame = 0
-	@ frame_needed = 0, uses_anonymous_args = 0
-	@ link register save eliminated.
-	tst	r2, #1
-	stmfd	sp!, {r4, r5, r6}
-	addne	r2, r2, #1
-	cmp	r3, #0
-	ldr	r4, [sp, #12]
-	ble	.L42
-	ldr	r5, .L47
-	rsb	r1, r1, r1, asl #4
-	ldr	ip, [r5, #4]
-	mov	r6, r1, asl #3
-	add	r4, r4, r4, lsr #31
-	ldr	r1, [r5, #0]
-	add	r2, r2, r2, lsr #31
-	mov	r4, r4, asr #1
-	add	r2, r6, r2, asr #1
-	orr	r5, r4, #-2147483648
-	add	r2, r1, r2, asl #1
-	add	ip, ip, #36
-	mov	r4, r4, asl #1
-	mov	r1, #0
-.L45:
-	add	r1, r1, #1
-	cmp	r1, r3
-	str	r0, [ip, #0]
-	str	r2, [ip, #4]
-	add	r0, r0, r4
-	str	r5, [ip, #8]
-	add	r2, r2, #240
-	bne	.L45
-.L42:
-	ldmfd	sp!, {r4, r5, r6}
-	bx	lr
-.L48:
-	.align	2
-.L47:
-	.word	.LANCHOR0
-	.size	drawImage4, .-drawImage4
-	.align	2
-	.global	drawSubImage4
-	.type	drawSubImage4, %function
-drawSubImage4:
-	@ Function supports interworking.
-	@ args = 12, pretend = 0, frame = 0
-	@ frame_needed = 0, uses_anonymous_args = 0
-	@ link register save eliminated.
-	stmfd	sp!, {r4, r5, r6, r7, r8, sl}
-	ldr	ip, [sp, #24]
-	tst	r2, #1
-	ldr	r4, [sp, #28]
-	addne	r2, r2, #1
-	tst	ip, #1
-	addne	ip, ip, #1
-	cmp	r4, #0
-	ldr	r6, [sp, #32]
-	ble	.L49
-	add	r6, r6, r6, lsr #31
-	mov	r6, r6, asr #1
-	mul	r1, r6, r1
-	ldr	r5, .L55
-	rsb	r3, r3, r3, asl #4
-	ldr	r8, [r5, #4]
-	add	r2, r2, r2, lsr #31
-	mov	sl, r3, asl #3
-	add	ip, ip, ip, lsr #31
-	ldr	r3, [r5, #0]
-	add	r7, r1, r2, asr #1
-	add	ip, sl, ip, asr #1
-	add	ip, r3, ip, asl #1
-	add	r2, r8, #36
-	orr	r5, r6, #-2147483648
-	mov	r1, r6, asl #1
-	add	r0, r0, r7, asl #1
-	mov	r3, #0
-.L53:
-	add	r3, r3, #1
-	cmp	r3, r4
-	str	r0, [r2, #0]
-	str	ip, [r2, #4]
-	add	r0, r0, r1
-	str	r5, [r2, #8]
-	add	ip, ip, #240
-	bne	.L53
-.L49:
-	ldmfd	sp!, {r4, r5, r6, r7, r8, sl}
-	bx	lr
-.L56:
-	.align	2
-.L55:
-	.word	.LANCHOR0
-	.size	drawSubImage4, .-drawSubImage4
-	.align	2
-	.global	loadPalette
-	.type	loadPalette, %function
-loadPalette:
-	@ Function supports interworking.
-	@ args = 0, pretend = 0, frame = 0
-	@ frame_needed = 0, uses_anonymous_args = 0
-	@ link register save eliminated.
-	ldr	r3, .L58
-	ldr	r1, [r3, #4]
-	mov	r3, #-2147483648
-	add	r2, r1, #36
-	str	r0, [r1, #36]
-	add	r3, r3, #256
-	mov	r1, #83886080
-	str	r1, [r2, #4]
-	str	r3, [r2, #8]
-	bx	lr
-.L59:
-	.align	2
-.L58:
-	.word	.LANCHOR0
-	.size	loadPalette, .-loadPalette
-	.align	2
-	.global	DMANow
-	.type	DMANow, %function
-DMANow:
-	@ Function supports interworking.
-	@ args = 0, pretend = 0, frame = 0
-	@ frame_needed = 0, uses_anonymous_args = 0
-	@ link register save eliminated.
-	ldr	ip, .L61
-	str	r4, [sp, #-4]!
-	ldr	ip, [ip, #4]
-	add	r0, r0, r0, asl #1
-	add	r4, ip, r0, asl #2
-	orr	r3, r3, #-2147483648
-	str	r1, [ip, r0, asl #2]
-	str	r2, [r4, #4]
-	str	r3, [r4, #8]
-	ldmfd	sp!, {r4}
-	bx	lr
-.L62:
-	.align	2
-.L61:
-	.word	.LANCHOR0
-	.size	DMANow, .-DMANow
-	.align	2
-	.global	waitForVblank
-	.type	waitForVblank, %function
-waitForVblank:
+	.global	waitForVBlank
+	.type	waitForVBlank, %function
+waitForVBlank:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	@ link register save eliminated.
 	mov	r2, #67108864
-.L64:
+.L10:
 	ldrh	r3, [r2, #6]
 	cmp	r3, #160
-	bhi	.L64
+	bhi	.L10
 	mov	r2, #67108864
-.L66:
+.L12:
 	ldrh	r3, [r2, #6]
 	cmp	r3, #159
-	bls	.L66
+	bls	.L12
 	bx	lr
-	.size	waitForVblank, .-waitForVblank
+	.size	waitForVBlank, .-waitForVBlank
 	.align	2
 	.global	flipPage
 	.type	flipPage, %function
@@ -513,28 +86,438 @@ flipPage:
 	@ frame_needed = 0, uses_anonymous_args = 0
 	@ link register save eliminated.
 	mov	r3, #67108864
-	ldrh	r2, [r3, #0]
-	tst	r2, #16
-	ldrne	r1, .L72
-	ldreq	r1, .L72
-	ldrne	r0, [r1, #8]
-	ldreq	r0, [r1, #12]
-	bicne	r2, r2, #16
-	orreq	r2, r2, #16
-	strneh	r2, [r3, #0]	@ movhi
-	streqh	r2, [r3, #0]	@ movhi
-	strne	r0, [r1, #0]
-	streq	r0, [r1, #0]
+	ldrh	r3, [r3, #0]
+	tst	r3, #16
+	movne	r2, #100663296
+	ldreq	r2, .L19
+	ldrne	r1, .L19
+	addne	r2, r2, #40960
+	moveq	r1, #100663296
+	strne	r2, [r1, #0]
+	streq	r1, [r2, #0]
+	eor	r3, r3, #16
+	mov	r2, #67108864
+	strh	r3, [r2, #0]	@ movhi
 	bx	lr
-.L73:
+.L20:
 	.align	2
-.L72:
+.L19:
 	.word	.LANCHOR0
 	.size	flipPage, .-flipPage
+	.align	2
+	.global	DMANow
+	.type	DMANow, %function
+DMANow:
+	@ Function supports interworking.
+	@ args = 0, pretend = 0, frame = 0
+	@ frame_needed = 0, uses_anonymous_args = 0
+	@ link register save eliminated.
+	ldr	ip, .L22
+	stmfd	sp!, {r4, r5}
+	ldr	ip, [ip, #4]
+	add	r0, r0, r0, asl #1
+	add	r4, ip, r0, asl #2
+	orr	r3, r3, #-2147483648
+	mov	r5, #0
+	str	r5, [r4, #8]
+	str	r1, [ip, r0, asl #2]
+	str	r2, [r4, #4]
+	str	r3, [r4, #8]
+	ldmfd	sp!, {r4, r5}
+	bx	lr
+.L23:
+	.align	2
+.L22:
+	.word	.LANCHOR0
+	.size	DMANow, .-DMANow
+	.align	2
+	.global	loadPalette
+	.type	loadPalette, %function
+loadPalette:
+	@ Function supports interworking.
+	@ args = 0, pretend = 0, frame = 0
+	@ frame_needed = 0, uses_anonymous_args = 0
+	@ link register save eliminated.
+	mov	r1, r0
+	mov	r2, #83886080
+	mov	r0, #3
+	mov	r3, #256
+	b	DMANow
+	.size	loadPalette, .-loadPalette
+	.align	2
+	.global	drawFullscreenImage4
+	.type	drawFullscreenImage4, %function
+drawFullscreenImage4:
+	@ Function supports interworking.
+	@ args = 0, pretend = 0, frame = 0
+	@ frame_needed = 0, uses_anonymous_args = 0
+	@ link register save eliminated.
+	ldr	r3, .L26
+	ldr	r2, [r3, #0]
+	mov	r1, r0
+	mov	r3, #19200
+	mov	r0, #3
+	b	DMANow
+.L27:
+	.align	2
+.L26:
+	.word	.LANCHOR0
+	.size	drawFullscreenImage4, .-drawFullscreenImage4
+	.align	2
+	.global	drawFullscreenImage3
+	.type	drawFullscreenImage3, %function
+drawFullscreenImage3:
+	@ Function supports interworking.
+	@ args = 0, pretend = 0, frame = 0
+	@ frame_needed = 0, uses_anonymous_args = 0
+	@ link register save eliminated.
+	ldr	r3, .L29
+	ldr	r2, [r3, #0]
+	mov	r1, r0
+	mov	r3, #38400
+	mov	r0, #3
+	b	DMANow
+.L30:
+	.align	2
+.L29:
+	.word	.LANCHOR0
+	.size	drawFullscreenImage3, .-drawFullscreenImage3
+	.align	2
+	.global	drawImage4
+	.type	drawImage4, %function
+drawImage4:
+	@ Function supports interworking.
+	@ args = 4, pretend = 0, frame = 0
+	@ frame_needed = 0, uses_anonymous_args = 0
+	stmfd	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, lr}
+	subs	sl, r2, #0
+	mov	r8, r3
+	ldr	fp, [sp, #40]
+	ble	.L31
+	add	r9, r3, r3, lsr #31
+	rsb	r0, r0, r0, asl #4
+	mov	r4, #0
+	ldr	r7, .L35
+	mov	r9, r9, asr #1
+	add	r5, r1, r0, asl #4
+	mov	r6, r4
+.L33:
+	add	r1, r4, r4, lsr #31
+	add	r3, r5, r5, lsr #31
+	ldr	r2, [r7, #0]
+	bic	r3, r3, #1
+	bic	r1, r1, #1
+	add	r2, r2, r3
+	mov	r0, #3
+	add	r1, fp, r1
+	mov	r3, r9
+	add	r6, r6, #1
+	bl	DMANow
+	cmp	sl, r6
+	add	r4, r4, r8
+	add	r5, r5, #240
+	bgt	.L33
+.L31:
+	ldmfd	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, lr}
+	bx	lr
+.L36:
+	.align	2
+.L35:
+	.word	.LANCHOR0
+	.size	drawImage4, .-drawImage4
+	.align	2
+	.global	drawImage3
+	.type	drawImage3, %function
+drawImage3:
+	@ Function supports interworking.
+	@ args = 4, pretend = 0, frame = 0
+	@ frame_needed = 0, uses_anonymous_args = 0
+	stmfd	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+	subs	sl, r2, #0
+	mov	r8, r3
+	ble	.L37
+	rsb	r0, r0, r0, asl #4
+	add	r6, r1, r0, asl #4
+	ldr	r7, .L41
+	ldr	r5, [sp, #32]
+	mov	r6, r6, asl #1
+	mov	r9, r3, asl #1
+	mov	r4, #0
+.L39:
+	ldr	r2, [r7, #0]
+	mov	r1, r5
+	add	r2, r2, r6
+	mov	r0, #3
+	mov	r3, r8
+	add	r4, r4, #1
+	bl	DMANow
+	cmp	sl, r4
+	add	r6, r6, #480
+	add	r5, r5, r9
+	bgt	.L39
+.L37:
+	ldmfd	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+	bx	lr
+.L42:
+	.align	2
+.L41:
+	.word	.LANCHOR0
+	.size	drawImage3, .-drawImage3
+	.align	2
+	.global	fillScreen4
+	.type	fillScreen4, %function
+fillScreen4:
+	@ Function supports interworking.
+	@ args = 0, pretend = 0, frame = 16
+	@ frame_needed = 0, uses_anonymous_args = 0
+	str	lr, [sp, #-4]!
+	sub	sp, sp, #20
+	strb	r0, [sp, #7]
+	ldrb	r3, [sp, #7]	@ zero_extendqisi2
+	ldrb	r2, [sp, #7]	@ zero_extendqisi2
+	add	r1, sp, #16
+	orr	r3, r3, r2, asl #8
+	ldr	r2, .L44
+	strh	r3, [r1, #-2]!	@ movhi
+	mov	r3, #16777216
+	mov	r0, #3
+	ldr	r2, [r2, #0]
+	add	r3, r3, #19200
+	bl	DMANow
+	add	sp, sp, #20
+	ldr	lr, [sp], #4
+	bx	lr
+.L45:
+	.align	2
+.L44:
+	.word	.LANCHOR0
+	.size	fillScreen4, .-fillScreen4
+	.align	2
+	.global	fillScreen3
+	.type	fillScreen3, %function
+fillScreen3:
+	@ Function supports interworking.
+	@ args = 0, pretend = 0, frame = 8
+	@ frame_needed = 0, uses_anonymous_args = 0
+	str	lr, [sp, #-4]!
+	ldr	r2, .L47
+	sub	sp, sp, #12
+	add	r1, sp, #8
+	mov	r3, #16777216
+	strh	r0, [r1, #-2]!	@ movhi
+	ldr	r2, [r2, #0]
+	mov	r0, #3
+	add	r3, r3, #38400
+	bl	DMANow
+	add	sp, sp, #12
+	ldr	lr, [sp], #4
+	bx	lr
+.L48:
+	.align	2
+.L47:
+	.word	.LANCHOR0
+	.size	fillScreen3, .-fillScreen3
+	.align	2
+	.global	drawRect4
+	.type	drawRect4, %function
+drawRect4:
+	@ Function supports interworking.
+	@ args = 4, pretend = 0, frame = 32
+	@ frame_needed = 0, uses_anonymous_args = 0
+	stmfd	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+	sub	sp, sp, #36
+	ldrb	ip, [sp, #72]	@ zero_extendqisi2
+	ldrb	r4, [sp, #72]	@ zero_extendqisi2
+	subs	sl, r2, #0
+	orr	ip, ip, r4, asl #8
+	str	r1, [sp, #4]
+	mov	r7, r3
+	strh	ip, [sp, #30]	@ movhi
+	ble	.L49
+	ldr	ip, [sp, #4]
+	mov	r2, r3, asr #1
+	add	r1, r3, r3, lsr #31
+	mov	r4, r0
+	mov	r1, r1, asr #1
+	sub	r0, r2, #1
+	sub	r3, ip, #1
+	rsb	r6, r4, r4, asl #4
+	orr	r2, r2, #16777216
+	orr	r0, r0, #16777216
+	orr	r1, r1, #16777216
+	add	r3, r3, r7
+	ldr	r8, .L61
+	and	r9, ip, #1
+	str	r2, [sp, #12]
+	str	r0, [sp, #20]
+	str	r1, [sp, #16]
+	add	r6, ip, r6, asl #4
+	mov	r5, #0
+	and	fp, r7, #1
+	str	r3, [sp, #8]
+	b	.L58
+.L60:
+	cmp	fp, #0
+	beq	.L52
+	ldrb	r2, [sp, #72]	@ zero_extendqisi2
+	mov	r0, r4
+	ldr	r1, [sp, #4]
+	bl	setPixel4
+	cmp	r7, #1
+	ble	.L53
+	add	r2, r6, #1
+	ldr	r3, [r8, #0]
+	add	r2, r2, r2, lsr #31
+	bic	r2, r2, #1
+	add	r2, r3, r2
+	mov	r0, #3
+	add	r1, sp, #30
+	ldr	r3, [sp, #12]
+	bl	DMANow
+.L53:
+	add	r5, r5, #1
+	cmp	sl, r5
+	add	r4, r4, #1
+	add	r6, r6, #240
+	ble	.L49
+.L58:
+	cmp	r9, #0
+	bne	.L60
+	cmp	fp, #0
+	beq	.L55
+	cmp	r7, #1
+	ble	.L57
+	ldr	r3, [r8, #0]
+	add	r2, r6, r6, lsr #31
+	bic	r2, r2, #1
+	add	r2, r3, r2
+	mov	r0, #3
+	add	r1, sp, #30
+	ldr	r3, [sp, #12]
+	bl	DMANow
+.L57:
+	mov	r0, r4
+	ldrb	r2, [sp, #72]	@ zero_extendqisi2
+	ldr	r1, [sp, #8]
+	add	r5, r5, #1
+	bl	setPixel4
+	cmp	sl, r5
+	add	r4, r4, #1
+	add	r6, r6, #240
+	bgt	.L58
+.L49:
+	add	sp, sp, #36
+	ldmfd	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+	bx	lr
+.L52:
+	ldrb	r2, [sp, #72]	@ zero_extendqisi2
+	mov	r0, r4
+	ldr	r1, [sp, #4]
+	bl	setPixel4
+	cmp	r7, #2
+	ble	.L57
+	add	r2, r6, #1
+	ldr	r3, [r8, #0]
+	add	r2, r2, r2, lsr #31
+	bic	r2, r2, #1
+	add	r2, r3, r2
+	mov	r0, #3
+	add	r1, sp, #30
+	ldr	r3, [sp, #20]
+	bl	DMANow
+	b	.L57
+.L55:
+	ldr	r3, [r8, #0]
+	add	r2, r6, r6, lsr #31
+	bic	r2, r2, #1
+	add	r2, r3, r2
+	mov	r0, #3
+	add	r1, sp, #30
+	ldr	r3, [sp, #16]
+	bl	DMANow
+	b	.L53
+.L62:
+	.align	2
+.L61:
+	.word	.LANCHOR0
+	.size	drawRect4, .-drawRect4
+	.align	2
+	.global	drawRect3
+	.type	drawRect3, %function
+drawRect3:
+	@ Function supports interworking.
+	@ args = 4, pretend = 0, frame = 0
+	@ frame_needed = 0, uses_anonymous_args = 0
+	stmfd	sp!, {r3, r4, r5, r6, r7, r8, sl, lr}
+	subs	r8, r2, #0
+	ble	.L63
+	rsb	r0, r0, r0, asl #4
+	add	r5, r1, r0, asl #4
+	ldr	r7, .L67
+	orr	sl, r3, #16777216
+	mov	r5, r5, asl #1
+	mov	r4, #0
+	add	r6, sp, #32
+.L65:
+	ldr	r2, [r7, #0]
+	mov	r0, #3
+	add	r2, r2, r5
+	mov	r1, r6
+	mov	r3, sl
+	add	r4, r4, #1
+	bl	DMANow
+	cmp	r8, r4
+	add	r5, r5, #480
+	bgt	.L65
+.L63:
+	ldmfd	sp!, {r3, r4, r5, r6, r7, r8, sl, lr}
+	bx	lr
+.L68:
+	.align	2
+.L67:
+	.word	.LANCHOR0
+	.size	drawRect3, .-drawRect3
+	.align	2
+	.global	collision
+	.type	collision, %function
+collision:
+	@ Function supports interworking.
+	@ args = 16, pretend = 0, frame = 0
+	@ frame_needed = 0, uses_anonymous_args = 0
+	@ link register save eliminated.
+	stmfd	sp!, {r4, r5}
+	ldr	ip, [sp, #8]
+	ldr	r5, [sp, #16]
+	sub	r4, ip, #1
+	add	r4, r4, r5
+	cmp	r4, r0
+	ldr	r4, [sp, #12]
+	ble	.L73
+	sub	r0, r0, #1
+	add	r2, r0, r2
+	cmp	ip, r2
+	blt	.L74
+.L73:
+	mov	r0, #0
+.L70:
+	ldmfd	sp!, {r4, r5}
+	bx	lr
+.L74:
+	ldr	r2, [sp, #20]
+	sub	r0, r4, #1
+	add	r2, r0, r2
+	cmp	r2, r1
+	ble	.L73
+	sub	r0, r1, #1
+	add	r0, r0, r3
+	cmp	r4, r0
+	movge	r0, #0
+	movlt	r0, #1
+	b	.L70
+	.size	collision, .-collision
 	.global	videoBuffer
-	.global	frontBuffer
-	.global	backBuffer
 	.global	dma
+	.comm	gamesLost,4,4
 	.data
 	.align	2
 	.set	.LANCHOR0,. + 0
@@ -546,12 +529,4 @@ videoBuffer:
 	.size	dma, 4
 dma:
 	.word	67109040
-	.type	backBuffer, %object
-	.size	backBuffer, 4
-backBuffer:
-	.word	100704256
-	.type	frontBuffer, %object
-	.size	frontBuffer, 4
-frontBuffer:
-	.word	100663296
 	.ident	"GCC: (devkitARM release 31) 4.5.0"

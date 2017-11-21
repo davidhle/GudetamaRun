@@ -148,10 +148,3 @@ int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, i
     return rowA < rowB + heightB - 1 && rowA + heightA - 1 > rowB
         && colA < colB + widthB - 1 && colA + widthA - 1 > colB;
 }
-
-void hideSprites()
-{
-    for(int i = 0; i < 128; i++) {
-        shadowOAM[i].attr0 = ATTR0_HIDE;
-    }
-}
