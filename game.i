@@ -122,6 +122,10 @@ extern const unsigned short spritesheetPal[256];
 # 4 "game.c" 2
 # 1 "game.h" 1
 
+
+
+
+
 typedef struct
 {
     int row;
@@ -133,36 +137,64 @@ typedef struct
     int bulletTimer;
 } PLAYER;
 
+typedef struct
+{
+    int row;
+    int col;
+    int rdel;
+    int cdel;
+    int width;
+    int height;
+    int index;
+    int active;
+} BULLET;
+
 
 extern PLAYER player;
-
-
-
-
+extern BULLET bullets[5];
 
 
 void draw();
 void drawPlayer();
+void drawBullet(BULLET* b);
 void update();
 void updatePlayer();
+void updateBullet(BULLET* b);
+void fireBullet();
 void initialize();
 void hideSprites();
 # 5 "game.c" 2
 
 PLAYER player;
+BULLET bullets[5];
 OBJ_ATTR shadowOAM[128];
 extern int hOff;
 
 void initialize() {
+
  player.row = 115;
  player.col = 5;
  player.height = 37;
  player.width = 29;
  player.bulletTimer = 20;
+ for (int i = 0; i < 5; i++) {
+  bullets[i].height = 6;
+  bullets[i].width = 8;
+  bullets[i].row = 0;
+  bullets[i].col = -bullets[i].width;
+  bullets[i].rdel = 0;
+  bullets[i].cdel = 1;
+  bullets[i].active = 0;
+  bullets[i].index = i + 1;
+ }
 }
 
 void draw() {
  drawPlayer();
+
+ for (int i = 0; i < 5; i++) {
+     drawBullet(&bullets[i]);
+    }
 }
 
 void drawPlayer() {
@@ -172,8 +204,22 @@ void drawPlayer() {
     DMANow(3, shadowOAM, ((OBJ_ATTR*)(0x7000000)), 128*4);
 }
 
+void drawBullet(BULLET* b) {
+ if (b -> active) {
+  shadowOAM[b->index].attr0 = (b->row) | (0<<13) | (0<<14);
+  shadowOAM[b->index].attr1 = (b->col) | (0<<14);
+  shadowOAM[b->index].attr2 = ((0)*32+(4));
+ } else {
+  shadowOAM[b->index].attr0 = (2<<8);
+ }
+}
+
 void update() {
  updatePlayer();
+
+ for (int i = 0; i < 5; i++) {
+  updateBullet(&bullets[i]);
+ }
 }
 
 void updatePlayer() {
@@ -189,6 +235,41 @@ void updatePlayer() {
         } else if (player.col > 0 && player.col < 512 - player.width - hOff - 1) {
          player.col++;
         }
+ } else if ((!(~(oldButtons)&((1<<0))) && (~buttons & ((1<<0)))) && player.bulletTimer >= 16) {
+  fireBullet();
+  player.bulletTimer = 0;
+ }
+
+ player.bulletTimer++;
+}
+
+void updateBullet(BULLET* b) {
+
+ if (b->active) {
+  if (b->row + b->height-1 >= 0
+            && b->col + b->cdel > 0 + player.width - 1
+            && b->col + b->cdel < 512 - player.width - 1) {
+
+   b->row += b->rdel;
+            b->col += b->cdel;
+  } else {
+   b->active = 0;
+  }
+ }
+}
+
+void fireBullet() {
+
+ for (int i = 0; i < 5; i++) {
+  if (!bullets[i].active) {
+
+   bullets[i].row = player.row + player.height / 2;
+   bullets[i].col = player.col + player.width;
+
+   bullets[i].active = 1;
+
+   break;
+  }
  }
 }
 
