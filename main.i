@@ -74,6 +74,8 @@ void game();
 void pause();
 void win();
 void lose();
+void instructions();
+void goToInstructions();
 void goToSplash();
 void goToGame();
 void goToPause();
@@ -95,7 +97,7 @@ typedef volatile struct {
 
 
 extern DMA *dma;
-# 246 "myLib.h"
+# 248 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
 
 
@@ -125,7 +127,7 @@ extern const unsigned short bgPal[256];
 # 4 "main.c" 2
 # 1 "pause.h" 1
 # 22 "pause.h"
-extern const unsigned short pauseTiles[3488];
+extern const unsigned short pauseTiles[3856];
 
 
 extern const unsigned short pauseMap[1024];
@@ -134,6 +136,10 @@ extern const unsigned short pauseMap[1024];
 extern const unsigned short pausePal[256];
 # 5 "main.c" 2
 # 1 "game.h" 1
+
+
+
+
 
 typedef struct
 {
@@ -146,27 +152,69 @@ typedef struct
     int bulletTimer;
 } PLAYER;
 
+typedef struct
+{
+    int row;
+    int col;
+    int rdel;
+    int cdel;
+    int width;
+    int height;
+    int index;
+    int active;
+} BULLET;
+
+typedef struct
+{
+    int row;
+    int col;
+    int rdel;
+    int cdel;
+    int width;
+    int height;
+    int active;
+    int index;
+    int bulletTimer;
+} ENEMY;
+
 
 extern PLAYER player;
+extern BULLET bullets[5];
+extern ENEMY ladel;
+extern ENEMY spatula;
+extern ENEMY mitt;
 
 
 void draw();
 void drawPlayer();
+void drawBullet(BULLET* b);
 void update();
 void updatePlayer();
+void updateBullet(BULLET* b);
+void fireBullet();
 void initialize();
 void hideSprites();
 # 6 "main.c" 2
+# 1 "instructions.h" 1
+# 22 "instructions.h"
+extern const unsigned short instructionsTiles[4960];
+
+
+extern const unsigned short instructionsMap[1024];
+
+
+extern const unsigned short instructionsPal[256];
+# 7 "main.c" 2
 # 1 "spritesheet.h" 1
 # 21 "spritesheet.h"
 extern const unsigned short spritesheetTiles[16384];
 
 
 extern const unsigned short spritesheetPal[256];
-# 7 "main.c" 2
+# 8 "main.c" 2
 
 
-enum { SPLASH, GAME, WIN, LOSE, PAUSE };
+enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };
 int state;
 
 
@@ -194,6 +242,9 @@ int main()
          case SPLASH:
           splash();
           break;
+            case INSTRUCTIONS:
+                instructions();
+                break;
          case GAME:
           game();
           break;
@@ -225,9 +276,32 @@ void goToSplash() {
 
 void splash() {
 
-    if((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3)))))
+    if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3)))))
+    {
+        goToInstructions();
+    }
+}
+
+void goToInstructions() {
+    waitForVBlank();
+    loadPalette(instructionsPal);
+
+    DMANow(3, instructionsTiles, &((charblock *)0x6000000)[0], 9920/2);
+    DMANow(3, instructionsMap, &((screenblock *)0x6000000)[31], 2048/2);
+
+    (*(unsigned short *)0x4000000) = 0 | (1<<8);
+    (*(volatile unsigned short*)0x4000008) = (0<<14) | ((0)<<2) | ((31)<<8);
+    state = INSTRUCTIONS;
+}
+
+void instructions() {
+
+    if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3)))))
     {
         goToGame();
+    } else if ((!(~(oldButtons)&((1<<2))) && (~buttons & ((1<<2))))) {
+        initialize();
+        goToSplash();
     }
 }
 
@@ -275,7 +349,7 @@ void goToPause() {
     waitForVBlank();
 
     loadPalette(pausePal);
-    DMANow(3, pauseTiles, &((charblock *)0x6000000)[0], 6976/2);
+    DMANow(3, pauseTiles, &((charblock *)0x6000000)[0], 7712/2);
     DMANow(3, pauseMap, &((screenblock *)0x6000000)[31], 2048/2);
 
     (*(unsigned short *)0x4000000) = 0 | (1<<8);
@@ -291,7 +365,7 @@ void pause() {
     if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
         goToGame();
     } else if ((!(~(oldButtons)&((1<<2))) && (~buttons & ((1<<2))))) {
-
+        initialize();
         goToSplash();
     }
 }

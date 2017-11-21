@@ -74,6 +74,8 @@ void game();
 void pause();
 void win();
 void lose();
+void instructions();
+void goToInstructions();
 void goToSplash();
 void goToGame();
 void goToPause();
@@ -95,7 +97,7 @@ typedef volatile struct {
 
 
 extern DMA *dma;
-# 246 "myLib.h"
+# 248 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
 
 
@@ -149,9 +151,25 @@ typedef struct
     int active;
 } BULLET;
 
+typedef struct
+{
+    int row;
+    int col;
+    int rdel;
+    int cdel;
+    int width;
+    int height;
+    int active;
+    int index;
+    int bulletTimer;
+} ENEMY;
+
 
 extern PLAYER player;
 extern BULLET bullets[5];
+extern ENEMY ladel;
+extern ENEMY spatula;
+extern ENEMY mitt;
 
 
 void draw();
@@ -172,6 +190,7 @@ extern int hOff;
 
 void initialize() {
 
+ hOff = 0;
  player.row = 115;
  player.col = 5;
  player.height = 37;

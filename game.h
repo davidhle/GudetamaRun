@@ -26,9 +26,25 @@ typedef struct
     int active;
 } BULLET;
 
+typedef struct  
+{
+    int row;
+    int col;
+    int rdel;
+    int cdel;
+    int width;
+    int height;
+    int active;
+    int index;
+    int bulletTimer;
+} ENEMY;
+
 // External variables
 extern PLAYER player;
 extern BULLET bullets[BULLETCOUNT];
+extern ENEMY ladel;
+extern ENEMY spatula;
+extern ENEMY mitt;
 
 // Prototypes
 void draw();

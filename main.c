@@ -3,10 +3,11 @@
 #include "bg.h"
 #include "pause.h"
 #include "game.h"
+#include "instructions.h"
 #include "spritesheet.h"
 
 //State variables
-enum { SPLASH, GAME, WIN, LOSE, PAUSE };
+enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };
 int state;
 
 //allows button pressed to work
@@ -34,6 +35,9 @@ int main()
         	case SPLASH:
         		splash();
         		break;
+            case INSTRUCTIONS:
+                instructions();
+                break;
         	case GAME:
         		game();
         		break;
@@ -64,10 +68,33 @@ void goToSplash() {
 }
 
 void splash() {
+    // pressing start goes to instructions
+    if (BUTTON_PRESSED(BUTTON_START))
+    {
+        goToInstructions();
+    }
+}
+
+void goToInstructions() {
+    waitForVBlank();
+    loadPalette(instructionsPal);
+
+    DMANow(3, instructionsTiles, &CHARBLOCK[0], instructionsTilesLen/2);
+    DMANow(3, instructionsMap, &SCREENBLOCK[31], instructionsMapLen/2);
+
+    REG_DISPCTL = MODE0 | BG0_ENABLE;
+    REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
+    state = INSTRUCTIONS;
+}
+
+void instructions() {
     // pressing start goes to game
-    if(BUTTON_PRESSED(BUTTON_START))
+    if (BUTTON_PRESSED(BUTTON_START))
     {
         goToGame();
+    } else if (BUTTON_PRESSED(BUTTON_SELECT)) {
+        initialize();
+        goToSplash();
     }
 }
 
@@ -131,7 +158,7 @@ void pause() {
     if (BUTTON_PRESSED(BUTTON_START)) {
         goToGame();
     } else if (BUTTON_PRESSED(BUTTON_SELECT)) {
-        // initialize();
+        initialize();
         goToSplash();
     }
 }

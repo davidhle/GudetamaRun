@@ -190,6 +190,8 @@ void game();
 void pause();
 void win();
 void lose();
+void instructions();
+void goToInstructions();
 void goToSplash();
 void goToGame();
 void goToPause();

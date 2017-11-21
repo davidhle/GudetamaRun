@@ -10,6 +10,7 @@ extern int hOff;
 
 void initialize() {
 	// Initialize Player
+	hOff = 0;
 	player.row = 115;
 	player.col = 5;
 	player.height = 37;

@@ -61,71 +61,56 @@ goToSplash:
 	.word	state
 	.size	goToSplash, .-goToSplash
 	.align	2
-	.global	goToGame
-	.type	goToGame, %function
-goToGame:
+	.global	goToInstructions
+	.type	goToInstructions, %function
+goToInstructions:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
-	stmfd	sp!, {r3, r4, r5, lr}
+	stmfd	sp!, {r4, lr}
 	ldr	r3, .L5
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L5+4
-	mov	r2, #1
-	str	r2, [r3, #0]
-	ldr	r0, .L5+8
-	ldr	r3, .L5+12
+	ldr	r0, .L5+4
+	ldr	r3, .L5+8
 	mov	lr, pc
 	bx	r3
-	mov	ip, #67108864
-	mov	lr, #4608	@ movhi
-	strh	lr, [ip, #0]	@ movhi
+	mov	r3, #4928
+	mov	r0, #3
+	ldr	r1, .L5+12
 	mov	r2, #100663296
-	mov	lr, #24064	@ movhi
-	mov	r3, #4736
+	add	r3, r3, #32
 	ldr	r4, .L5+16
-	mov	r5, r2
-	strh	lr, [ip, #10]	@ movhi
-	mov	r0, #3
+	mov	lr, pc
+	bx	r4
+	mov	r2, #100663296
 	ldr	r1, .L5+20
-	add	r3, r3, #16
-	mov	lr, pc
-	bx	r4
-	add	r2, r5, #61440
+	add	r2, r2, #63488
+	mov	r3, #1024
 	mov	r0, #3
-	ldr	r1, .L5+24
-	mov	r3, #2048
 	mov	lr, pc
 	bx	r4
-	add	r2, r5, #65536
-	mov	r0, #3
-	ldr	r1, .L5+28
-	mov	r3, #16384
-	mov	lr, pc
-	bx	r4
-	mov	r2, #83886080
-	mov	r0, #3
-	ldr	r1, .L5+32
-	add	r2, r2, #512
-	mov	r3, #256
-	mov	lr, pc
-	bx	r4
-	ldmfd	sp!, {r3, r4, r5, lr}
+	mov	r3, #67108864
+	mov	r2, #7936	@ movhi
+	strh	r2, [r3, #8]	@ movhi
+	ldr	r2, .L5+24
+	mov	r1, #1
+	str	r1, [r2, #0]
+	mov	r2, #256	@ movhi
+	strh	r2, [r3, #0]	@ movhi
+	ldmfd	sp!, {r4, lr}
 	bx	lr
 .L6:
 	.align	2
 .L5:
 	.word	waitForVBlank
-	.word	state
-	.word	bgPal
+	.word	instructionsPal
 	.word	loadPalette
+	.word	instructionsTiles
 	.word	DMANow
-	.word	bgTiles
-	.word	bgMap
-	.word	spritesheetTiles
-	.word	spritesheetPal
-	.size	goToGame, .-goToGame
+	.word	instructionsMap
+	.word	state
+	.size	goToInstructions, .-goToInstructions
 	.align	2
 	.global	splash
 	.type	splash, %function
@@ -142,13 +127,121 @@ splash:
 	ldrh	r3, [r3, #0]
 	tst	r3, #8
 	bxne	lr
-	b	goToGame
+	b	goToInstructions
 .L11:
 	.align	2
 .L10:
 	.word	oldButtons
 	.word	buttons
 	.size	splash, .-splash
+	.align	2
+	.global	goToGame
+	.type	goToGame, %function
+goToGame:
+	@ Function supports interworking.
+	@ args = 0, pretend = 0, frame = 0
+	@ frame_needed = 0, uses_anonymous_args = 0
+	stmfd	sp!, {r3, r4, r5, lr}
+	ldr	r3, .L13
+	mov	lr, pc
+	bx	r3
+	ldr	r3, .L13+4
+	mov	r2, #2
+	str	r2, [r3, #0]
+	ldr	r0, .L13+8
+	ldr	r3, .L13+12
+	mov	lr, pc
+	bx	r3
+	mov	ip, #67108864
+	mov	lr, #4608	@ movhi
+	strh	lr, [ip, #0]	@ movhi
+	mov	r2, #100663296
+	mov	lr, #24064	@ movhi
+	mov	r3, #4736
+	ldr	r4, .L13+16
+	mov	r5, r2
+	strh	lr, [ip, #10]	@ movhi
+	mov	r0, #3
+	ldr	r1, .L13+20
+	add	r3, r3, #16
+	mov	lr, pc
+	bx	r4
+	add	r2, r5, #61440
+	mov	r0, #3
+	ldr	r1, .L13+24
+	mov	r3, #2048
+	mov	lr, pc
+	bx	r4
+	add	r2, r5, #65536
+	mov	r0, #3
+	ldr	r1, .L13+28
+	mov	r3, #16384
+	mov	lr, pc
+	bx	r4
+	mov	r2, #83886080
+	mov	r0, #3
+	ldr	r1, .L13+32
+	add	r2, r2, #512
+	mov	r3, #256
+	mov	lr, pc
+	bx	r4
+	ldmfd	sp!, {r3, r4, r5, lr}
+	bx	lr
+.L14:
+	.align	2
+.L13:
+	.word	waitForVBlank
+	.word	state
+	.word	bgPal
+	.word	loadPalette
+	.word	DMANow
+	.word	bgTiles
+	.word	bgMap
+	.word	spritesheetTiles
+	.word	spritesheetPal
+	.size	goToGame, .-goToGame
+	.align	2
+	.global	instructions
+	.type	instructions, %function
+instructions:
+	@ Function supports interworking.
+	@ args = 0, pretend = 0, frame = 0
+	@ frame_needed = 0, uses_anonymous_args = 0
+	ldr	r3, .L20
+	stmfd	sp!, {r4, lr}
+	ldrh	r3, [r3, #0]
+	tst	r3, #8
+	beq	.L16
+	ldr	r2, .L20+4
+	ldrh	r2, [r2, #0]
+	tst	r2, #8
+	beq	.L18
+.L16:
+	tst	r3, #4
+	beq	.L15
+	ldr	r3, .L20+4
+	ldrh	r3, [r3, #0]
+	tst	r3, #4
+	beq	.L19
+.L15:
+	ldmfd	sp!, {r4, lr}
+	bx	lr
+.L19:
+	ldr	r3, .L20+8
+	mov	lr, pc
+	bx	r3
+	ldmfd	sp!, {r4, lr}
+	b	goToSplash
+.L18:
+	ldmfd	sp!, {r4, lr}
+	b	goToGame
+.L21:
+	.align	2
+.L20:
+	.word	oldButtons
+	.word	buttons
+	.word	initialize
+	.size	instructions, .-instructions
 	.align	2
 	.global	goToWin
 	.type	goToWin, %function
@@ -197,23 +290,23 @@ goToPause:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	stmfd	sp!, {r4, lr}
-	ldr	r3, .L17
+	ldr	r3, .L27
 	mov	lr, pc
 	bx	r3
-	ldr	r0, .L17+4
-	ldr	r3, .L17+8
+	ldr	r0, .L27+4
+	ldr	r3, .L27+8
 	mov	lr, pc
 	bx	r3
-	ldr	r4, .L17+12
+	ldr	r4, .L27+12
 	mov	r0, #3
-	ldr	r1, .L17+16
+	ldr	r1, .L27+16
 	mov	r2, #100663296
-	mov	r3, #3488
+	mov	r3, #3856
 	mov	lr, pc
 	bx	r4
 	mov	r2, #100663296
 	mov	r0, #3
-	ldr	r1, .L17+20
+	ldr	r1, .L27+20
 	add	r2, r2, #63488
 	mov	r3, #1024
 	mov	lr, pc
@@ -221,9 +314,9 @@ goToPause:
 	mov	r3, #67108864
 	mov	r1, #7936	@ movhi
 	strh	r1, [r3, #8]	@ movhi
-	ldr	r1, .L17+24
+	ldr	r1, .L27+24
 	mov	r2, #0
-	mov	r0, #4
+	mov	r0, #5
 	str	r0, [r1, #0]
 	strh	r2, [r3, #16]	@ movhi
 	strh	r2, [r3, #18]	@ movhi
@@ -231,9 +324,9 @@ goToPause:
 	strh	r2, [r3, #0]	@ movhi
 	ldmfd	sp!, {r4, lr}
 	bx	lr
-.L18:
+.L28:
 	.align	2
-.L17:
+.L27:
 	.word	waitForVBlank
 	.word	pausePal
 	.word	loadPalette
@@ -249,8 +342,8 @@ game:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
-	ldr	r3, .L22
-	ldr	r1, .L22+4
+	ldr	r3, .L32
+	ldr	r1, .L32+4
 	stmfd	sp!, {r4, lr}
 	ldr	r2, [r3, #0]
 	ldrh	r0, [r1, #0]
@@ -258,32 +351,32 @@ game:
 	mov	r1, #67108864
 	strh	r0, [r1, #20]	@ movhi
 	str	r2, [r3, #0]
-	ldr	r3, .L22+8
+	ldr	r3, .L32+8
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L22+12
+	ldr	r3, .L32+12
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L22+16
+	ldr	r3, .L32+16
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L22+20
+	ldr	r3, .L32+20
 	ldrh	r3, [r3, #0]
 	tst	r3, #8
-	beq	.L19
-	ldr	r3, .L22+24
+	beq	.L29
+	ldr	r3, .L32+24
 	ldrh	r3, [r3, #0]
 	tst	r3, #8
-	beq	.L21
-.L19:
+	beq	.L31
+.L29:
 	ldmfd	sp!, {r4, lr}
 	bx	lr
-.L21:
+.L31:
 	ldmfd	sp!, {r4, lr}
 	b	goToPause
-.L23:
+.L33:
 	.align	2
-.L22:
+.L32:
 	.word	.LANCHOR0
 	.word	hOff
 	.word	waitForVBlank
@@ -299,40 +392,44 @@ pause:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
-	ldr	r3, .L29
+	ldr	r3, .L39
 	stmfd	sp!, {r4, lr}
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L29+4
+	ldr	r3, .L39+4
 	ldrh	r3, [r3, #0]
 	tst	r3, #8
-	beq	.L25
-	ldr	r2, .L29+8
+	beq	.L35
+	ldr	r2, .L39+8
 	ldrh	r2, [r2, #0]
 	tst	r2, #8
-	beq	.L27
-.L25:
+	beq	.L37
+.L35:
 	tst	r3, #4
-	beq	.L24
-	ldr	r3, .L29+8
+	beq	.L34
+	ldr	r3, .L39+8
 	ldrh	r3, [r3, #0]
 	tst	r3, #4
-	beq	.L28
-.L24:
+	beq	.L38
+.L34:
 	ldmfd	sp!, {r4, lr}
 	bx	lr
-.L28:
+.L38:
+	ldr	r3, .L39+12
+	mov	lr, pc
+	bx	r3
 	ldmfd	sp!, {r4, lr}
 	b	goToSplash
-.L27:
+.L37:
 	ldmfd	sp!, {r4, lr}
 	b	goToGame
-.L30:
+.L40:
 	.align	2
-.L29:
+.L39:
 	.word	waitForVBlank
 	.word	oldButtons
 	.word	buttons
+	.word	initialize
 	.size	pause, .-pause
 	.align	2
 	.global	main
@@ -342,49 +439,50 @@ main:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	stmfd	sp!, {r3, r4, r5, r6, r7, lr}
-	ldr	r3, .L40
+	ldr	r3, .L52
 	mov	lr, pc
 	bx	r3
 	bl	goToSplash
-	ldr	r3, .L40+4
+	ldr	r3, .L52+4
 	mov	lr, pc
 	bx	r3
 	mov	r5, #67108864
-	ldr	r4, .L40+8
-	ldr	r7, .L40+12
-	ldr	r6, .L40+16
+	ldr	r4, .L52+8
+	ldr	r7, .L52+12
+	ldr	r6, .L52+16
 	add	r5, r5, #256
-.L38:
+.L51:
 	ldrh	r3, [r4, #0]
 	ldr	r2, [r7, #0]
-.L33:
+.L43:
 	strh	r3, [r6, #0]	@ movhi
 	ldrh	r3, [r5, #48]
-	cmp	r2, #1
 	strh	r3, [r4, #0]	@ movhi
-	beq	.L35
-.L39:
-	cmp	r2, #4
-	beq	.L36
-	cmp	r2, #0
-	bne	.L33
-	bl	splash
-	ldrh	r3, [r4, #0]
-	strh	r3, [r6, #0]	@ movhi
-	ldr	r2, [r7, #0]
-	ldrh	r3, [r5, #48]
-	cmp	r2, #1
-	strh	r3, [r4, #0]	@ movhi
-	bne	.L39
-.L35:
-	bl	game
-	b	.L38
-.L36:
+	cmp	r2, #5
+	ldrls	pc, [pc, r2, asl #2]
+	b	.L43
+.L48:
+	.word	.L44
+	.word	.L45
+	.word	.L46
+	.word	.L43
+	.word	.L43
+	.word	.L47
+.L47:
 	bl	pause
-	b	.L38
-.L41:
+	b	.L51
+.L46:
+	bl	game
+	b	.L51
+.L45:
+	bl	instructions
+	b	.L51
+.L44:
+	bl	splash
+	b	.L51
+.L53:
 	.align	2
-.L40:
+.L52:
 	.word	hideSprites
 	.word	initialize
 	.word	buttons

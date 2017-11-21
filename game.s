@@ -18,9 +18,13 @@ initialize:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	@ link register save eliminated.
-	ldr	r3, .L5
-	mov	r1, #115
+	ldr	r0, .L5
+	ldr	r3, .L5+4
+	mov	r1, #0
 	stmfd	sp!, {r4, r5}
+	mov	r2, r1
+	str	r1, [r0, #0]
+	mov	r1, #115
 	str	r1, [r3, #0]
 	mov	r1, #5
 	str	r1, [r3, #4]
@@ -30,8 +34,7 @@ initialize:
 	str	r1, [r3, #16]
 	mov	r1, #20
 	str	r1, [r3, #24]
-	mov	r2, #0
-	ldr	r3, .L5+4
+	ldr	r3, .L5+8
 	mov	r5, #6
 	mov	r4, #8
 	mov	r1, r2
@@ -54,6 +57,7 @@ initialize:
 .L6:
 	.align	2
 .L5:
+	.word	hOff
 	.word	player
 	.word	bullets
 	.size	initialize, .-initialize
