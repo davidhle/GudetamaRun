@@ -1,3 +1,26 @@
+/**
+
+I am making a game where you are playing as
+Gudetama, an egg, who wants to make it back 
+to his egg carton so he doesn't get cooked.
+
+I don't ahve the art for the carton yet, but 
+I plan on it being at the end of the map. Right
+now, if you make it to the end of the map, it
+takes you to the win state.
+
+Right now, I have basic movement and bullets.
+Eventually, you'd be able to jump, the
+enemies would shoot bullets towards you, and
+there would be an egg carton to jump in to win
+at the end of the map.
+
+Then, if that's done, then I hope to implement
+a second level after the enemies where you jump
+over a stove that now and then shoots flames.
+
+**/
+
 #include "myLib.h"
 #include "splash.h"
 #include "bg.h"

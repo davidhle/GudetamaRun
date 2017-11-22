@@ -247,6 +247,10 @@ extern DMA *dma;
 // DMA Functions
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
 
+// *** Fixed Point Arithmetic =========================================================
+#define SHIFTUP(i) ((i) << 8)
+#define SHIFTDOWN(i) ((i) >> 8)
+
 // ============================== MISCELLANEOUS ===============================
 
 // Miscellaneous Functions

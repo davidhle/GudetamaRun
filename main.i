@@ -2,6 +2,7 @@
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "main.c"
+# 24 "main.c"
 # 1 "myLib.h" 1
 
 
@@ -99,12 +100,9 @@ typedef volatile struct {
 extern DMA *dma;
 # 248 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
-
-
-
-
+# 257 "myLib.h"
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
-# 2 "main.c" 2
+# 25 "main.c" 2
 # 1 "splash.h" 1
 # 22 "splash.h"
 extern const unsigned short splashTiles[4800];
@@ -114,7 +112,7 @@ extern const unsigned short splashMap[1024];
 
 
 extern const unsigned short splashPal[256];
-# 3 "main.c" 2
+# 26 "main.c" 2
 # 1 "bg.h" 1
 # 22 "bg.h"
 extern const unsigned short bgTiles[4752];
@@ -124,7 +122,7 @@ extern const unsigned short bgMap[2048];
 
 
 extern const unsigned short bgPal[256];
-# 4 "main.c" 2
+# 27 "main.c" 2
 # 1 "pause.h" 1
 # 22 "pause.h"
 extern const unsigned short pauseTiles[3856];
@@ -134,7 +132,7 @@ extern const unsigned short pauseMap[1024];
 
 
 extern const unsigned short pausePal[256];
-# 5 "main.c" 2
+# 28 "main.c" 2
 # 1 "game.h" 1
 
 
@@ -149,6 +147,11 @@ typedef struct
     int cdel;
     int width;
     int height;
+    int racc;
+    int maxRSpeed;
+    int stopRange;
+    int oldRow;
+    int oldCol;
     int bulletTimer;
 } PLAYER;
 
@@ -200,7 +203,7 @@ void initializePlayer();
 void initializeBullets();
 void hideSprites();
 void updateEnemies();
-# 6 "main.c" 2
+# 29 "main.c" 2
 # 1 "instructions.h" 1
 # 22 "instructions.h"
 extern const unsigned short instructionsTiles[4960];
@@ -210,14 +213,14 @@ extern const unsigned short instructionsMap[1024];
 
 
 extern const unsigned short instructionsPal[256];
-# 7 "main.c" 2
+# 30 "main.c" 2
 # 1 "spritesheet.h" 1
 # 21 "spritesheet.h"
 extern const unsigned short spritesheetTiles[16384];
 
 
 extern const unsigned short spritesheetPal[256];
-# 8 "main.c" 2
+# 31 "main.c" 2
 # 1 "win.h" 1
 # 22 "win.h"
 extern const unsigned short winTiles[3776];
@@ -227,7 +230,7 @@ extern const unsigned short winMap[1024];
 
 
 extern const unsigned short winPal[256];
-# 9 "main.c" 2
+# 32 "main.c" 2
 # 1 "lose.h" 1
 # 22 "lose.h"
 extern const unsigned short loseTiles[3392];
@@ -237,7 +240,7 @@ extern const unsigned short loseMap[1024];
 
 
 extern const unsigned short losePal[256];
-# 10 "main.c" 2
+# 33 "main.c" 2
 
 
 enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };

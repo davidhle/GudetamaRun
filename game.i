@@ -99,10 +99,7 @@ typedef volatile struct {
 extern DMA *dma;
 # 248 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
-
-
-
-
+# 257 "myLib.h"
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
 # 2 "game.c" 2
 # 1 "bg.h" 1
@@ -136,6 +133,11 @@ typedef struct
     int cdel;
     int width;
     int height;
+    int racc;
+    int maxRSpeed;
+    int stopRange;
+    int oldRow;
+    int oldCol;
     int bulletTimer;
 } PLAYER;
 
@@ -202,18 +204,16 @@ extern int hOff;
 
 OBJ_ATTR shadowOAM[128];
 
-int enemiesRemaining;
-
 void initialize() {
 
  hOff = 0;
- enemiesRemaining = 3;
  initializePlayer();
  initializeBullets();
  initializeEnemies();
 }
 
 void initializeEnemies() {
+
  ladel.row = 46;
  ladel.col = 121;
  ladel.rdel = 1;
@@ -243,14 +243,21 @@ void initializeEnemies() {
 }
 
 void initializePlayer() {
+
  player.row = 115;
  player.col = 5;
  player.height = 37;
  player.width = 29;
  player.bulletTimer = 20;
+ player.oldRow = player.row;
+ player.oldCol = player.col;
+ player.rdel = 0;
+ player.racc = 30;
+ player.maxRSpeed = ((8) << 8);
 }
 
 void initializeBullets() {
+
  for (int i = 0; i < 5; i++) {
   bullets[i].height = 6;
   bullets[i].width = 8;
@@ -280,6 +287,7 @@ void drawPlayer() {
 }
 
 void drawBullet(BULLET* b) {
+
  if (b -> active) {
   shadowOAM[b->index].attr0 = (b->row) | (0<<13) | (0<<14);
   shadowOAM[b->index].attr1 = (b->col) | (0<<14);
@@ -290,6 +298,7 @@ void drawBullet(BULLET* b) {
 }
 
 void drawEnemies() {
+
  if (ladel.active) {
   shadowOAM[ladel.index].attr0 = ladel.row | (0<<13) | (0<<14);
      shadowOAM[ladel.index].attr1 = ladel.col | (3<<14);
@@ -313,10 +322,12 @@ void update() {
  for (int i = 0; i < 5; i++) {
   updateBullet(&bullets[i]);
  }
+
  updateEnemies();
 }
 
 void updatePlayer() {
+
  if((~((*(volatile unsigned short *)0x04000130)) & ((1<<5)))) {
         if (player.col < 240/2 - player.width/2 && hOff > 0) {
             hOff--;
@@ -324,7 +335,8 @@ void updatePlayer() {
          player.col--;
         }
  } else if((~((*(volatile unsigned short *)0x04000130)) & ((1<<4)))) {
-        if (player.col > 240/2 - player.width/2 && hOff < 512 - 240) {
+        if (player.col > 240/2 - player.width/2 && hOff < 512 - 240
+         && !ladel.active && !spatula.active && !mitt.active) {
             hOff++;
         } else if (player.col > 0 && player.col < 512 - player.width - hOff - 1) {
          player.col++;
@@ -336,13 +348,19 @@ void updatePlayer() {
 
  if (player.col > 512 - player.width - 4 - hOff) {
   goToWin();
- } else if ((collision(ladel.row, ladel.col, ladel.height, ladel.width,
-    player.row, player.col, player.height, player.width) && ladel.active)
-    || (collision(spatula.row, spatula.col, spatula.height, spatula.width,
-    player.row, player.col, player.height, player.width) && spatula.active)
-    || (collision(ladel.row, ladel.col, ladel.height, ladel.width,
-    player.row, player.col, player.height, player.width) && mitt.active)) {
-     goToLose();
+ }
+
+ if ((collision(ladel.row, ladel.col, ladel.height, ladel.width,
+  player.row, player.col, player.height, player.width) && ladel.active)) {
+  goToLose();
+ }
+ if ((collision(spatula.row, spatula.col, spatula.height, spatula.width,
+  player.row, player.col, player.height, player.width) && spatula.active)) {
+  goToLose();
+ }
+ if ((collision(mitt.row, mitt.col, mitt.height, mitt.width,
+  player.row, player.col, player.height, player.width) && mitt.active)) {
+  goToLose();
  }
 
  player.bulletTimer++;
@@ -364,6 +382,7 @@ void updateBullet(BULLET* b) {
 }
 
 void updateEnemies() {
+
  ladel.row += ladel.rdel;
  spatula.row += spatula.rdel;
  mitt.row += mitt.rdel;
@@ -378,7 +397,6 @@ void updateEnemies() {
   shadowOAM[mitt.index].attr0 = (2<<8);
  }
 
-
  if (ladel.row > 160 - 1 - ladel.height || ladel.row < 46) {
   ladel.rdel *= -1;
  }
@@ -388,24 +406,22 @@ void updateEnemies() {
  if (mitt.row > 160 - 1 - mitt.height || mitt.row < 46) {
   mitt.rdel *= -1;
  }
+
  for (int i = 0; i < 5; i++) {
   if (bullets[i].active && ladel.active && collision(ladel.row, ladel.col, ladel.height, ladel.width,
     bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
     ladel.active = 0;
     bullets[i].active = 0;
-    enemiesRemaining--;
   }
   if (bullets[i].active && spatula.active && collision(spatula.row, spatula.col, spatula.height, spatula.width,
     bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
     spatula.active = 0;
     bullets[i].active = 0;
-    enemiesRemaining--;
   }
   if (bullets[i].active && mitt.active && collision(mitt.row, mitt.col, mitt.height, mitt.width,
     bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
     mitt.active = 0;
     bullets[i].active = 0;
-    enemiesRemaining--;
   }
  }
 }

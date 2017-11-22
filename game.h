@@ -11,6 +11,11 @@ typedef struct
     int cdel;
     int width;
     int height;
+    int racc;
+    int maxRSpeed;
+    int stopRange;
+    int oldRow;
+    int oldCol;
     int bulletTimer;
 } PLAYER;
 
