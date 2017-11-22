@@ -183,17 +183,23 @@ extern BULLET bullets[5];
 extern ENEMY ladel;
 extern ENEMY spatula;
 extern ENEMY mitt;
+extern int enemiesRemaining;
 
 
 void draw();
 void drawPlayer();
 void drawBullet(BULLET* b);
+void drawEnemies();
 void update();
 void updatePlayer();
 void updateBullet(BULLET* b);
 void fireBullet();
 void initialize();
+void initializeEnemies();
+void initializePlayer();
+void initializeBullets();
 void hideSprites();
+void updateEnemies();
 # 6 "main.c" 2
 # 1 "instructions.h" 1
 # 22 "instructions.h"
@@ -212,6 +218,26 @@ extern const unsigned short spritesheetTiles[16384];
 
 extern const unsigned short spritesheetPal[256];
 # 8 "main.c" 2
+# 1 "win.h" 1
+# 22 "win.h"
+extern const unsigned short winTiles[3776];
+
+
+extern const unsigned short winMap[1024];
+
+
+extern const unsigned short winPal[256];
+# 9 "main.c" 2
+# 1 "lose.h" 1
+# 22 "lose.h"
+extern const unsigned short loseTiles[3392];
+
+
+extern const unsigned short loseMap[1024];
+
+
+extern const unsigned short losePal[256];
+# 10 "main.c" 2
 
 
 enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };
@@ -330,19 +356,43 @@ void game() {
 }
 
 void goToWin() {
+    waitForVBlank();
+    loadPalette(winPal);
+    DMANow(3, winTiles, &((charblock *)0x6000000)[0], 7552/2);
+    DMANow(3, winMap, &((screenblock *)0x6000000)[31], 2048/2);
 
+    (*(unsigned short *)0x4000000) = 0 | (1<<8);
+    (*(volatile unsigned short*)0x4000008) = (0<<14) | ((0)<<2) | ((31)<<8);
+    (*(volatile unsigned short *)0x04000010) = 0;
+    (*(volatile unsigned short *)0x04000012) = 0;
+    state = WIN;
 }
 
 void win() {
-
+    if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
+        initialize();
+        goToSplash();
+    }
 }
 
 void goToLose() {
+    waitForVBlank();
+    loadPalette(losePal);
+    DMANow(3, loseTiles, &((charblock *)0x6000000)[0], 6784/2);
+    DMANow(3, loseMap, &((screenblock *)0x6000000)[31], 2048/2);
 
+    (*(unsigned short *)0x4000000) = 0 | (1<<8);
+    (*(volatile unsigned short*)0x4000008) = (0<<14) | ((0)<<2) | ((31)<<8);
+    (*(volatile unsigned short *)0x04000010) = 0;
+    (*(volatile unsigned short *)0x04000012) = 0;
+    state = LOSE;
 }
 
 void lose() {
-
+    if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
+        initialize();
+        goToSplash();
+    }
 }
 
 void goToPause() {

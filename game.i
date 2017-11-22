@@ -170,32 +170,87 @@ extern BULLET bullets[5];
 extern ENEMY ladel;
 extern ENEMY spatula;
 extern ENEMY mitt;
+extern int enemiesRemaining;
 
 
 void draw();
 void drawPlayer();
 void drawBullet(BULLET* b);
+void drawEnemies();
 void update();
 void updatePlayer();
 void updateBullet(BULLET* b);
 void fireBullet();
 void initialize();
+void initializeEnemies();
+void initializePlayer();
+void initializeBullets();
 void hideSprites();
+void updateEnemies();
 # 5 "game.c" 2
 
+
 PLAYER player;
+ENEMY ladel;
+ENEMY spatula;
+ENEMY mitt;
 BULLET bullets[5];
-OBJ_ATTR shadowOAM[128];
+
+
 extern int hOff;
+
+
+OBJ_ATTR shadowOAM[128];
+
+int enemiesRemaining;
 
 void initialize() {
 
  hOff = 0;
+ enemiesRemaining = 3;
+ initializePlayer();
+ initializeBullets();
+ initializeEnemies();
+}
+
+void initializeEnemies() {
+ ladel.row = 46;
+ ladel.col = 121;
+ ladel.rdel = 1;
+ ladel.height = 63;
+ ladel.width = 36;
+ ladel.bulletTimer = 20;
+ ladel.index = 7;
+ ladel.active = 1;
+
+ spatula.row = 44;
+ spatula.col = 164;
+ spatula.rdel = 1;
+ spatula.height = 58;
+ spatula.width = 27;
+ spatula.bulletTimer = 20;
+ spatula.index = 8;
+ spatula.active = 1;
+
+ mitt.row = 47;
+ mitt.col = 205;
+ mitt.rdel = 1;
+ mitt.height = 63;
+ mitt.width = 39;
+ mitt.bulletTimer = 20;
+ mitt.index = 9;
+ mitt.active = 1;
+}
+
+void initializePlayer() {
  player.row = 115;
  player.col = 5;
  player.height = 37;
  player.width = 29;
  player.bulletTimer = 20;
+}
+
+void initializeBullets() {
  for (int i = 0; i < 5; i++) {
   bullets[i].height = 6;
   bullets[i].width = 8;
@@ -214,13 +269,14 @@ void draw() {
  for (int i = 0; i < 5; i++) {
      drawBullet(&bullets[i]);
     }
+    drawEnemies();
+    DMANow(3, shadowOAM, ((OBJ_ATTR*)(0x7000000)), 128*4);
 }
 
 void drawPlayer() {
     shadowOAM[0].attr0 = player.row | (0<<13) | (2<<14);
     shadowOAM[0].attr1 = player.col | (3<<14);
     shadowOAM[0].attr2 = ((0)*32+(0));
-    DMANow(3, shadowOAM, ((OBJ_ATTR*)(0x7000000)), 128*4);
 }
 
 void drawBullet(BULLET* b) {
@@ -233,12 +289,31 @@ void drawBullet(BULLET* b) {
  }
 }
 
+void drawEnemies() {
+ if (ladel.active) {
+  shadowOAM[ladel.index].attr0 = ladel.row | (0<<13) | (0<<14);
+     shadowOAM[ladel.index].attr1 = ladel.col | (3<<14);
+     shadowOAM[ladel.index].attr2 = ((0)*32+(5));
+ }
+    if (spatula.active) {
+     shadowOAM[spatula.index].attr0 = spatula.row | (0<<13) | (2<<14);
+     shadowOAM[spatula.index].attr1 = spatula.col | (3<<14);
+     shadowOAM[spatula.index].attr2 = ((6)*32+(0));
+    }
+    if (mitt.active) {
+     shadowOAM[mitt.index].attr0 = mitt.row | (0<<13) | (2<<14);
+     shadowOAM[mitt.index].attr1 = mitt.col | (3<<14);
+     shadowOAM[mitt.index].attr2 = ((14)*32+(0));
+    }
+}
+
 void update() {
  updatePlayer();
 
  for (int i = 0; i < 5; i++) {
   updateBullet(&bullets[i]);
  }
+ updateEnemies();
 }
 
 void updatePlayer() {
@@ -259,6 +334,17 @@ void updatePlayer() {
   player.bulletTimer = 0;
  }
 
+ if (player.col > 512 - player.width - 4 - hOff) {
+  goToWin();
+ } else if ((collision(ladel.row, ladel.col, ladel.height, ladel.width,
+    player.row, player.col, player.height, player.width) && ladel.active)
+    || (collision(spatula.row, spatula.col, spatula.height, spatula.width,
+    player.row, player.col, player.height, player.width) && spatula.active)
+    || (collision(ladel.row, ladel.col, ladel.height, ladel.width,
+    player.row, player.col, player.height, player.width) && mitt.active)) {
+     goToLose();
+ }
+
  player.bulletTimer++;
 }
 
@@ -273,6 +359,53 @@ void updateBullet(BULLET* b) {
             b->col += b->cdel;
   } else {
    b->active = 0;
+  }
+ }
+}
+
+void updateEnemies() {
+ ladel.row += ladel.rdel;
+ spatula.row += spatula.rdel;
+ mitt.row += mitt.rdel;
+
+ if (!ladel.active) {
+  shadowOAM[ladel.index].attr0 = (2<<8);
+ }
+ if (!spatula.active) {
+  shadowOAM[spatula.index].attr0 = (2<<8);
+ }
+ if (!mitt.active) {
+  shadowOAM[mitt.index].attr0 = (2<<8);
+ }
+
+
+ if (ladel.row > 160 - 1 - ladel.height || ladel.row < 46) {
+  ladel.rdel *= -1;
+ }
+ if (spatula.row > 160 - 1 - spatula.height || spatula.row < 44) {
+  spatula.rdel *= -1;
+ }
+ if (mitt.row > 160 - 1 - mitt.height || mitt.row < 46) {
+  mitt.rdel *= -1;
+ }
+ for (int i = 0; i < 5; i++) {
+  if (bullets[i].active && ladel.active && collision(ladel.row, ladel.col, ladel.height, ladel.width,
+    bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
+    ladel.active = 0;
+    bullets[i].active = 0;
+    enemiesRemaining--;
+  }
+  if (bullets[i].active && spatula.active && collision(spatula.row, spatula.col, spatula.height, spatula.width,
+    bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
+    spatula.active = 0;
+    bullets[i].active = 0;
+    enemiesRemaining--;
+  }
+  if (bullets[i].active && mitt.active && collision(mitt.row, mitt.col, mitt.height, mitt.width,
+    bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
+    mitt.active = 0;
+    bullets[i].active = 0;
+    enemiesRemaining--;
   }
  }
 }

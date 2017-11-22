@@ -5,6 +5,8 @@
 #include "game.h"
 #include "instructions.h"
 #include "spritesheet.h"
+#include "win.h"
+#include "lose.h"
 
 //State variables
 enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };
@@ -123,19 +125,43 @@ void game() {
 }
 
 void goToWin() {
+    waitForVBlank();
+    loadPalette(winPal);
+    DMANow(3, winTiles, &CHARBLOCK[0], winTilesLen/2);
+    DMANow(3, winMap, &SCREENBLOCK[31], winMapLen/2);
 
+    REG_DISPCTL = MODE0 | BG0_ENABLE;
+    REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
+    REG_BG0HOFF = 0;
+    REG_BG0VOFF = 0;  
+    state = WIN; 
 }
 
 void win() {
-
+    if (BUTTON_PRESSED(BUTTON_START)) {
+        initialize();
+        goToSplash();
+    }
 }
 
 void goToLose() {
+    waitForVBlank();
+    loadPalette(losePal);
+    DMANow(3, loseTiles, &CHARBLOCK[0], loseTilesLen/2);
+    DMANow(3, loseMap, &SCREENBLOCK[31], loseMapLen/2);
 
+    REG_DISPCTL = MODE0 | BG0_ENABLE;
+    REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
+    REG_BG0HOFF = 0;
+    REG_BG0VOFF = 0;
+    state = LOSE;
 }
 
 void lose() {
-
+    if (BUTTON_PRESSED(BUTTON_START)) {
+        initialize();
+        goToSplash();
+    }
 }
 
 void goToPause() {

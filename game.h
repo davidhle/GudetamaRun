@@ -45,14 +45,20 @@ extern BULLET bullets[BULLETCOUNT];
 extern ENEMY ladel;
 extern ENEMY spatula;
 extern ENEMY mitt;
+extern int enemiesRemaining;
 
 // Prototypes
 void draw();
 void drawPlayer();
 void drawBullet(BULLET* b);
+void drawEnemies();
 void update();
 void updatePlayer();
 void updateBullet(BULLET* b);
 void fireBullet();
 void initialize();
+void initializeEnemies();
+void initializePlayer();
+void initializeBullets();
 void hideSprites();
+void updateEnemies();
