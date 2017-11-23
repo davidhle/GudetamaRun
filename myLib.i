@@ -74,6 +74,8 @@ void game();
 void pause();
 void win();
 void lose();
+void instructions();
+void goToInstructions();
 void goToSplash();
 void goToGame();
 void goToPause();
@@ -95,12 +97,9 @@ typedef volatile struct {
 
 
 extern DMA *dma;
-# 246 "myLib.h"
+# 248 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
-
-
-
-
+# 257 "myLib.h"
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
 # 2 "myLib.c" 2
 

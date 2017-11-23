@@ -253,6 +253,22 @@ void fireBullet() {
 	}
 }
 
+void drawEnemyBullet(BULLET* b) {
+
+}
+
+void updateEnemyBullet(BULLET* b) {
+
+}
+
+void fireEnemyBullet() {
+
+}
+
+void initializeEnemyBullets() {
+	
+}
+
 void hideSprites()
 {
     for(int i = 0; i < 128; i++) {
