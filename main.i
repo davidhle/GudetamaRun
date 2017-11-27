@@ -100,7 +100,27 @@ typedef volatile struct {
 extern DMA *dma;
 # 248 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
-# 257 "myLib.h"
+# 306 "myLib.h"
+typedef struct{
+    const unsigned char* data;
+    int length;
+    int frequency;
+    int isPlaying;
+    int loops;
+    int duration;
+    int priority;
+    int vbCount;
+}SOUND;
+
+void setupSounds();
+void playSoundA( const unsigned char* sound, int length, int frequency, int loops);
+void playSoundB( const unsigned char* sound, int length, int frequency, int loops);
+void muteSound();
+void unmuteSound();
+void stopSound();
+void setupInterrupts();
+void interruptHandler();
+# 364 "myLib.h"
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
 # 25 "main.c" 2
 # 1 "splash.h" 1
@@ -192,15 +212,19 @@ extern int enemiesRemaining;
 void draw();
 void drawPlayer();
 void drawBullet(BULLET* b);
+void drawEnemyBullet(BULLET* b);
 void drawEnemies();
 void update();
 void updatePlayer();
 void updateBullet(BULLET* b);
+void updateEnemyBullet(BULLET* b);
 void fireBullet();
+void fireEnemyBullet();
 void initialize();
 void initializeEnemies();
 void initializePlayer();
 void initializeBullets();
+void initializeEnemyBullets();
 void hideSprites();
 void updateEnemies();
 # 29 "main.c" 2
@@ -241,6 +265,18 @@ extern const unsigned short loseMap[1024];
 
 extern const unsigned short losePal[256];
 # 33 "main.c" 2
+# 1 "loseMusic.h" 1
+# 20 "loseMusic.h"
+extern const unsigned char loseMusic[277935];
+# 34 "main.c" 2
+# 1 "gameMusic.h" 1
+# 20 "gameMusic.h"
+extern const unsigned char gameMusic[1940256];
+# 35 "main.c" 2
+# 1 "splashMusic.h" 1
+# 20 "splashMusic.h"
+extern const unsigned char splashMusic[2017440];
+# 36 "main.c" 2
 
 
 enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };
@@ -262,6 +298,8 @@ int main()
     hideSprites();
     goToSplash();
     initialize();
+    setupSounds();
+    setupInterrupts();
     while(1)
     {
 
@@ -292,6 +330,7 @@ int main()
 
 void goToSplash() {
     waitForVBlank();
+    playSoundA(splashMusic , 2017440, 11025, 1);
     loadPalette(splashPal);
 
     DMANow(3, splashTiles, &((charblock *)0x6000000)[0], 9600/2);
@@ -336,7 +375,7 @@ void instructions() {
 
 void goToGame() {
     waitForVBlank();
-    state = GAME;
+    playSoundA(gameMusic , 1940256, 11025, 1);
     loadPalette(bgPal);
     (*(unsigned short *)0x4000000) = 0 | (1<<9) | (1<<12);
     (*(volatile unsigned short*)0x400000A) = ((0)<<2) | ((30)<<8) | (1<<14);
@@ -345,6 +384,8 @@ void goToGame() {
 
     DMANow(3, spritesheetTiles, &((charblock *)0x6000000)[4], 32768/2);
     DMANow(3, spritesheetPal, ((unsigned short *)0x5000200), 256);
+
+    state = GAME;
 }
 
 void game() {
@@ -388,6 +429,7 @@ void goToLose() {
     (*(volatile unsigned short*)0x4000008) = (0<<14) | ((0)<<2) | ((31)<<8);
     (*(volatile unsigned short *)0x04000010) = 0;
     (*(volatile unsigned short *)0x04000012) = 0;
+    playSoundA(loseMusic , 277935, 11025, 1);
     state = LOSE;
 }
 
@@ -395,6 +437,7 @@ void lose() {
     if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
         initialize();
         goToSplash();
+        stopSound();
     }
 }
 

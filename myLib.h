@@ -247,9 +247,116 @@ extern DMA *dma;
 // DMA Functions
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
 
-// *** Fixed Point Arithmetic =========================================================
+// ===================== FIXED POINT ARITHMETIC ======================
 #define SHIFTUP(i) ((i) << 8)
 #define SHIFTDOWN(i) ((i) >> 8)
+
+// Timers
+// CONTROLLERS
+#define REG_TM0CNT *(volatile unsigned short*)0x4000102
+#define REG_TM1CNT *(volatile unsigned short*)0x4000106
+#define REG_TM2CNT *(volatile unsigned short*)0x400010A
+#define REG_TM3CNT *(volatile unsigned short*)0x400010E
+
+// TIMER VALUES
+#define REG_TM0D       *(volatile unsigned short*)0x4000100
+#define REG_TM1D       *(volatile unsigned short*)0x4000104
+#define REG_TM2D       *(volatile unsigned short*)0x4000108
+#define REG_TM3D       *(volatile unsigned short*)0x400010C
+
+// Timer flags
+#define TIMER_ON      (1<<7)  
+#define TM_IRQ        (1<<6)
+#define TM_CASCADE    (1<<2)
+#define TM_FREQ_1     0
+#define TM_FREQ_64    1
+#define TM_FREQ_256   2
+#define TM_FREQ_1024  3
+
+// Time factors to multiply clock ticks to convert to microsec (usec)
+// The next line (uncommented) should be in myLib.c
+// double timefactors[] = {0.059604, 3.811, 15.259, 59.382};
+// extern double timefactors[];
+
+
+// *** Interrupts ====================================================
+
+// CONTROLLER
+#define REG_IME *(unsigned short*)0x4000208 
+// ENABLER
+#define REG_IE *(unsigned short*)0x4000200  
+// FLAG
+#define REG_IF *(volatile unsigned short*)0x4000202
+
+// 
+#define REG_INTERRUPT *(unsigned int*)0x3007FFC
+// DISPLAY STATUS
+#define REG_DISPSTAT *(unsigned short*)0x4000004
+
+//interrupt constants for turning them on
+#define INT_VBLANK_ENABLE 1 << 3
+
+//interrupt constants for checking which type of interrupt happened
+#define INT_VBLANK 1 << 0
+#define INT_TM1 1<<4
+#define INT_BUTTON 1 << 12
+
+// ============================= SOUND ==============================
+
+typedef struct{
+    const unsigned char* data;
+    int length;
+    int frequency;
+    int isPlaying;
+    int loops;
+    int duration;
+    int priority;
+    int vbCount;
+}SOUND;
+
+void setupSounds();
+void playSoundA( const unsigned char* sound, int length, int frequency, int loops);
+void playSoundB( const unsigned char* sound, int length, int frequency, int loops);
+void muteSound();
+void unmuteSound();
+void stopSound();
+void setupInterrupts();
+void interruptHandler();
+
+#define REG_SOUNDCNT_X *(volatile u16 *)0x04000084
+
+#define PROCESSOR_CYCLES_PER_SECOND (16777216)
+#define VBLANK_FREQ (59.727)
+
+// register definitions
+#define REG_SOUNDCNT_L        *(u16*)0x04000080
+#define REG_SOUNDCNT_H        *(volatile u16*)0x04000082
+
+// flags
+#define SND_ENABLED           (1<<7)
+#define SND_OUTPUT_RATIO_25   0
+#define SND_OUTPUT_RATIO_50   (1<<0)
+#define SND_OUTPUT_RATIO_100  (1<<1)
+#define DSA_OUTPUT_RATIO_50   (0<<2)
+#define DSA_OUTPUT_RATIO_100  (1<<2)
+#define DSA_OUTPUT_TO_RIGHT   (1<<8)
+#define DSA_OUTPUT_TO_LEFT    (1<<9)
+#define DSA_OUTPUT_TO_BOTH    (3<<8)
+#define DSA_TIMER0            (0<<10)
+#define DSA_TIMER1            (1<<10)
+#define DSA_FIFO_RESET        (1<<11)
+#define DSB_OUTPUT_RATIO_50   (0<<3)
+#define DSB_OUTPUT_RATIO_100  (1<<3)
+#define DSB_OUTPUT_TO_RIGHT   (1<<12)
+#define DSB_OUTPUT_TO_LEFT    (1<<13)
+#define DSB_OUTPUT_TO_BOTH    (3<<12)
+#define DSB_TIMER0            (0<<14)
+#define DSB_TIMER1            (1<<14)
+#define DSB_FIFO_RESET        (1<<15)
+
+// FIFO address defines
+#define REG_FIFO_A          (u16*)0x040000A0
+#define REG_FIFO_B          (u16*)0x040000A4
 
 // ============================== MISCELLANEOUS ===============================
 

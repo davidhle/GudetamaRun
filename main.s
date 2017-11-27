@@ -21,19 +21,28 @@ goToSplash:
 	ldr	r3, .L2
 	mov	lr, pc
 	bx	r3
-	ldr	r0, .L2+4
-	ldr	r3, .L2+8
+	mov	r1, #2015232
+	mov	r2, #11008
+	ldr	ip, .L2+4
+	add	r1, r1, #2208
+	add	r2, r2, #17
+	mov	r3, #1
+	ldr	r0, .L2+8
+	mov	lr, pc
+	bx	ip
+	ldr	r0, .L2+12
+	ldr	r3, .L2+16
 	mov	lr, pc
 	bx	r3
-	ldr	r4, .L2+12
+	ldr	r4, .L2+20
 	mov	r0, #3
-	ldr	r1, .L2+16
+	ldr	r1, .L2+24
 	mov	r2, #100663296
 	mov	r3, #4800
 	mov	lr, pc
 	bx	r4
 	mov	r2, #100663296
-	ldr	r1, .L2+20
+	ldr	r1, .L2+28
 	add	r2, r2, #63488
 	mov	r3, #1024
 	mov	r0, #3
@@ -42,7 +51,7 @@ goToSplash:
 	mov	r3, #67108864
 	mov	r2, #7936	@ movhi
 	strh	r2, [r3, #8]	@ movhi
-	ldr	r2, .L2+24
+	ldr	r2, .L2+32
 	mov	r1, #0
 	str	r1, [r2, #0]
 	mov	r2, #256	@ movhi
@@ -53,6 +62,8 @@ goToSplash:
 	.align	2
 .L2:
 	.word	waitForVBlank
+	.word	playSoundA
+	.word	splashMusic
 	.word	splashPal
 	.word	loadPalette
 	.word	DMANow
@@ -145,11 +156,18 @@ goToGame:
 	ldr	r3, .L13
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L13+4
-	mov	r2, #2
-	str	r2, [r3, #0]
+	mov	r1, #1933312
+	add	r1, r1, #6912
+	mov	r2, #11008
+	add	r1, r1, #32
+	add	r2, r2, #17
+	ldr	ip, .L13+4
+	mov	r3, #1
 	ldr	r0, .L13+8
-	ldr	r3, .L13+12
+	mov	lr, pc
+	bx	ip
+	ldr	r0, .L13+12
+	ldr	r3, .L13+16
 	mov	lr, pc
 	bx	r3
 	mov	ip, #67108864
@@ -158,40 +176,44 @@ goToGame:
 	mov	r2, #100663296
 	mov	lr, #24064	@ movhi
 	mov	r3, #4736
-	ldr	r4, .L13+16
-	mov	r5, r2
+	ldr	r4, .L13+20
 	strh	lr, [ip, #10]	@ movhi
+	mov	r5, r2
 	mov	r0, #3
-	ldr	r1, .L13+20
+	ldr	r1, .L13+24
 	add	r3, r3, #16
 	mov	lr, pc
 	bx	r4
-	add	r2, r5, #61440
 	mov	r0, #3
-	ldr	r1, .L13+24
+	ldr	r1, .L13+28
+	add	r2, r5, #61440
 	mov	r3, #2048
 	mov	lr, pc
 	bx	r4
-	add	r2, r5, #65536
 	mov	r0, #3
-	ldr	r1, .L13+28
+	ldr	r1, .L13+32
+	add	r2, r5, #65536
 	mov	r3, #16384
 	mov	lr, pc
 	bx	r4
 	mov	r2, #83886080
-	mov	r0, #3
-	ldr	r1, .L13+32
 	add	r2, r2, #512
 	mov	r3, #256
+	mov	r0, #3
+	ldr	r1, .L13+36
 	mov	lr, pc
 	bx	r4
+	ldr	r3, .L13+40
+	mov	r2, #2
+	str	r2, [r3, #0]
 	ldmfd	sp!, {r3, r4, r5, lr}
 	bx	lr
 .L14:
 	.align	2
 .L13:
 	.word	waitForVBlank
-	.word	state
+	.word	playSoundA
+	.word	gameMusic
 	.word	bgPal
 	.word	loadPalette
 	.word	DMANow
@@ -199,6 +221,7 @@ goToGame:
 	.word	bgMap
 	.word	spritesheetTiles
 	.word	spritesheetPal
+	.word	state
 	.size	goToGame, .-goToGame
 	.align	2
 	.global	instructions
@@ -356,17 +379,27 @@ goToLose:
 	mov	r3, #1024
 	mov	lr, pc
 	bx	r4
-	mov	r3, #67108864
-	mov	r1, #7936	@ movhi
-	strh	r1, [r3, #8]	@ movhi
-	ldr	r1, .L31+24
-	mov	r2, #0
-	mov	r0, #4
-	str	r0, [r1, #0]
-	strh	r2, [r3, #16]	@ movhi
-	strh	r2, [r3, #18]	@ movhi
-	mov	r2, #256	@ movhi
-	strh	r2, [r3, #0]	@ movhi
+	mov	ip, #67108864
+	mov	r4, #7936	@ movhi
+	mov	r1, #274432
+	strh	r4, [ip, #8]	@ movhi
+	mov	lr, #0
+	add	r1, r1, #3488
+	mov	r2, #11008
+	mov	r4, #256	@ movhi
+	strh	lr, [ip, #16]	@ movhi
+	add	r2, r2, #17
+	mov	r3, #1
+	strh	r4, [ip, #0]	@ movhi
+	strh	lr, [ip, #18]	@ movhi
+	ldr	r0, .L31+24
+	add	r1, r1, #15
+	ldr	ip, .L31+28
+	mov	lr, pc
+	bx	ip
+	ldr	r3, .L31+32
+	mov	r2, #4
+	str	r2, [r3, #0]
 	ldmfd	sp!, {r4, lr}
 	bx	lr
 .L32:
@@ -378,6 +411,8 @@ goToLose:
 	.word	DMANow
 	.word	loseTiles
 	.word	loseMap
+	.word	loseMusic
+	.word	playSoundA
 	.word	state
 	.size	goToLose, .-goToLose
 	.align	2
@@ -387,8 +422,8 @@ lose:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
+	stmfd	sp!, {r3, lr}
 	ldr	r3, .L36
-	stmfd	sp!, {r4, lr}
 	ldrh	r3, [r3, #0]
 	tst	r3, #8
 	beq	.L33
@@ -397,20 +432,24 @@ lose:
 	tst	r3, #8
 	beq	.L35
 .L33:
-	ldmfd	sp!, {r4, lr}
+	ldmfd	sp!, {r3, lr}
 	bx	lr
 .L35:
 	ldr	r3, .L36+8
 	mov	lr, pc
 	bx	r3
-	ldmfd	sp!, {r4, lr}
-	b	goToSplash
+	bl	goToSplash
+	ldr	r3, .L36+12
+	mov	lr, pc
+	bx	r3
+	b	.L33
 .L37:
 	.align	2
 .L36:
 	.word	oldButtons
 	.word	buttons
 	.word	initialize
+	.word	stopSound
 	.size	lose, .-lose
 	.align	2
 	.global	goToPause
@@ -576,10 +615,16 @@ main:
 	ldr	r3, .L66+4
 	mov	lr, pc
 	bx	r3
+	ldr	r3, .L66+8
+	mov	lr, pc
+	bx	r3
+	ldr	r3, .L66+12
+	mov	lr, pc
+	bx	r3
 	mov	r5, #67108864
-	ldr	r4, .L66+8
-	ldr	r7, .L66+12
-	ldr	r6, .L66+16
+	ldr	r4, .L66+16
+	ldr	r7, .L66+20
+	ldr	r6, .L66+24
 	add	r5, r5, #256
 .L65:
 	ldrh	r3, [r4, #0]
@@ -621,6 +666,8 @@ main:
 .L66:
 	.word	hideSprites
 	.word	initialize
+	.word	setupSounds
+	.word	setupInterrupts
 	.word	buttons
 	.word	state
 	.word	oldButtons

@@ -2,6 +2,8 @@
 #include "bg.h"
 #include "spritesheet.h"
 #include "game.h"
+#include "shoot.h"
+#include "hit.h"
 
 // Struct variables
 PLAYER player;
@@ -155,6 +157,7 @@ void updatePlayer() {
         }
 	} else if (BUTTON_PRESSED(BUTTON_A) && player.bulletTimer >= 16) {
 		fireBullet();
+		playSoundB(shoot,SHOOTLEN, SHOOTFREQ, 0);
 		player.bulletTimer = 0;
 	}
 	// If you reach the end, then you win
@@ -174,7 +177,6 @@ void updatePlayer() {
 		player.row, player.col, player.height, player.width) && mitt.active)) {
 		goToLose();
 	}
-
 	player.bulletTimer++;
 }
 
@@ -222,16 +224,19 @@ void updateEnemies() {
 	for (int i = 0; i < BULLETCOUNT; i++) {
 		if (bullets[i].active && ladel.active && collision(ladel.row, ladel.col, ladel.height, ladel.width, 
 				bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
+				playSoundB(hit, HITLEN, HITFREQ, 0);
 				ladel.active = 0;
 				bullets[i].active = 0;
 		}
 		if (bullets[i].active && spatula.active && collision(spatula.row, spatula.col, spatula.height, spatula.width, 
 				bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
+				playSoundB(hit, HITLEN, HITFREQ, 0);
 				spatula.active = 0;
 				bullets[i].active = 0;
 		}
 		if (bullets[i].active && mitt.active && collision(mitt.row, mitt.col, mitt.height, mitt.width, 
 				bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
+				playSoundB(hit, HITLEN, HITFREQ, 0);
 				mitt.active = 0;
 				bullets[i].active = 0;
 		}

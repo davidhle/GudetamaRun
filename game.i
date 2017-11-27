@@ -99,7 +99,27 @@ typedef volatile struct {
 extern DMA *dma;
 # 248 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
-# 257 "myLib.h"
+# 306 "myLib.h"
+typedef struct{
+    const unsigned char* data;
+    int length;
+    int frequency;
+    int isPlaying;
+    int loops;
+    int duration;
+    int priority;
+    int vbCount;
+}SOUND;
+
+void setupSounds();
+void playSoundA( const unsigned char* sound, int length, int frequency, int loops);
+void playSoundB( const unsigned char* sound, int length, int frequency, int loops);
+void muteSound();
+void unmuteSound();
+void stopSound();
+void setupInterrupts();
+void interruptHandler();
+# 364 "myLib.h"
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
 # 2 "game.c" 2
 # 1 "bg.h" 1
@@ -178,18 +198,30 @@ extern int enemiesRemaining;
 void draw();
 void drawPlayer();
 void drawBullet(BULLET* b);
+void drawEnemyBullet(BULLET* b);
 void drawEnemies();
 void update();
 void updatePlayer();
 void updateBullet(BULLET* b);
+void updateEnemyBullet(BULLET* b);
 void fireBullet();
+void fireEnemyBullet();
 void initialize();
 void initializeEnemies();
 void initializePlayer();
 void initializeBullets();
+void initializeEnemyBullets();
 void hideSprites();
 void updateEnemies();
 # 5 "game.c" 2
+# 1 "shoot.h" 1
+# 20 "shoot.h"
+extern const unsigned char shoot[2299];
+# 6 "game.c" 2
+# 1 "hit.h" 1
+# 20 "hit.h"
+extern const unsigned char hit[2068];
+# 7 "game.c" 2
 
 
 PLAYER player;
@@ -292,6 +324,7 @@ void drawBullet(BULLET* b) {
   shadowOAM[b->index].attr0 = (b->row) | (0<<13) | (0<<14);
   shadowOAM[b->index].attr1 = (b->col) | (0<<14);
   shadowOAM[b->index].attr2 = ((0)*32+(4));
+  playSoundB(shoot,2299, 11025, 0);
  } else {
   shadowOAM[b->index].attr0 = (2<<8);
  }
@@ -362,7 +395,6 @@ void updatePlayer() {
   player.row, player.col, player.height, player.width) && mitt.active)) {
   goToLose();
  }
-
  player.bulletTimer++;
 }
 
@@ -410,16 +442,19 @@ void updateEnemies() {
  for (int i = 0; i < 5; i++) {
   if (bullets[i].active && ladel.active && collision(ladel.row, ladel.col, ladel.height, ladel.width,
     bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
+    playSoundB(hit, 2068, 11025, 0);
     ladel.active = 0;
     bullets[i].active = 0;
   }
   if (bullets[i].active && spatula.active && collision(spatula.row, spatula.col, spatula.height, spatula.width,
     bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
+    playSoundB(hit, 2068, 11025, 0);
     spatula.active = 0;
     bullets[i].active = 0;
   }
   if (bullets[i].active && mitt.active && collision(mitt.row, mitt.col, mitt.height, mitt.width,
     bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
+    playSoundB(hit, 2068, 11025, 0);
     mitt.active = 0;
     bullets[i].active = 0;
   }
@@ -439,6 +474,22 @@ void fireBullet() {
    break;
   }
  }
+}
+
+void drawEnemyBullet(BULLET* b) {
+
+}
+
+void updateEnemyBullet(BULLET* b) {
+
+}
+
+void fireEnemyBullet() {
+
+}
+
+void initializeEnemyBullets() {
+
 }
 
 void hideSprites()

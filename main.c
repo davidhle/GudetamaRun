@@ -30,8 +30,11 @@ over a stove that now and then shoots flames.
 #include "spritesheet.h"
 #include "win.h"
 #include "lose.h"
+#include "loseMusic.h"
+#include "gameMusic.h"
+#include "splashMusic.h"
 
-//State variables
+// State variables
 enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };
 int state;
 
@@ -51,6 +54,8 @@ int main()
     hideSprites();
     goToSplash();
     initialize();
+    setupSounds();
+    setupInterrupts();
     while(1)
     {
         // allows buttonpressed to work
@@ -81,6 +86,7 @@ int main()
 
 void goToSplash() {
     waitForVBlank();
+    playSoundA(splashMusic , SPLASHMUSICLEN, SPLASHMUSICFREQ, 1);
     loadPalette(splashPal);
 
     DMANow(3, splashTiles, &CHARBLOCK[0], splashTilesLen/2);
@@ -125,7 +131,7 @@ void instructions() {
 
 void goToGame() {
     waitForVBlank();
-    state = GAME;
+    playSoundA(gameMusic , GAMEMUSICLEN, GAMEMUSICFREQ, 1);
     loadPalette(bgPal);
     REG_DISPCTL = MODE0 | BG1_ENABLE | SPRITE_ENABLE; 
     REG_BG1CNT = BG_CHARBLOCK(0) | BG_SCREENBLOCK(30) | BG_SIZE_WIDE;
@@ -134,6 +140,8 @@ void goToGame() {
 
     DMANow(3, spritesheetTiles, &CHARBLOCK[4], spritesheetTilesLen/2);
     DMANow(3, spritesheetPal, SPRITEPALETTE, 256);
+
+    state = GAME;
 }
 
 void game() {
@@ -177,6 +185,7 @@ void goToLose() {
     REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
     REG_BG0HOFF = 0;
     REG_BG0VOFF = 0;
+    playSoundA(loseMusic , LOSEMUSICLEN, LOSEMUSICFREQ, 1);
     state = LOSE;
 }
 
@@ -184,6 +193,7 @@ void lose() {
     if (BUTTON_PRESSED(BUTTON_START)) {
         initialize();
         goToSplash();
+        stopSound();
     }
 }
 
