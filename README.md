@@ -10,3 +10,8 @@ The goal of the game is to make it back to the egg carton by running throughout 
 - *A*: Shoot egg shells
 - *B*: Jump
 - *Start*: Pause
+
+##Music & SFX
+- *Splash Screen*: [Kiki's Delivery Service - Ending Theme (8-Bit | Chiptune Cover)](https://www.youtube.com/watch?v=L50xlu87f4s)
+- *In Game*: [Kiki 8-bits](https://www.youtube.com/watch?v=-z6F9ziUkM8)
+- *Shoot & Hit*: [8 Bit Game Sounds Pack Testament Creative](https://www.youtube.com/watch?v=E-8WHeEy9Co)

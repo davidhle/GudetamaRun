@@ -160,6 +160,13 @@ void updatePlayer() {
 		playSoundB(shoot,SHOOTLEN, SHOOTFREQ, 0);
 		player.bulletTimer = 0;
 	}
+	// cheat: make enemies disappear
+	if(BUTTON_PRESSED(BUTTON_SELECT)) {
+		ladel.active = 0;
+		spatula.active = 0;
+		mitt.active = 0;
+	}
+
 	// If you reach the end, then you win
 	if (player.col > MAPWIDTH - player.width - 4 - hOff) {
 		goToWin();

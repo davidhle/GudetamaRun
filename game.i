@@ -324,7 +324,6 @@ void drawBullet(BULLET* b) {
   shadowOAM[b->index].attr0 = (b->row) | (0<<13) | (0<<14);
   shadowOAM[b->index].attr1 = (b->col) | (0<<14);
   shadowOAM[b->index].attr2 = ((0)*32+(4));
-  playSoundB(shoot,2299, 11025, 0);
  } else {
   shadowOAM[b->index].attr0 = (2<<8);
  }
@@ -376,8 +375,16 @@ void updatePlayer() {
         }
  } else if ((!(~(oldButtons)&((1<<0))) && (~buttons & ((1<<0)))) && player.bulletTimer >= 16) {
   fireBullet();
+  playSoundB(shoot,2299, 11025, 0);
   player.bulletTimer = 0;
  }
+
+ if((!(~(oldButtons)&((1<<2))) && (~buttons & ((1<<2))))) {
+  ladel.active = 0;
+  spatula.active = 0;
+  mitt.active = 0;
+ }
+
 
  if (player.col > 512 - player.width - 4 - hOff) {
   goToWin();

@@ -1,5 +1,6 @@
 /**
 
+~ALPHA~
 I am making a game where you are playing as
 Gudetama, an egg, who wants to make it back 
 to his egg carton so he doesn't get cooked.
@@ -18,6 +19,12 @@ at the end of the map.
 Then, if that's done, then I hope to implement
 a second level after the enemies where you jump
 over a stove that now and then shoots flames.
+
+~BETA~
+- Cheat incorporated: if you press select in game,
+  the enemies will disappear, allowing you to 
+  simply walk to the end
+- Music and SFX implemented into game
 
 **/
 
