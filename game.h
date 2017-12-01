@@ -1,5 +1,5 @@
 // Constants
-#define BULLETCOUNT 5
+#define BULLETCOUNT 2
 #define MAPWIDTH 512
 
 // Game structs
@@ -17,6 +17,8 @@ typedef struct
     int oldRow;
     int oldCol;
     int bulletTimer;
+    int aniState;
+    int superEgg;
 } PLAYER;
 
 typedef struct 
@@ -29,6 +31,7 @@ typedef struct
     int height;
     int index;
     int active;
+    int shotBy;
 } BULLET;
 
 typedef struct  
@@ -42,6 +45,7 @@ typedef struct
     int active;
     int index;
     int bulletTimer;
+    int lives;
 } ENEMY;
 
 // External variables
@@ -50,20 +54,21 @@ extern BULLET bullets[BULLETCOUNT];
 extern ENEMY ladel;
 extern ENEMY spatula;
 extern ENEMY mitt;
+extern int lives;
 extern int enemiesRemaining;
+extern int score;
 
 // Prototypes
 void draw();
 void drawPlayer();
 void drawBullet(BULLET* b);
-void drawEnemyBullet(BULLET* b);
 void drawEnemies();
 void update();
 void updatePlayer();
 void updateBullet(BULLET* b);
 void updateEnemyBullet(BULLET* b);
 void fireBullet();
-void fireEnemyBullet();
+void fireEnemyBullet(BULLET* b);
 void initialize();
 void initializeEnemies();
 void initializePlayer();
@@ -71,3 +76,5 @@ void initializeBullets();
 void initializeEnemyBullets();
 void hideSprites();
 void updateEnemies();
+void drawNumber(int row, int col, int number, int index);
+void updateGravity();

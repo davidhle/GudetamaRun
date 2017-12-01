@@ -21,10 +21,10 @@ goToSplash:
 	ldr	r3, .L2
 	mov	lr, pc
 	bx	r3
-	mov	r1, #2015232
+	mov	r1, #199680
 	mov	r2, #11008
 	ldr	ip, .L2+4
-	add	r1, r1, #2208
+	add	r1, r1, #77
 	add	r2, r2, #17
 	mov	r3, #1
 	ldr	r0, .L2+8
@@ -152,14 +152,13 @@ goToGame:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
-	stmfd	sp!, {r3, r4, r5, lr}
+	stmfd	sp!, {r4, r5, r6, lr}
 	ldr	r3, .L13
 	mov	lr, pc
 	bx	r3
-	mov	r1, #1933312
-	add	r1, r1, #6912
+	mov	r1, #139264
 	mov	r2, #11008
-	add	r1, r1, #32
+	add	r1, r1, #260
 	add	r2, r2, #17
 	ldr	ip, .L13+4
 	mov	r3, #1
@@ -170,18 +169,18 @@ goToGame:
 	ldr	r3, .L13+16
 	mov	lr, pc
 	bx	r3
-	mov	ip, #67108864
-	mov	lr, #4608	@ movhi
-	strh	lr, [ip, #0]	@ movhi
-	mov	r2, #100663296
-	mov	lr, #24064	@ movhi
-	mov	r3, #4736
+	mov	r6, #67108864
+	mov	ip, #4864	@ movhi
+	mov	r5, #100663296
+	strh	ip, [r6, #0]	@ movhi
+	mov	r3, #6528
+	mov	ip, #24064	@ movhi
 	ldr	r4, .L13+20
-	strh	lr, [ip, #10]	@ movhi
-	mov	r5, r2
+	strh	ip, [r6, #10]	@ movhi
 	mov	r0, #3
 	ldr	r1, .L13+24
-	add	r3, r3, #16
+	mov	r2, r5
+	add	r3, r3, #32
 	mov	lr, pc
 	bx	r4
 	mov	r0, #3
@@ -190,8 +189,23 @@ goToGame:
 	mov	r3, #2048
 	mov	lr, pc
 	bx	r4
+	mov	ip, #7168
+	add	ip, ip, #4
+	strh	ip, [r6, #8]	@ movhi
 	mov	r0, #3
 	ldr	r1, .L13+32
+	add	r2, r5, #16384
+	mov	r3, #336
+	mov	lr, pc
+	bx	r4
+	mov	r0, #3
+	ldr	r1, .L13+36
+	add	r2, r5, #57344
+	mov	r3, #1024
+	mov	lr, pc
+	bx	r4
+	mov	r0, #3
+	ldr	r1, .L13+40
 	add	r2, r5, #65536
 	mov	r3, #16384
 	mov	lr, pc
@@ -200,13 +214,13 @@ goToGame:
 	add	r2, r2, #512
 	mov	r3, #256
 	mov	r0, #3
-	ldr	r1, .L13+36
+	ldr	r1, .L13+44
 	mov	lr, pc
 	bx	r4
-	ldr	r3, .L13+40
+	ldr	r3, .L13+48
 	mov	r2, #2
 	str	r2, [r3, #0]
-	ldmfd	sp!, {r3, r4, r5, lr}
+	ldmfd	sp!, {r4, r5, r6, lr}
 	bx	lr
 .L14:
 	.align	2
@@ -219,6 +233,8 @@ goToGame:
 	.word	DMANow
 	.word	bgTiles
 	.word	bgMap
+	.word	bg2Tiles
+	.word	bg2Map
 	.word	spritesheetTiles
 	.word	spritesheetPal
 	.word	state
@@ -294,10 +310,19 @@ goToWin:
 	mov	r3, #1024
 	mov	lr, pc
 	bx	r4
+	mov	r1, #118784
+	mov	r2, #11008
+	ldr	r0, .L23+24
+	add	r1, r1, #217
+	add	r2, r2, #17
+	mov	r3, #1
+	ldr	ip, .L23+28
+	mov	lr, pc
+	bx	ip
 	mov	r3, #67108864
 	mov	r1, #7936	@ movhi
 	strh	r1, [r3, #8]	@ movhi
-	ldr	r1, .L23+24
+	ldr	r1, .L23+32
 	mov	r2, #0
 	mov	r0, #3
 	str	r0, [r1, #0]
@@ -316,6 +341,8 @@ goToWin:
 	.word	DMANow
 	.word	winTiles
 	.word	winMap
+	.word	winMusic
+	.word	playSoundA
 	.word	state
 	.size	goToWin, .-goToWin
 	.align	2
@@ -381,10 +408,9 @@ goToLose:
 	bx	r4
 	mov	ip, #67108864
 	mov	r4, #7936	@ movhi
-	mov	r1, #274432
 	strh	r4, [ip, #8]	@ movhi
 	mov	lr, #0
-	add	r1, r1, #3488
+	mov	r1, #67584
 	mov	r2, #11008
 	mov	r4, #256	@ movhi
 	strh	lr, [ip, #16]	@ movhi
@@ -393,7 +419,7 @@ goToLose:
 	strh	r4, [ip, #0]	@ movhi
 	strh	lr, [ip, #18]	@ movhi
 	ldr	r0, .L31+24
-	add	r1, r1, #15
+	add	r1, r1, #26
 	ldr	ip, .L31+28
 	mov	lr, pc
 	bx	ip
@@ -422,8 +448,8 @@ lose:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
-	stmfd	sp!, {r3, lr}
 	ldr	r3, .L36
+	stmfd	sp!, {r4, lr}
 	ldrh	r3, [r3, #0]
 	tst	r3, #8
 	beq	.L33
@@ -432,24 +458,20 @@ lose:
 	tst	r3, #8
 	beq	.L35
 .L33:
-	ldmfd	sp!, {r3, lr}
+	ldmfd	sp!, {r4, lr}
 	bx	lr
 .L35:
 	ldr	r3, .L36+8
 	mov	lr, pc
 	bx	r3
-	bl	goToSplash
-	ldr	r3, .L36+12
-	mov	lr, pc
-	bx	r3
-	b	.L33
+	ldmfd	sp!, {r4, lr}
+	b	goToSplash
 .L37:
 	.align	2
 .L36:
 	.word	oldButtons
 	.word	buttons
 	.word	initialize
-	.word	stopSound
 	.size	lose, .-lose
 	.align	2
 	.global	goToPause
