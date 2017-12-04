@@ -145,6 +145,7 @@ extern const unsigned short spritesheetPal[256];
 
 
 
+
 typedef struct
 {
     int row;
@@ -193,6 +194,7 @@ typedef struct
 
 extern PLAYER player;
 extern BULLET bullets[2];
+extern ENEMY knives[4];
 extern ENEMY ladel;
 extern ENEMY spatula;
 extern ENEMY mitt;
@@ -219,7 +221,6 @@ void initializeEnemyBullets();
 void hideSprites();
 void updateEnemies();
 void drawNumber(int row, int col, int number, int index);
-void updateGravity();
 # 5 "game.c" 2
 # 1 "shoot.h" 1
 # 20 "shoot.h"
@@ -229,14 +230,10 @@ extern const unsigned char shoot[2299];
 # 20 "hit.h"
 extern const unsigned char hit[2068];
 # 7 "game.c" 2
-# 1 "collisionMap.h" 1
-# 20 "collisionMap.h"
-extern const unsigned short collisionMapBitmap[131072];
-# 8 "game.c" 2
 # 1 "gudetama.h" 1
 # 20 "gudetama.h"
 extern const unsigned char gudetama[16106];
-# 9 "game.c" 2
+# 8 "game.c" 2
 
 
 PLAYER player;
@@ -247,6 +244,7 @@ BULLET bullets[2];
 BULLET bullet1;
 BULLET bullet2;
 BULLET bullet3;
+ENEMY knives[4];
 
 
 extern int hOff;
@@ -276,7 +274,6 @@ void initializeEnemies() {
  ladel.rdel = 1;
  ladel.height = 63;
  ladel.width = 36;
- ladel.bulletTimer = 20;
  ladel.index = 7;
  ladel.active = 1;
  ladel.lives = 3;
@@ -286,7 +283,6 @@ void initializeEnemies() {
  spatula.rdel = 1;
  spatula.height = 58;
  spatula.width = 27;
- spatula.bulletTimer = 20;
  spatula.index = 8;
  spatula.active = 1;
  spatula.lives = 3;
@@ -296,10 +292,10 @@ void initializeEnemies() {
  mitt.rdel = 1;
  mitt.height = 63;
  mitt.width = 39;
- mitt.bulletTimer = 20;
  mitt.index = 9;
  mitt.active = 1;
  mitt.lives = 3;
+# 79 "game.c"
 }
 
 void initializePlayer() {
@@ -394,6 +390,7 @@ void drawEnemies() {
      shadowOAM[mitt.index].attr1 = mitt.col | (3<<14);
      shadowOAM[mitt.index].attr2 = ((16)*32+(0));
     }
+# 182 "game.c"
 }
 
 void update() {
@@ -405,7 +402,6 @@ void update() {
  updateBullet(&bullet1);
  updateBullet(&bullet2);
  updateBullet(&bullet3);
- updateGravity();
 
  updateEnemies();
  if (lives == 0) {
@@ -422,8 +418,7 @@ void updatePlayer() {
  if((~((*(volatile unsigned short *)0x04000130)) & ((1<<5)))) {
         if (player.col < 240/2 - player.width/2 && hOff > 4) {
             hOff--;
-        } else if (player.col > 1 && player.col < 512 - player.width - 1
-         && collisionMapBitmap[((player.row)*(512)+(player.col))]) {
+        } else if (player.col > 1 && player.col < 512 - player.width - 1) {
          player.col--;
         }
         player.aniState += 1;
@@ -588,6 +583,10 @@ void updateEnemies() {
     }
   }
  }
+
+
+
+
 }
 
 void fireBullet() {
@@ -710,14 +709,4 @@ void drawNumber(int row, int col, int number, int index) {
   drawNumber(row, col, number/10, index);
   drawNumber(row, col + 8, number % 10, index + 1);
  }
-}
-
-void updateGravity() {
-
-
-
-
-
-
-
 }

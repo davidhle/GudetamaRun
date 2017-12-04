@@ -4,7 +4,6 @@
 #include "game.h"
 #include "shoot.h"
 #include "hit.h"
-#include "collisionMap.h"
 #include "gudetama.h"
 
 // Struct variables
@@ -16,6 +15,7 @@ BULLET bullets[BULLETCOUNT];
 BULLET bullet1;
 BULLET bullet2;
 BULLET bullet3;
+ENEMY knives[KNIFECOUNT];
 
 // To access hOff in main.c
 extern int hOff;
@@ -45,7 +45,6 @@ void initializeEnemies() {
 	ladel.rdel = 1;
 	ladel.height = 63;
 	ladel.width = 36;
-	ladel.bulletTimer = 20;
 	ladel.index = 7;
 	ladel.active = 1;
 	ladel.lives = 3;
@@ -55,7 +54,6 @@ void initializeEnemies() {
 	spatula.rdel = 1;
 	spatula.height = 58;
 	spatula.width = 27;
-	spatula.bulletTimer = 20;
 	spatula.index = 8;
 	spatula.active = 1;
 	spatula.lives = 3;
@@ -65,10 +63,19 @@ void initializeEnemies() {
 	mitt.rdel = 1;
 	mitt.height = 63;
 	mitt.width = 39;
-	mitt.bulletTimer = 20;
 	mitt.index = 9;
 	mitt.active = 1;
 	mitt.lives = 3;
+
+	// for (int i = 0; i < KNIFECOUNT; i++) {
+	// 	knives[i].row = 50;
+	// 	knives[i].col = 150;
+	// 	knives[i].rdel = 1;
+	// 	knives[i].height = 63;
+	// 	knives[i].width = 39;
+	// 	knives[i].index = 13 + i;
+	// 	knives[i].active = 1;
+	// }
 }
 
 void initializePlayer() {
@@ -163,6 +170,15 @@ void drawEnemies() {
     	shadowOAM[mitt.index].attr1 = mitt.col | ATTR1_LARGE;
     	shadowOAM[mitt.index].attr2 = ATTR2_TILEID(16, 0);
     }
+    // if (player.col + hOff > 240) {
+    // 	for (int i = 0; i < KNIFECOUNT; i++) {
+    // 		if (knives[i].active) {
+    // 		shadowOAM[knives[i].index].attr0 = (ROWMASK & knives[i].row) | ATTR0_4BPP | ATTR0_TALL;
+    // 		shadowOAM[knives[i].index].attr1 = (COLMASK & knives[i].col) | ATTR1_SMALL;
+    // 		shadowOAM[knives[i].index].attr2 = ATTR2_TILEID(0, 20);
+    // 		}
+    // 	}
+    // }
 }
 
 void update() {
@@ -174,7 +190,6 @@ void update() {
 	updateBullet(&bullet1);
 	updateBullet(&bullet2);
 	updateBullet(&bullet3);
-	updateGravity();
 	// Update enemies
 	updateEnemies();
 	if (lives == 0) {
@@ -191,8 +206,7 @@ void updatePlayer() {
 	if(BUTTON_HELD(BUTTON_LEFT)) {
         if (player.col < SCREENWIDTH/2 - player.width/2 && hOff > 4) {
             hOff--;
-        } else if (player.col > 1 && player.col < 512 - player.width - 1
-        	&& collisionMapBitmap[OFFSET(player.row, player.col, MAPWIDTH)]) {
+        } else if (player.col > 1 && player.col < 512 - player.width - 1) {
         	player.col--;
         }
         player.aniState += 1;
@@ -357,6 +371,10 @@ void updateEnemies() {
 				} 
 		}
 	}
+
+	// for (int i = 0; i < KNIFECOUNT; i++) {
+	// 	knives[i].col += hOff;
+	// }
 }
 
 void fireBullet() {
@@ -479,14 +497,4 @@ void drawNumber(int row, int col, int number, int index) {
 		drawNumber(row, col, number/10, index);
 		drawNumber(row, col + 8, number % 10, index + 1);
 	}
-}
-
-void updateGravity() {
-	// player.oldRow = player.row;
-	// player.oldCol = player.col;
-
-	// player.rdel += player.racc;
-
-	// player.row+= player.rdel;
-	// player.col += player.cdel;
 }

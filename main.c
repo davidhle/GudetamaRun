@@ -1,5 +1,23 @@
 /**
+Welcome to Gudetama Run!
 
+Gudetama is an egg that got chosen to be cooked, and is
+running to make his way back home to his egg carton.
+
+Gameplay:
+Make your way to the end of the map by overcoming
+enemies and obstacles. In the first round of enemies,
+they shoot bullets and they sequentially shoot faster
+(the spatula shoots faster than the ladel and the
+oven mitt shoots faster than the spatula)
+To win, you need to get to the egg carton, meaning
+you have to jump once you've reached the carton.
+
+Known bugs:
+
+Extra things added:
+- Custom art
+- Losing more than 2 times shows the cheat to the user
 
 **/
 
@@ -17,6 +35,8 @@
 #include "splashMusic.h"
 #include "bg2.h"
 #include "winMusic.h"
+#include "pauseMusic.h"
+#include "lose2.h"
 
 // State variables
 enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };
@@ -29,6 +49,7 @@ unsigned short oldButtons;
 // allows scrolling of background
 int hOff;
 int timer = 0;
+int gamesLost;
 
 #define ROWMASK 0xFF
 #define COLMASK 0x1FF
@@ -40,6 +61,7 @@ int main()
     initialize();
     setupSounds();
     setupInterrupts();
+    gamesLost = 0;
     while(1)
     {
         // allows buttonpressed to work
@@ -167,14 +189,13 @@ void win() {
 
 void goToLose() {
     waitForVBlank();
-    loadPalette(losePal);
-    DMANow(3, loseTiles, &CHARBLOCK[0], loseTilesLen/2);
-    DMANow(3, loseMap, &SCREENBLOCK[31], loseMapLen/2);
-
-    REG_DISPCTL = MODE0 | BG0_ENABLE;
-    REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
-    REG_BG0HOFF = 0;
-    REG_BG0VOFF = 0;
+    gamesLost++;
+    REG_DISPCTL = MODE3 | BG2_ENABLE;
+    if (gamesLost > 2) {
+        drawFullscreenImage3(lose2Bitmap);
+    } else {
+        drawFullscreenImage3(loseBitmap);
+    }
     playSoundA(loseMusic , LOSEMUSICLEN, LOSEMUSICFREQ, 1);
     state = LOSE;
 }
@@ -188,16 +209,14 @@ void lose() {
 
 void goToPause() {
     waitForVBlank();
-
     loadPalette(pausePal);
     DMANow(3, pauseTiles, &CHARBLOCK[0], pauseTilesLen/2);
     DMANow(3, pauseMap, &SCREENBLOCK[31], pauseMapLen/2);
-
+    playSoundA(pauseMusic , PAUSEMUSICLEN, PAUSEMUSICFREQ, 1);
     REG_DISPCTL = MODE0 | BG0_ENABLE;
     REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
     REG_BG0HOFF = 0;
     REG_BG0VOFF = 0;
-
     state = PAUSE;
 }
 

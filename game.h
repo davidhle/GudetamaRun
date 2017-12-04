@@ -1,6 +1,7 @@
 // Constants
 #define BULLETCOUNT 2
 #define MAPWIDTH 512
+#define KNIFECOUNT 4
 
 // Game structs
 typedef struct  
@@ -51,6 +52,7 @@ typedef struct
 // External variables
 extern PLAYER player;
 extern BULLET bullets[BULLETCOUNT];
+extern ENEMY knives[KNIFECOUNT];
 extern ENEMY ladel;
 extern ENEMY spatula;
 extern ENEMY mitt;
@@ -77,4 +79,3 @@ void initializeEnemyBullets();
 void hideSprites();
 void updateEnemies();
 void drawNumber(int row, int col, int number, int index);
-void updateGravity();
