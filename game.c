@@ -80,13 +80,13 @@ void initializeEnemies() {
 
 void initializePlayer() {
 	// initialize player
-	player.row = 125;
-	player.col = 5;
+	player.worldRow = 125;
+	player.worldCol = 5;
 	player.height = 23;
 	player.width = 19;
 	player.bulletTimer = 20;
-	player.oldRow = player.row;
-	player.oldCol = player.col;
+	player.oldRow = player.worldRow;
+	player.oldCol = player.worldCol;
 	player.aniState = 0;
 	player.rdel = 0;
 	player.racc = -1;
@@ -126,12 +126,12 @@ void draw() {
 
 void drawPlayer() {
 	if (player.superEgg) {
-		shadowOAM[0].attr0 = player.row | ATTR0_4BPP | ATTR0_SQUARE;
-    shadowOAM[0].attr1 = player.col | ATTR1_MEDIUM;
+		shadowOAM[0].attr0 = player.worldRow | ATTR0_4BPP | ATTR0_SQUARE;
+    shadowOAM[0].attr1 = player.worldCol | ATTR1_MEDIUM;
     shadowOAM[0].attr2 = ATTR2_TILEID(player.aniState % 2 * 4, 16);
 	} else {
-	shadowOAM[0].attr0 = player.row | ATTR0_4BPP | ATTR0_SQUARE;
-    shadowOAM[0].attr1 = player.col | ATTR1_MEDIUM;
+	shadowOAM[0].attr0 = player.worldRow | ATTR0_4BPP | ATTR0_SQUARE;
+    shadowOAM[0].attr1 = player.worldCol | ATTR1_MEDIUM;
     shadowOAM[0].attr2 = ATTR2_TILEID(player.aniState % 2 * 4, 0);
 	}
 }
@@ -204,18 +204,18 @@ void updatePlayer() {
 	gravCount++;
 	// Player movement
 	if(BUTTON_HELD(BUTTON_LEFT)) {
-        if (player.col < SCREENWIDTH/2 - player.width/2 && hOff > 4) {
+        if (player.worldRow < SCREENWIDTH/2 - player.width/2 && hOff > 4) {
             hOff--;
-        } else if (player.col > 1 && player.col < 512 - player.width - 1) {
-        	player.col--;
+        } else if (player.worldCol > 1 && player.worldCol < 512 - player.width - 1) {
+        	player.worldCol--;
         }
         player.aniState += 1;
 	} else if(BUTTON_HELD(BUTTON_RIGHT)) {
-        if (player.col > SCREENWIDTH/2 - player.width/2 && hOff < MAPWIDTH - SCREENWIDTH
+        if (player.worldCol > SCREENWIDTH/2 - player.width/2 && hOff < MAPWIDTH - SCREENWIDTH
         	&& !ladel.active && !spatula.active && !mitt.active) {
             hOff++;
-        } else if (player.col > 0 && player.col < MAPWIDTH - player.width -8 - hOff) {
-        	player.col++;
+        } else if (player.worldCol > 0 && player.worldCol < MAPWIDTH - player.width -8 - hOff) {
+        	player.worldCol++;
         }
         player.aniState += 1;
 	} else if (BUTTON_PRESSED(BUTTON_A) && player.bulletTimer >= 16) {
@@ -233,36 +233,40 @@ void updatePlayer() {
 		}
 	}
 
-	if (BUTTON_PRESSED(BUTTON_B) && player.row == 125) {
+	if (BUTTON_PRESSED(BUTTON_B) && player.worldRow == 125) {
 		player.rdel = 9;
 		player.rdel = player.rdel + player.racc;
-		player.row = player.row - player.rdel;
+		player.worldRow = player.worldRow - player.rdel;
 	} 
 
-	if (player.row < 125 && gravCount % 3  == 0) {
+	if (player.worldRow < 125 && gravCount % 3  == 0) {
 		player.rdel = player.rdel + player.racc;
-		player.row = player.row - player.rdel;
+		player.worldRow = player.worldRow - player.rdel;
 	}
 
 	// If you reach the end, then you win
-	if (player.col > MAPWIDTH - player.width - 73 - hOff
-		&& player.row + player.height - 1 <= 120
+	if (player.worldCol > MAPWIDTH - player.width - 73 - hOff
+		&& player.worldRow + player.height - 1 <= 120
 		&& player.rdel >= 3) {
 		goToWin();
 	}
 	// Lose if you touch an enemy
 	if ((collision(ladel.row, ladel.col, ladel.height, ladel.width, 
-		player.row, player.col, player.height, player.width) && ladel.active)) {
+		player.worldRow, player.worldCol, player.height, player.width) && ladel.active)) {
 		goToLose();
 	}
 	if ((collision(spatula.row, spatula.col, spatula.height, spatula.width, 
-		player.row, player.col, player.height, player.width) && spatula.active)) {
+		player.worldRow, player.worldCol, player.height, player.width) && spatula.active)) {
 		goToLose();
 	}
 	if ((collision(mitt.row, mitt.col, mitt.height, mitt.width, 
-		player.row, player.col, player.height, player.width) && mitt.active)) {
+		player.worldRow, player.worldCol, player.height, player.width) && mitt.active)) {
 		goToLose();
 	}
+	
+	player.screenRow = player.worldRow;
+	player.screenCol = player.worldCol - hOff;
+
 	player.bulletTimer++;
 }
 
@@ -281,7 +285,7 @@ void updateBullet(BULLET* b) {
             b -> col -= b -> cdel;
             // Collision with player
             if (collision(b -> row, b -> col, b -> height, b -> width, 
-						player.row, player.col, player.height, player.width) && b->active
+						player.worldRow, player.worldCol, player.height, player.width) && b->active
             			&& !player.superEgg) {
             	b->active = 0;
             	lives--;
@@ -382,8 +386,8 @@ void fireBullet() {
 	for (int i = 0; i < BULLETCOUNT; i++) {
 		if (!bullets[i].active) {
 			// Position the new bullet 
-			bullets[i].row = player.row + player.height / 2;
-			bullets[i].col = player.col + player.width;
+			bullets[i].row = player.worldRow + player.height / 2;
+			bullets[i].col = player.worldCol + player.width;
 			// Take the bullet out of the pool
 			bullets[i].active = 1;
 			// Break out of the loop

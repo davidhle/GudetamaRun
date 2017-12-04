@@ -6,8 +6,10 @@
 // Game structs
 typedef struct  
 {
-    int row;
-    int col;
+    int screenRow;
+    int screenCol;
+    int worldRow;
+    int worldCol;
     int rdel;
     int cdel;
     int width;

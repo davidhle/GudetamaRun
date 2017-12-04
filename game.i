@@ -148,8 +148,10 @@ extern const unsigned short spritesheetPal[256];
 
 typedef struct
 {
-    int row;
-    int col;
+    int screenRow;
+    int screenCol;
+    int worldRow;
+    int worldCol;
     int rdel;
     int cdel;
     int width;
@@ -300,13 +302,13 @@ void initializeEnemies() {
 
 void initializePlayer() {
 
- player.row = 125;
- player.col = 5;
+ player.worldRow = 125;
+ player.worldCol = 5;
  player.height = 23;
  player.width = 19;
  player.bulletTimer = 20;
- player.oldRow = player.row;
- player.oldCol = player.col;
+ player.oldRow = player.worldRow;
+ player.oldCol = player.worldCol;
  player.aniState = 0;
  player.rdel = 0;
  player.racc = -1;
@@ -346,12 +348,12 @@ void draw() {
 
 void drawPlayer() {
  if (player.superEgg) {
-  shadowOAM[0].attr0 = player.row | (0<<13) | (0<<14);
-    shadowOAM[0].attr1 = player.col | (2<<14);
+  shadowOAM[0].attr0 = player.worldRow | (0<<13) | (0<<14);
+    shadowOAM[0].attr1 = player.worldCol | (2<<14);
     shadowOAM[0].attr2 = ((player.aniState % 2 * 4)*32+(16));
  } else {
- shadowOAM[0].attr0 = player.row | (0<<13) | (0<<14);
-    shadowOAM[0].attr1 = player.col | (2<<14);
+ shadowOAM[0].attr0 = player.worldRow | (0<<13) | (0<<14);
+    shadowOAM[0].attr1 = player.worldCol | (2<<14);
     shadowOAM[0].attr2 = ((player.aniState % 2 * 4)*32+(0));
  }
 }
@@ -416,18 +418,18 @@ void updatePlayer() {
  gravCount++;
 
  if((~((*(volatile unsigned short *)0x04000130)) & ((1<<5)))) {
-        if (player.col < 240/2 - player.width/2 && hOff > 4) {
+        if (player.worldRow < 240/2 - player.width/2 && hOff > 4) {
             hOff--;
-        } else if (player.col > 1 && player.col < 512 - player.width - 1) {
-         player.col--;
+        } else if (player.worldCol > 1 && player.worldCol < 512 - player.width - 1) {
+         player.worldCol--;
         }
         player.aniState += 1;
  } else if((~((*(volatile unsigned short *)0x04000130)) & ((1<<4)))) {
-        if (player.col > 240/2 - player.width/2 && hOff < 512 - 240
+        if (player.worldCol > 240/2 - player.width/2 && hOff < 512 - 240
          && !ladel.active && !spatula.active && !mitt.active) {
             hOff++;
-        } else if (player.col > 0 && player.col < 512 - player.width -8 - hOff) {
-         player.col++;
+        } else if (player.worldCol > 0 && player.worldCol < 512 - player.width -8 - hOff) {
+         player.worldCol++;
         }
         player.aniState += 1;
  } else if ((!(~(oldButtons)&((1<<0))) && (~buttons & ((1<<0)))) && player.bulletTimer >= 16) {
@@ -445,36 +447,38 @@ void updatePlayer() {
   }
  }
 
- if ((!(~(oldButtons)&((1<<1))) && (~buttons & ((1<<1)))) && player.row == 125) {
+ if ((!(~(oldButtons)&((1<<1))) && (~buttons & ((1<<1)))) && player.worldRow == 125) {
   player.rdel = 9;
   player.rdel = player.rdel + player.racc;
-  player.row = player.row - player.rdel;
+  player.worldRow = player.worldRow - player.rdel;
  }
 
- if (player.row < 125 && gravCount % 3 == 0) {
+ if (player.worldRow < 125 && gravCount % 3 == 0) {
   player.rdel = player.rdel + player.racc;
-  player.row = player.row - player.rdel;
+  player.worldRow = player.worldRow - player.rdel;
  }
 
 
- if (player.col > 512 - player.width - 73 - hOff
-  && player.row + player.height - 1 <= 120
+ if (player.worldCol > 512 - player.width - 73 - hOff
+  && player.worldRow + player.height - 1 <= 120
   && player.rdel >= 3) {
   goToWin();
  }
 
  if ((collision(ladel.row, ladel.col, ladel.height, ladel.width,
-  player.row, player.col, player.height, player.width) && ladel.active)) {
+  player.worldRow, player.worldCol, player.height, player.width) && ladel.active)) {
   goToLose();
  }
  if ((collision(spatula.row, spatula.col, spatula.height, spatula.width,
-  player.row, player.col, player.height, player.width) && spatula.active)) {
+  player.worldRow, player.worldCol, player.height, player.width) && spatula.active)) {
   goToLose();
  }
  if ((collision(mitt.row, mitt.col, mitt.height, mitt.width,
-  player.row, player.col, player.height, player.width) && mitt.active)) {
+  player.worldRow, player.worldCol, player.height, player.width) && mitt.active)) {
   goToLose();
  }
+ player.screenRow = player.worldRow;
+ player.screenCol = player.worldCol - hOff;
  player.bulletTimer++;
 }
 
@@ -493,7 +497,7 @@ void updateBullet(BULLET* b) {
             b -> col -= b -> cdel;
 
             if (collision(b -> row, b -> col, b -> height, b -> width,
-      player.row, player.col, player.height, player.width) && b->active
+      player.worldRow, player.worldCol, player.height, player.width) && b->active
                && !player.superEgg) {
              b->active = 0;
              lives--;
@@ -594,8 +598,8 @@ void fireBullet() {
  for (int i = 0; i < 2; i++) {
   if (!bullets[i].active) {
 
-   bullets[i].row = player.row + player.height / 2;
-   bullets[i].col = player.col + player.width;
+   bullets[i].row = player.worldRow + player.height / 2;
+   bullets[i].col = player.worldCol + player.width;
 
    bullets[i].active = 1;
 
