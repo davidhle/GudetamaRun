@@ -37,6 +37,10 @@ Extra things added:
 #include "winMusic.h"
 #include "pauseMusic.h"
 #include "lose2.h"
+#include "text.h"
+#include "font.h"
+#include "splash2.h"
+#include "pause2.h"
 
 // State variables
 enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };
@@ -50,6 +54,12 @@ unsigned short oldButtons;
 int hOff;
 int timer = 0;
 int gamesLost;
+int score;
+int instructionsInt;
+int restart;
+
+// Text Buffer
+char buffer[41];
 
 #define ROWMASK 0xFF
 #define COLMASK 0x1FF
@@ -62,6 +72,7 @@ int main()
     setupSounds();
     setupInterrupts();
     gamesLost = 0;
+    restart = 0;
     while(1)
     {
         // allows buttonpressed to work
@@ -91,36 +102,47 @@ int main()
 }
 
 void goToSplash() {
+    instructionsInt = 0;
+    splashBG();
     waitForVBlank();
     playSoundA(splashMusic , SPLASHMUSICLEN, SPLASHMUSICFREQ, 1);
-    loadPalette(splashPal);
-
-    DMANow(3, splashTiles, &CHARBLOCK[0], splashTilesLen/2);
-    DMANow(3, splashMap, &SCREENBLOCK[31], splashMapLen/2);
-
-    REG_DISPCTL = MODE0 | BG0_ENABLE;
-    REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
-
     state = SPLASH;
 }
 
+void splashBG() {
+    REG_DISPCTL = MODE3 | BG2_ENABLE;
+    if (instructionsInt) {
+        drawFullscreenImage3(splash2Bitmap);
+    } else {
+        drawFullscreenImage3(splashBitmap);
+    }
+}
+
 void splash() {
-    // pressing start goes to instructions
-    if (BUTTON_PRESSED(BUTTON_START))
-    {
-        goToInstructions();
+    if (BUTTON_PRESSED(BUTTON_DOWN)) {
+        instructionsInt = 1;
+        splashBG();
+    }
+    if (BUTTON_PRESSED(BUTTON_UP)) {
+        instructionsInt = 0;
+        splashBG();
+    }
+    if (instructionsInt) {
+        if (BUTTON_PRESSED(BUTTON_START)) {
+            goToInstructions();
+        }
+    } else {
+        if (BUTTON_PRESSED(BUTTON_START))
+        {
+            goToGame();
+        }
     }
 }
 
 void goToInstructions() {
     waitForVBlank();
-    loadPalette(instructionsPal);
-
-    DMANow(3, instructionsTiles, &CHARBLOCK[0], instructionsTilesLen/2);
-    DMANow(3, instructionsMap, &SCREENBLOCK[31], instructionsMapLen/2);
-
-    REG_DISPCTL = MODE0 | BG0_ENABLE;
-    REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
+    REG_DISPCTL = MODE3 | BG2_ENABLE;
+    drawFullscreenImage3(instructionsBitmap);
     state = INSTRUCTIONS;
 }
 
@@ -155,6 +177,7 @@ void goToGame() {
 }
 
 void game() {
+    sprintf(buffer, "%d", score);
     REG_BG1HOFF = hOff;
     timer++;
     waitForVBlank();
@@ -167,16 +190,10 @@ void game() {
 
 void goToWin() {
     waitForVBlank();
-    loadPalette(winPal);
-    DMANow(3, winTiles, &CHARBLOCK[0], winTilesLen/2);
-    DMANow(3, winMap, &SCREENBLOCK[31], winMapLen/2);
-
+    REG_DISPCTL = MODE3 | BG2_ENABLE;
+    drawFullscreenImage3(winBitmap);
     playSoundA(winMusic , WINMUSICLEN, WINMUSICFREQ, 1);
-
-    REG_DISPCTL = MODE0 | BG0_ENABLE;
-    REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
-    REG_BG0HOFF = 0;
-    REG_BG0VOFF = 0;  
+    drawString(92, 110, buffer, EGGYOLK);
     state = WIN; 
 }
 
@@ -196,6 +213,7 @@ void goToLose() {
     } else {
         drawFullscreenImage3(loseBitmap);
     }
+    drawString(92, 110, buffer, EGGYOLK);
     playSoundA(loseMusic , LOSEMUSICLEN, LOSEMUSICFREQ, 1);
     state = LOSE;
 }
@@ -209,23 +227,39 @@ void lose() {
 
 void goToPause() {
     waitForVBlank();
-    loadPalette(pausePal);
-    DMANow(3, pauseTiles, &CHARBLOCK[0], pauseTilesLen/2);
-    DMANow(3, pauseMap, &SCREENBLOCK[31], pauseMapLen/2);
+    pauseBG();
     playSoundA(pauseMusic , PAUSEMUSICLEN, PAUSEMUSICFREQ, 1);
-    REG_DISPCTL = MODE0 | BG0_ENABLE;
-    REG_BG0CNT = BG_SIZE_SMALL | BG_CHARBLOCK(0) | BG_SCREENBLOCK(31);
-    REG_BG0HOFF = 0;
-    REG_BG0VOFF = 0;
     state = PAUSE;
 }
 
 void pause() {
     waitForVBlank();
-    if (BUTTON_PRESSED(BUTTON_START)) {
-        goToGame();
-    } else if (BUTTON_PRESSED(BUTTON_SELECT)) {
-        initialize();
-        goToSplash();
+    if (BUTTON_PRESSED(BUTTON_DOWN)) {
+        restart = 1;
+        pauseBG();
+    }
+    if (BUTTON_PRESSED(BUTTON_UP)) {
+        restart = 0;
+        pauseBG();
+    }
+    if (restart) {
+        if (BUTTON_PRESSED(BUTTON_START)) {
+            initialize();
+            goToSplash();
+        }
+    } else {
+        if (BUTTON_PRESSED(BUTTON_START))
+        {
+            goToGame();
+        }
+    }
+}
+
+void pauseBG() {
+    REG_DISPCTL = MODE3 | BG2_ENABLE;
+    if (restart) {
+        drawFullscreenImage3(pause2Bitmap);
+    } else {
+        drawFullscreenImage3(pauseBitmap);
     }
 }

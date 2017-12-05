@@ -15,520 +15,246 @@
 	.type	loseBitmap, %object
 	.size	loseBitmap, 76800
 loseBitmap:
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	23185
-	.short	25298
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	24241
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	22128
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	24241
-	.short	24241
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	23185
-	.short	24241
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	23185
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23217
-	.short	26354
-	.short	28500
-	.short	28500
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -591,9 +317,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
+	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -658,9 +384,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -692,10 +417,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -726,10 +450,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -763,10 +486,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -799,11 +521,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -831,14 +553,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -865,12 +586,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -898,14 +619,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -932,8 +652,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -941,6 +659,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -966,8 +685,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -975,6 +692,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1005,11 +723,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1039,10 +756,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1052,9 +765,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1071,8 +782,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1090,6 +799,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1105,7 +815,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1122,6 +831,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1138,8 +848,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1157,6 +865,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1172,8 +881,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1192,6 +899,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1206,8 +914,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1226,6 +932,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1245,8 +952,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1261,6 +966,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1279,7 +985,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1300,6 +1005,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1311,8 +1017,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1335,6 +1039,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1345,7 +1050,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1367,6 +1071,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1378,8 +1083,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1402,6 +1105,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1412,8 +1116,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1437,6 +1139,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1446,8 +1149,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1471,6 +1172,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1485,8 +1187,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1506,6 +1206,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1519,7 +1220,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1545,14 +1245,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1580,12 +1279,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1612,14 +1311,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1647,13 +1345,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1682,12 +1379,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1716,6 +1412,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1725,8 +1422,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1751,6 +1446,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1759,7 +1455,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1790,9 +1485,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1826,7 +1520,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1858,10 +1551,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1892,11 +1582,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1926,12 +1615,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -1964,9 +1652,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2000,8 +1687,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2031,8 +1716,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2042,6 +1725,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2065,7 +1749,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2076,6 +1759,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2098,8 +1782,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2109,6 +1791,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2132,8 +1815,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2144,6 +1825,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2166,8 +1848,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2179,6 +1859,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2205,14 +1886,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2239,7 +1919,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2247,6 +1926,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2271,8 +1951,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2287,6 +1965,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2305,7 +1984,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2321,6 +1999,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2338,8 +2017,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2354,6 +2031,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2372,8 +2050,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2389,6 +2065,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2406,8 +2083,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2424,6 +2099,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2445,8 +2121,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2458,6 +2132,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2479,7 +2154,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2492,6 +2166,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2511,8 +2186,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2532,6 +2205,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2545,7 +2219,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2566,6 +2239,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2578,8 +2252,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2599,6 +2271,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2612,8 +2285,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2634,6 +2305,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2646,8 +2318,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2669,6 +2339,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2685,8 +2356,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2703,6 +2372,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2719,7 +2389,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2737,6 +2406,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2751,8 +2421,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2777,6 +2445,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2785,7 +2454,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2811,6 +2479,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2818,8 +2487,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2844,6 +2511,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2852,8 +2520,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2879,6 +2545,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2886,8 +2553,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2914,6 +2579,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2925,8 +2591,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2948,6 +2612,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2959,7 +2624,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2982,6 +2646,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -2991,8 +2656,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3022,10 +2685,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3054,12 +2717,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3087,13 +2751,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3122,12 +2785,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3157,6 +2819,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3165,8 +2828,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3191,6 +2852,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3199,7 +2861,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3225,14 +2886,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3266,6 +2926,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
+	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3295,11 +2956,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3327,13 +2991,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3362,12 +3025,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3397,6 +3059,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3405,8 +3068,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3431,6 +3092,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3439,7 +3101,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3465,14 +3126,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3506,7 +3166,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3523,6 +3182,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3535,11 +3195,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3567,13 +3231,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3602,12 +3265,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3637,6 +3299,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3645,8 +3308,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3671,6 +3332,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3679,7 +3341,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3705,14 +3366,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3746,9 +3406,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3763,6 +3420,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3773,13 +3435,18 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3804,6 +3471,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3812,12 +3480,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3835,6 +3505,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3846,8 +3517,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3870,6 +3539,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3885,8 +3555,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3904,6 +3572,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3919,7 +3588,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3938,6 +3606,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3951,8 +3620,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3978,6 +3645,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3985,7 +3653,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -3993,6 +3660,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4001,6 +3674,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4018,8 +3700,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4031,6 +3711,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4043,6 +3724,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4052,8 +3738,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4061,6 +3745,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4086,8 +3771,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4096,6 +3779,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4125,11 +3809,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4159,11 +3842,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4191,8 +3874,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4204,6 +3885,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4219,15 +3901,28 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4256,10 +3951,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4269,6 +3963,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4285,6 +3985,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4292,8 +3993,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4320,14 +4019,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4354,6 +4052,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4365,8 +4064,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4389,6 +4086,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4399,7 +4097,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4428,11 +4125,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4445,6 +4141,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4452,6 +4154,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4465,7 +4175,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4479,6 +4188,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4490,6 +4203,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4498,8 +4218,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4507,6 +4225,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4532,8 +4251,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4542,6 +4259,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4553,6 +4271,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4564,10 +4292,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4575,104 +4302,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	23185
-	.short	25298
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4697,6 +4326,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4705,7 +4335,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4736,10 +4365,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4754,11 +4382,26 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4772,8 +4415,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4786,6 +4427,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -4796,505 +4443,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	27411
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	22128
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23184
-	.short	22128
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	22128
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25298
-	.short	24241
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	24241
-	.short	26354
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	25298
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	23185
-	.short	25298
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25298
-	.short	24241
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5308,17 +4466,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5340,8 +4487,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5354,66 +4499,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	24241
-	.short	27411
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5424,12 +4510,18 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5440,9 +4532,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5476,40 +4567,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5545,8 +4605,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
 	.short	28500
 	.short	28500
@@ -5564,12 +4622,26 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5577,11 +4649,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5593,6 +4667,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5603,6 +4683,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5613,12 +4701,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
 	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5648,32 +4740,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5681,30 +4747,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5716,9 +4773,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5748,16 +4802,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5766,9 +4815,246 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5781,13 +5067,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5815,18 +5101,42 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5837,11 +5147,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5849,12 +5162,19 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5863,6 +5183,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5872,6 +5201,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5887,8 +5217,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5899,6 +5227,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5914,16 +5252,24 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5955,13 +5301,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5988,8 +5334,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -5997,14 +5341,44 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6013,6 +5387,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6020,6 +5402,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6027,13 +5417,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6043,6 +5441,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6060,8 +5459,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6069,6 +5466,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6085,16 +5492,29 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6128,10 +5548,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6161,41 +5577,81 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6208,6 +5664,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6217,6 +5681,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6228,8 +5693,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6243,6 +5706,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6256,9 +5729,27 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6267,7 +5758,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6297,11 +5787,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6332,26 +5821,75 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6366,9 +5904,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6377,6 +5921,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6401,8 +5946,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6413,9 +5966,30 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6435,7 +6009,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6454,6 +6027,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6468,8 +6042,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6489,26 +6061,75 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6523,6 +6144,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6532,6 +6161,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6540,8 +6170,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6557,6 +6185,17 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6565,16 +6204,35 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6607,10 +6265,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6641,29 +6298,77 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6675,11 +6380,18 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6689,13 +6401,20 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
 	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6706,14 +6425,42 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6722,6 +6469,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6747,7 +6495,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6760,6 +6507,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6780,8 +6528,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6795,26 +6541,74 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6830,6 +6624,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6839,26 +6641,63 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6870,6 +6709,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6881,8 +6721,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6909,13 +6747,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6943,24 +6781,74 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6975,6 +6863,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -6984,21 +6881,60 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7013,6 +6949,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7020,8 +6957,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7052,9 +6987,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7088,24 +7022,73 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7120,9 +7103,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7131,16 +7121,58 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7155,9 +7187,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7188,8 +7220,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7197,6 +7227,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7227,28 +7258,77 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7260,11 +7340,18 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7274,14 +7361,58 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7293,13 +7424,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7327,8 +7457,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7339,6 +7467,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7361,8 +7490,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7374,35 +7501,74 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7417,33 +7583,76 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7460,6 +7669,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7467,7 +7677,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7498,10 +7707,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7533,32 +7741,74 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7567,14 +7817,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7584,8 +7841,41 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7593,6 +7883,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7601,8 +7901,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7611,6 +7909,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7635,7 +7934,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7649,6 +7947,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7668,8 +7967,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7684,32 +7981,74 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	22128
-	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7724,6 +8063,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7733,17 +8081,58 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7760,6 +8149,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7773,8 +8163,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7799,6 +8187,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7807,8 +8196,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7834,32 +8221,74 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7874,8 +8303,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7884,7 +8321,41 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7892,6 +8363,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7908,8 +8389,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -7980,32 +8460,75 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8013,8 +8536,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8022,6 +8543,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8031,24 +8561,64 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
 	.short	28500
 	.short	28500
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8059,6 +8629,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8081,8 +8652,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8098,6 +8667,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8115,7 +8685,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8132,10 +8701,20 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8143,19 +8722,53 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8170,6 +8783,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8180,26 +8801,75 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
-	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8220,8 +8890,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8239,6 +8907,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8253,8 +8922,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8274,10 +8941,20 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8285,20 +8962,53 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8313,6 +9023,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8321,10 +9039,17 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8332,18 +9057,59 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8355,7 +9121,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8382,14 +9147,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8417,29 +9181,74 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8454,18 +9263,33 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8473,17 +9297,59 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8493,8 +9359,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8523,12 +9387,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8558,11 +9421,19 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8572,16 +9443,52 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8595,24 +9502,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8623,25 +9521,75 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8668,9 +9616,245 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8700,8 +9884,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8721,27 +9904,67 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	24241
-	.short	27411
-	.short	28500
-	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8760,6 +9983,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8767,11 +9998,18 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8779,11 +10017,42 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8801,8 +10070,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8818,6 +10085,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8835,7 +10103,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8857,6 +10124,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8868,8 +10136,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8878,21 +10144,67 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8907,10 +10219,18 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8921,18 +10241,58 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8940,8 +10300,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -8967,14 +10325,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9008,7 +10365,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9028,25 +10384,67 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9064,6 +10462,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9074,19 +10481,58 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9108,8 +10554,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9121,6 +10565,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9147,7 +10592,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9160,6 +10604,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9178,14 +10623,22 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9193,12 +10646,44 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9213,12 +10698,19 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9229,26 +10721,64 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9275,14 +10805,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9316,14 +10845,40 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
 	.short	28500
 	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9332,13 +10887,43 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	32767
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9348,8 +10933,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9359,13 +10942,48 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9373,88 +10991,28 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
 	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25298
-	.short	24241
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	24241
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9488,7 +11046,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9521,15 +11078,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9548,6 +11103,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9556,6 +11119,54 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	28500
+	.short	28500
+	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9568,9 +11179,50 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9580,7 +11232,27 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9588,8 +11260,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9615,246 +11285,80 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	22128
 	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
 	.short	22128
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
 	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	23185
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	23185
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	23184
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9865,6 +11369,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9875,6 +11388,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9884,7 +11412,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9895,7 +11422,47 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9905,8 +11472,27 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9917,8 +11503,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9941,6 +11525,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9951,7 +11536,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9980,12 +11564,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -9999,6 +11582,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10006,6 +11598,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10018,8 +11611,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10032,6 +11628,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10051,8 +11662,46 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
-	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10063,7 +11712,27 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10085,16 +11754,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10106,6 +11765,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10124,7 +11784,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10145,6 +11804,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10157,13 +11817,19 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10172,6 +11838,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10191,7 +11858,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10202,6 +11868,20 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10222,11 +11902,45 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10238,7 +11952,27 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10258,8 +11992,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10273,13 +12005,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19000
-	.short	9500
-	.short	31
-	.short	31
-	.short	31
-	.short	7420
-	.short	19000
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10292,7 +12018,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10319,13 +12044,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10337,6 +12062,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10345,6 +12078,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10364,7 +12098,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10376,6 +12109,19 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10394,19 +12140,45 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	13018
-	.short	22195
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10421,7 +12193,26 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10431,7 +12222,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10455,6 +12245,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10464,8 +12255,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10495,11 +12284,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10511,19 +12299,17 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25301
-	.short	7420
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	13722
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10563,9 +12349,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
-	.short	22128
+	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10584,6 +12382,23 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10593,7 +12408,17 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10604,11 +12429,30 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10633,12 +12477,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24374
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	13018
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10647,6 +12485,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10671,7 +12510,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10686,6 +12524,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10703,13 +12542,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
-	.short	25298
-	.short	22162
-	.short	9500
-	.short	31
-	.short	31
-	.short	9500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10718,6 +12558,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10738,8 +12579,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10750,18 +12589,17 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25301
-	.short	3198
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	9500
 	.short	28500
+	.short	32767
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10772,7 +12610,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10785,6 +12622,22 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10820,10 +12673,38 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
 	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10859,8 +12740,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23351
-	.short	20248
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10873,12 +12752,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	13051
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	16087
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10891,6 +12764,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10908,16 +12782,23 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	6878
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10944,19 +12825,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	21075
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14777
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10978,9 +12861,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -10989,19 +12884,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	3198
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	8479
-	.short	27485
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11012,10 +12894,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
+	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11030,7 +12913,38 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11045,13 +12959,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11084,13 +12998,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11098,11 +13012,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	17177
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	16122
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11112,14 +13021,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23351
+	.short	28500
 	.short	6878
 	.short	6878
 	.short	6878
 	.short	6878
 	.short	6878
-	.short	27583
-	.short	31675
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11129,6 +13038,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11151,7 +13061,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11161,13 +13070,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27444
-	.short	14075
-	.short	6878
-	.short	6878
-	.short	14075
-	.short	24374
 	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11184,13 +13095,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	22162
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	11611
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11198,6 +13102,19 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11218,31 +13135,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11611
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	28543
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30650
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11250,21 +13152,44 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
-	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21111
-	.short	14777
-	.short	5309
-	.short	31
-	.short	31
-	.short	7420
-	.short	16888
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11280,12 +13205,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11319,12 +13244,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11342,8 +13267,8 @@ loseBitmap:
 	.short	6878
 	.short	6878
 	.short	6878
-	.short	6878
-	.short	21271
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11352,15 +13277,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16122
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9982
-	.short	32767
-	.short	32767
-	.short	31675
+	.short	28500
+	.short	22128
+	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11391,8 +13310,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	28500
 	.short	22128
 	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11401,12 +13325,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	17177
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	11004
+	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11422,15 +13341,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12670
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11453,13 +13378,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11468,21 +13392,39 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21111
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	26431
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
 	.short	32767
 	.short	32767
-	.short	31675
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11492,20 +13434,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
-	.short	25301
-	.short	14777
-	.short	9500
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	7420
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11516,6 +13445,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11525,7 +13455,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11555,6 +13484,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11564,7 +13494,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11575,32 +13504,23 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16122
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9949
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	27444
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
-	.short	32767
-	.short	32767
-	.short	30617
+	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11641,12 +13561,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	14075
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11664,19 +13578,20 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11698,30 +13613,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11611
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	31708
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11731,27 +13631,40 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25301
-	.short	11607
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	23190
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11765,7 +13678,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11773,6 +13685,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11804,7 +13717,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11812,34 +13724,19 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	23388
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11847,6 +13744,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11856,6 +13758,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11865,13 +13768,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24374
-	.short	9949
-	.short	6878
-	.short	6878
-	.short	16122
-	.short	27444
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11880,14 +13776,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27444
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11903,15 +13791,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	25298
-	.short	24241
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11938,27 +13819,17 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	30655
 	.short	32767
 	.short	32767
-	.short	32734
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -11969,24 +13840,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21111
-	.short	7420
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	22170
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12018,6 +13871,16 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12027,6 +13890,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12044,10 +13922,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12059,27 +13937,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16122
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9982
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11004
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	32767
-	.short	32767
-	.short	32734
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12102,16 +13964,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11004
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	18201
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12120,15 +13976,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23351
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	31709
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12136,6 +13983,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	28500
+	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12144,15 +13997,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	31675
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12178,8 +14024,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12187,16 +14031,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19000
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14815
-	.short	32767
-	.short	32767
-	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12207,27 +14042,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	5309
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	26431
-	.short	32767
-	.short	31708
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12245,13 +14059,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12295,34 +14109,30 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	22398
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
-	.short	32767
-	.short	32767
-	.short	30650
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12344,14 +14154,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27444
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	18201
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12360,17 +14162,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	20248
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	27583
-	.short	32767
-	.short	31675
+	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12384,14 +14179,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12417,9 +14204,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12427,16 +14213,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	22207
-	.short	32767
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12445,29 +14221,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	16927
-	.short	24319
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12518,130 +14271,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	16155
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9982
-	.short	30616
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32767
-	.short	32767
-	.short	29559
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	20248
-	.short	7902
-	.short	6878
-	.short	13051
-	.short	24374
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	28505
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	17177
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	32767
-	.short	32767
-	.short	30650
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	31675
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12650,16 +14284,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16888
-	.short	1087
-	.short	31
-	.short	7420
-	.short	23190
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12667,48 +14294,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	13722
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	28543
-	.short	32767
-	.short	32766
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27412
-	.short	5309
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	8479
-	.short	16927
-	.short	30655
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12720,15 +14305,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12761,15 +14338,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12779,175 +14348,18 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	23454
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11004
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	32767
-	.short	32767
-	.short	32766
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	13051
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	17177
-	.short	26421
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	30617
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11004
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	12062
-	.short	32767
-	.short	32767
-	.short	30617
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	31675
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	7420
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	13722
-	.short	25301
-	.short	28500
-	.short	23217
-	.short	26354
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11611
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
 	.short	32767
 	.short	32767
-	.short	30650
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	16927
-	.short	32767
 	.short	32767
 	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30617
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -12960,15 +14372,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13001,16 +14405,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13020,25 +14415,246 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	13052
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	14111
-	.short	30616
-	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
 	.short	32767
 	.short	32767
-	.short	28537
+	.short	32767
+	.short	32767
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13046,48 +14662,20 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	13051
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	11004
-	.short	18201
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23351
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13104,14 +14692,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13121,6 +14701,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13128,18 +14709,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	7420
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	5309
-	.short	12664
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13147,15 +14716,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11611
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	32767
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13163,28 +14723,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11611
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32766
-	.short	30617
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13196,6 +14734,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13205,7 +14744,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13230,6 +14768,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13244,7 +14783,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13261,73 +14799,44 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23351
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	27582
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	27583
-	.short	32767
-	.short	32767
-	.short	26389
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	17177
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	16122
-	.short	27444
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16122
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	24479
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
 	.short	32767
 	.short	32767
+	.short	32767
+	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13344,14 +14853,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	21075
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	20095
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13367,34 +14868,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	13722
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	11611
-	.short	27412
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	13722
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	30655
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13403,24 +14882,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16888
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	26431
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	31708
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13445,6 +14906,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	28500
 	.short	22128
 	.short	28500
 	.short	28500
@@ -13479,12 +14941,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13502,72 +14964,20 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	9949
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	17247
-	.short	30616
-	.short	13051
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	12062
-	.short	32767
-	.short	32767
-	.short	32766
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21271
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9949
-	.short	26421
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	22399
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27444
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	31743
-	.short	32767
-	.short	31709
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13584,14 +14994,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	21075
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	20095
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13606,35 +15008,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19000
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	3198
-	.short	25301
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	26431
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13644,20 +15022,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19000
-	.short	7422
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	30655
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	31675
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13678,6 +15042,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13685,7 +15050,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13711,6 +15075,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13724,7 +15089,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13742,72 +15106,20 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	28604
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	32767
-	.short	29561
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	9949
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	11004
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24374
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	22399
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21271
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	12062
-	.short	32767
-	.short	32767
-	.short	30650
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13824,14 +15136,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	17941
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	22207
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13843,38 +15147,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	3198
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	5309
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23190
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13885,16 +15165,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	31675
-	.short	20095
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	32767
-	.short	32767
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13911,6 +15181,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13925,7 +15196,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13944,6 +15214,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13964,7 +15235,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -13978,76 +15248,22 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27444
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9982
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	31743
-	.short	32767
-	.short	32767
-	.short	27412
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	20248
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	20351
-	.short	17247
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20248
 	.short	28500
 	.short	28500
-	.short	21271
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	22399
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14075
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14064,16 +15280,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	17941
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	24319
-	.short	30616
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14085,36 +15294,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16888
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	16927
-	.short	12703
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16889
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14125,15 +15308,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	30616
-	.short	20095
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14141,6 +15315,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14165,7 +15340,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14175,238 +15349,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
 	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	15098
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	17247
-	.short	32767
-	.short	32767
-	.short	31709
-	.short	25298
-	.short	24241
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	9949
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	29663
-	.short	32767
-	.short	32767
-	.short	19295
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	10972
-	.short	24274
-	.short	24274
-	.short	16088
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32767
-	.short	28471
-	.short	24274
-	.short	24274
-	.short	24274
-	.short	24274
-	.short	24274
-	.short	7901
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	27583
-	.short	32767
-	.short	32767
-	.short	25298
-	.short	25298
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25298
-	.short	14743
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	24319
-	.short	29560
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	3198
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	28543
-	.short	32767
-	.short	32767
-	.short	14815
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	6367
 	.short	28500
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	12666
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	20095
 	.short	28500
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	14811
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	8479
-	.short	32767
-	.short	32767
-	.short	27444
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14415,246 +15360,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23217
-	.short	19125
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32767
-	.short	32767
-	.short	28504
-	.short	23185
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	19125
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
-	.short	14111
-	.short	6878
-	.short	8926
-	.short	27583
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	31743
-	.short	8926
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20181
-	.short	25298
-	.short	17112
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32767
-	.short	28503
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	22228
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	32767
-	.short	32767
-	.short	31677
-	.short	25298
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	13719
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	28543
-	.short	26390
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	16885
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14815
-	.short	8479
-	.short	31
-	.short	2143
-	.short	26431
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30655
-	.short	2143
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	22205
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	16885
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	27448
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	10553
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	8479
-	.short	32767
-	.short	32734
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14667,8 +15372,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14684,6 +15387,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14701,77 +15405,23 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
-	.short	9949
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9982
-	.short	32767
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14075
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
-	.short	32767
-	.short	32767
-	.short	22399
-	.short	31743
-	.short	32767
-	.short	32767
-	.short	32734
-	.short	29561
-	.short	31675
-	.short	15167
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	18236
 	.short	28500
-	.short	16122
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	17247
-	.short	32767
-	.short	32767
-	.short	30617
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14785,13 +15435,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	28543
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14801,67 +15444,22 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
-	.short	9500
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14815
-	.short	32767
-	.short	32767
-	.short	20095
-	.short	30655
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32766
-	.short	30617
-	.short	10558
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14815
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	3198
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	19038
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11611
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	6367
-	.short	32767
-	.short	32734
 	.short	28500
 	.short	28500
-	.short	25301
-	.short	14777
-	.short	14777
-	.short	14777
-	.short	14777
-	.short	16888
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14869,7 +15467,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14891,6 +15488,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14907,8 +15505,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14926,6 +15522,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -14941,76 +15538,24 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	32767
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	31743
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32766
-	.short	25299
-	.short	27411
 	.short	28500
-	.short	19260
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
 	.short	28500
-	.short	13051
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	29663
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14075
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	24479
-	.short	32767
-	.short	32767
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15025,13 +15570,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	13722
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15041,75 +15579,27 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	30655
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32766
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	31709
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	27447
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	7420
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	3198
-	.short	27412
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15137,6 +15627,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15147,8 +15638,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15172,6 +15661,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15181,74 +15671,20 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
-	.short	27444
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	31743
-	.short	32767
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24374
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
-	.short	32767
-	.short	32767
-	.short	30650
-	.short	31708
-	.short	32767
-	.short	32766
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
-	.short	21304
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	28535
-	.short	13051
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	29663
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11004
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	31743
-	.short	32767
-	.short	32766
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15258,6 +15694,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15265,12 +15702,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11611
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15281,42 +15712,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
-	.short	23190
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14815
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30650
-	.short	31708
-	.short	32767
-	.short	32766
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19000
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	30655
-	.short	29559
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	19038
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15325,31 +15725,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25301
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14777
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15381,14 +15762,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15415,80 +15795,31 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14075
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	17247
-	.short	32767
-	.short	32767
-	.short	32734
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	22399
-	.short	32767
-	.short	30650
 	.short	28500
 	.short	28500
-	.short	30616
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
-	.short	23351
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	23388
-	.short	9949
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	29663
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27444
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	12062
-	.short	32767
-	.short	32767
-	.short	31675
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15498,6 +15829,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15505,12 +15837,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	7420
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15521,69 +15847,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	20095
-	.short	32767
-	.short	32767
-	.short	30650
 	.short	28500
 	.short	28500
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21111
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	24319
-	.short	30650
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16888
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4223
-	.short	24282
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15623,12 +15901,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15657,78 +15934,32 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32767
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	17177
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32766
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
-	.short	21271
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25502
-	.short	9949
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	31743
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21271
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
-	.short	32767
-	.short	32767
-	.short	30616
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15737,6 +15968,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15745,12 +15977,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	5309
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15761,16 +15987,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
-	.short	13722
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	24319
-	.short	32767
-	.short	32766
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15779,57 +15995,20 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19000
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	24319
-	.short	32766
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	2111
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	19038
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	7420
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	6367
-	.short	28543
-	.short	32767
-	.short	32734
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15856,6 +16035,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15867,8 +16047,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15891,6 +16069,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15901,19 +16080,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	9949
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	12062
-	.short	32767
-	.short	32767
-	.short	32766
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15921,58 +16090,24 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14075
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	30650
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
-	.short	17177
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	29663
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	27583
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -15985,12 +16120,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	3198
-	.short	31
-	.short	31
-	.short	31
-	.short	6367
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16001,16 +16130,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
-	.short	9500
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	24319
-	.short	32767
-	.short	30650
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16019,57 +16138,19 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	13722
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	28543
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	15834
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19000
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14815
-	.short	16927
-	.short	20095
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16093,6 +16174,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16107,8 +16189,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16128,6 +16208,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16141,19 +16222,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
-	.short	23351
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	32767
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16161,54 +16231,20 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	13051
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	22399
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
 	.short	28500
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9982
-	.short	32767
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14075
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	32767
-	.short	32767
-	.short	31709
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16225,12 +16261,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	8479
-	.short	32734
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16241,75 +16271,28 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
-	.short	7420
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	20095
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	32767
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	2111
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	19038
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16888
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14815
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32734
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16326,6 +16309,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16347,8 +16331,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16365,6 +16347,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16381,19 +16364,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
-	.short	16122
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	31743
-	.short	32767
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16401,54 +16373,19 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14075
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	27411
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	15167
-	.short	32767
-	.short	32767
-	.short	30650
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16464,13 +16401,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	8479
-	.short	32734
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16481,75 +16411,28 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
-	.short	9500
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14815
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	32767
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	15834
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	6367
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16888
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	22207
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	31709
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16565,6 +16448,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16587,8 +16471,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16600,6 +16482,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16621,18 +16504,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
-	.short	27444
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	17247
-	.short	32767
-	.short	32767
-	.short	31709
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16641,54 +16513,19 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	17177
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9982
-	.short	29559
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24241
-	.short	24340
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	31743
-	.short	32767
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	24374
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16704,13 +16541,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25301
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	10591
-	.short	31709
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16719,64 +16549,25 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
-	.short	13722
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25301
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	30655
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	2111
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	23262
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	30655
-	.short	32767
-	.short	32767
-	.short	30650
-	.short	30617
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16789,7 +16580,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16797,6 +16587,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
+	.short	28500
+	.short	28500
+	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16827,8 +16621,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16863,16 +16656,6 @@ loseBitmap:
 	.short	28500
 	.short	22128
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32767
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16881,54 +16664,18 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21271
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	23388
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22194
-	.short	10972
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	32734
-	.short	9949
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	27583
-	.short	32767
-	.short	32766
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16941,16 +16688,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23190
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	31708
 	.short	28500
 	.short	28500
 	.short	28500
@@ -16959,61 +16700,21 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21111
-	.short	14777
-	.short	20054
-	.short	23185
-	.short	19000
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	20095
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	5309
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	32767
-	.short	32767
-	.short	32734
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	13722
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	10591
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	32767
-	.short	32767
-	.short	30650
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17021,6 +16722,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17029,7 +16731,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17054,6 +16755,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17067,8 +16769,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17089,6 +16789,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17101,17 +16802,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
-	.short	11004
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	12062
-	.short	32767
-	.short	32767
-	.short	32766
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17121,59 +16812,22 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27444
-	.short	8926
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	26421
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27444
-	.short	10971
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	12062
-	.short	32767
-	.short	32767
-	.short	30617
-	.short	11004
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	31743
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14075
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	32767
-	.short	32767
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17184,79 +16838,30 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21111
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	31708
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11611
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	11608
-	.short	27412
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	23388
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	7420
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	6367
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25301
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	29597
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	10591
-	.short	32767
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17269,7 +16874,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17290,6 +16894,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17307,8 +16912,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17325,6 +16928,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17341,17 +16945,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	24374
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
-	.short	32767
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17362,53 +16955,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19260
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9949
-	.short	26421
 	.short	28500
 	.short	28500
-	.short	23351
-	.short	9949
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	29663
-	.short	32767
-	.short	32766
 	.short	28500
-	.short	13051
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	29663
-	.short	32767
 	.short	28500
 	.short	28500
-	.short	27444
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	15167
-	.short	32767
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17424,48 +16979,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19000
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19000
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4252
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	25301
 	.short	28500
 	.short	28500
-	.short	21111
-	.short	3198
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	28543
-	.short	32767
-	.short	32767
-	.short	32766
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17474,25 +16994,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	7421
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	20095
-	.short	29559
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17509,7 +17014,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17525,6 +17029,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17547,8 +17052,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17564,6 +17067,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17581,17 +17085,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	17177
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	31743
-	.short	32767
-	.short	32767
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17602,53 +17095,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28536
-	.short	9982
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	24479
-	.short	32767
-	.short	32767
-	.short	30617
 	.short	28500
-	.short	16122
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	29663
-	.short	32767
 	.short	28500
 	.short	28500
-	.short	20248
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	22399
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17664,48 +17118,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16888
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	31675
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	9500
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	6365
 	.short	28500
-	.short	27412
-	.short	3198
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	22207
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17714,27 +17129,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	10591
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	32767
-	.short	32734
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17749,7 +17149,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17769,6 +17168,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17787,8 +17187,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17804,6 +17202,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17821,16 +17220,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	15167
-	.short	32767
-	.short	32767
-	.short	31709
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17843,52 +17232,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	29663
-	.short	9982
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	22399
-	.short	32767
-	.short	32767
-	.short	31709
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32767
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	11004
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	31743
-	.short	32767
-	.short	32766
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17904,47 +17256,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16888
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	31675
 	.short	28500
-	.short	19000
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	8479
-	.short	30655
-	.short	30617
 	.short	28500
-	.short	25334
-	.short	4255
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	20095
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	31709
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17954,25 +17267,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23190
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	32767
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	32767
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
@@ -17989,7 +17287,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18010,6 +17307,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18027,14 +17325,46 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18044,6 +17374,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18061,16 +17392,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	17045
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	24479
-	.short	32767
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18083,52 +17404,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	30617
-	.short	29663
-	.short	12062
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	25535
-	.short	32767
-	.short	32767
-	.short	32766
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21271
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
-	.short	32767
 	.short	28500
-	.short	23351
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	17247
-	.short	32767
-	.short	32767
-	.short	31675
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18144,46 +17428,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	25340
-	.short	7420
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	32767
-	.short	32767
-	.short	31709
 	.short	28500
 	.short	28500
-	.short	26394
-	.short	6367
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	24319
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32766
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18195,24 +17441,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	30655
-	.short	30616
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	16888
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14815
-	.short	32767
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18229,7 +17460,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18245,6 +17475,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18267,8 +17498,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18280,6 +17509,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18301,15 +17531,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11962
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	32767
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18324,51 +17545,15 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	32734
-	.short	32767
-	.short	17247
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	17247
-	.short	31743
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	15167
-	.short	32767
 	.short	28500
-	.short	9949
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32767
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18378,52 +17563,68 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	26431
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	31708
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	32734
-	.short	12703
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
-	.short	30655
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18435,24 +17636,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	6364
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	28543
-	.short	31675
 	.short	28500
 	.short	28500
-	.short	19000
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	6367
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18463,13 +17648,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18497,6 +17682,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18507,8 +17693,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18531,6 +17715,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18540,16 +17725,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27444
-	.short	7901
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
-	.short	32767
-	.short	32767
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18565,50 +17740,17 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	32734
-	.short	32767
-	.short	27583
-	.short	20351
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	12062
-	.short	20351
-	.short	31743
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	8926
-	.short	32767
-	.short	19258
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	14111
-	.short	32767
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18624,45 +17766,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	10591
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30619
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	32734
-	.short	26431
-	.short	16927
-	.short	31
-	.short	31
-	.short	31
-	.short	6367
-	.short	16927
-	.short	30655
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30616
+	.short	28500
+	.short	28500
+	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18675,24 +17786,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	6364
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	28543
-	.short	32734
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	21111
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	8479
-	.short	22203
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18702,14 +17798,77 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	19000
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18729,26 +17888,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18776,20 +17922,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21271
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	27583
-	.short	32767
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18806,50 +17943,19 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	31709
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32766
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14075
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	22399
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	27583
-	.short	32767
-	.short	32767
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18864,44 +17970,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	20095
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	29561
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	31709
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32766
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18915,41 +17989,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	6364
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	28543
-	.short	32767
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	27412
-	.short	1087
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	11611
-	.short	14777
-	.short	14777
-	.short	14777
-	.short	14777
-	.short	14777
-	.short	14777
-	.short	14777
-	.short	31
-	.short	31
-	.short	14777
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -18975,79 +18021,32 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	14008
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9982
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	22128
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	32767
 	.short	32767
-	.short	32734
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	28537
 	.short	32767
 	.short	32767
 	.short	32767
@@ -19056,81 +18055,12 @@ loseBitmap:
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	29561
-	.short	24274
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	18102
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	17247
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	26389
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	11608
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	6367
-	.short	26431
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	31709
-	.short	25300
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	28537
 	.short	32767
 	.short	32767
 	.short	32767
@@ -19139,377 +18069,49 @@ loseBitmap:
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	28537
-	.short	23217
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	3165
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
 	.short	32767
 	.short	32767
-	.short	24243
-	.short	23185
-	.short	23185
-	.short	8474
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	1086
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	10972
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	19295
 	.short	32767
 	.short	32767
-	.short	30617
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25298
-	.short	24241
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	28500
-	.short	29561
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	31709
-	.short	29560
-	.short	26355
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	24307
-	.short	7902
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	9982
-	.short	31743
 	.short	32767
 	.short	32767
-	.short	30652
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	26354
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	12664
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	12703
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	30651
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	28500
-	.short	29561
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	31709
-	.short	29561
-	.short	24242
-	.short	25298
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25300
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	6367
 	.short	32767
 	.short	32767
-	.short	28500
-	.short	27411
-	.short	27411
-	.short	25300
-	.short	3198
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	23225
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	24479
 	.short	32767
 	.short	32767
-	.short	28500
-	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19517,8 +18119,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19528,6 +18128,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19546,20 +18147,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16122
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	24479
-	.short	32767
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19575,6 +18162,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19584,20 +18172,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16886
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	4255
-	.short	24319
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19618,11 +18192,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19634,39 +18207,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14777
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	14815
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25334
-	.short	6367
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	24319
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19723,119 +18267,97 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	24374
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	27583
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	32767
-	.short	32734
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	26421
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	31675
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	9501
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	31709
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19846,6 +18368,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19858,8 +18381,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19874,41 +18395,14 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	5309
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	26431
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	31675
-	.short	16927
-	.short	6367
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	28543
-	.short	32766
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19925,7 +18419,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19942,6 +18435,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19964,7 +18458,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19976,18 +18469,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21271
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	27583
-	.short	32767
-	.short	30650
 	.short	28500
 	.short	28500
 	.short	28500
@@ -19997,8 +18482,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20024,35 +18507,108 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19225
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	20351
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	32734
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20064,17 +18620,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	26392
-	.short	8479
-	.short	31
-	.short	14815
-	.short	30655
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	31675
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20097,9 +18642,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20112,41 +18656,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	16888
-	.short	11611
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	8479
-	.short	32767
-	.short	32767
-	.short	31709
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	32734
-	.short	32767
-	.short	32767
-	.short	24319
-	.short	16927
-	.short	16927
-	.short	10591
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	16927
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20160,12 +18675,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20194,6 +18709,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20204,7 +18720,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20219,15 +18734,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	25535
-	.short	32767
-	.short	30616
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20237,140 +18743,29 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23388
-	.short	8926
-	.short	6878
-	.short	6878
-	.short	17247
-	.short	27583
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	30616
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	27446
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	32734
-	.short	29559
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23217
-	.short	26354
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	5309
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	26431
 	.short	32767
 	.short	32767
-	.short	30650
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	31709
 	.short	32767
 	.short	32767
 	.short	32767
@@ -20387,25 +18782,78 @@ loseBitmap:
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	29559
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20434,6 +18882,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20444,7 +18893,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20459,14 +18907,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	18201
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	27583
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20475,10 +18915,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20509,16 +18948,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	30617
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -20544,75 +18975,30 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
-	.short	31675
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	30617
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23217
-	.short	26354
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	19000
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	2143
-	.short	24319
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	30617
-	.short	30652
 	.short	32767
 	.short	32767
 	.short	32767
@@ -20627,237 +19013,17 @@ loseBitmap:
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	24374
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	6878
-	.short	31743
 	.short	32767
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	30617
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	30617
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	31708
 	.short	32767
-	.short	30650
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23217
-	.short	26354
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25301
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	31
-	.short	6367
-	.short	26431
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	31708
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	29559
-	.short	30617
-	.short	30617
-	.short	31675
 	.short	32767
 	.short	32767
 	.short	32767
@@ -20866,224 +19032,311 @@ loseBitmap:
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	30617
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	24374
-	.short	13085
-	.short	6878
-	.short	6878
-	.short	20351
 	.short	32767
 	.short	32767
-	.short	29559
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	30616
-	.short	32734
 	.short	32767
 	.short	32767
-	.short	31675
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	21111
-	.short	5309
-	.short	31
-	.short	2143
-	.short	16927
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21126,8 +19379,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21161,11 +19412,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21179,14 +19426,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	30617
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21197,8 +19436,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21208,6 +19445,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21227,16 +19465,127 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21264,30 +19613,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21298,8 +19629,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21312,15 +19641,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	30616
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32767
-	.short	32766
-	.short	29559
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21366,15 +19686,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21393,52 +19704,134 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21465,13 +19858,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21499,13 +19892,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21533,13 +19925,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21553,13 +19944,129 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
 	.short	32767
-	.short	31709
-	.short	28500
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21572,7 +20079,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21592,6 +20098,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21605,7 +20112,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21626,6 +20132,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21644,7 +20151,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21659,14 +20165,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	31708
-	.short	32767
-	.short	32767
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21677,12 +20180,136 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21712,8 +20339,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21744,18 +20369,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21778,8 +20395,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21790,14 +20405,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	29559
-	.short	31709
-	.short	32767
-	.short	32766
-	.short	30617
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21812,7 +20423,135 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21839,13 +20578,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21873,6 +20612,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21884,7 +20624,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21906,6 +20645,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21917,13 +20657,143 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21948,10 +20818,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -21982,10 +20852,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22016,10 +20885,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22034,6 +20902,140 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22052,11 +21054,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22085,80 +21087,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22190,42 +21125,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22241,12 +21142,141 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22258,8 +21288,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22270,6 +21298,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22289,6 +21318,17 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22326,14 +21366,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22348,36 +21380,145 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22397,8 +21538,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22415,6 +21555,24 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22431,7 +21589,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22448,6 +21605,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22464,8 +21622,144 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22484,6 +21778,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22498,9 +21793,27 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22533,10 +21846,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22553,28 +21862,145 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22592,6 +22018,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22604,8 +22031,30 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22636,9 +22085,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22654,6 +22102,145 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22672,8 +22259,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22686,6 +22271,31 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22704,8 +22314,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22717,14 +22325,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22738,17 +22339,149 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22765,6 +22498,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22772,11 +22506,37 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22806,8 +22566,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22824,10 +22582,146 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22845,11 +22739,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22859,6 +22748,36 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22877,8 +22796,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22888,40 +22805,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22938,28 +22822,146 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -22976,16 +22978,47 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23013,7 +23046,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23030,6 +23062,147 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23046,9 +23219,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23056,8 +23226,39 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23085,8 +23286,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23103,22 +23302,148 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23133,6 +23458,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23140,6 +23466,40 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23151,7 +23511,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23166,6 +23525,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23183,9 +23543,147 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23200,12 +23698,48 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23218,8 +23752,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23233,6 +23765,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23242,79 +23775,246 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23324,16 +24024,144 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23355,12 +24183,49 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23391,7 +24256,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23400,6 +24264,144 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23420,113 +24422,50 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23217
-	.short	26354
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23535,105 +24474,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25298
-	.short	24241
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23664,10 +24504,144 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23688,18 +24662,56 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23217
-	.short	26354
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23733,7 +24745,143 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	7870
+	.short	7870
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23753,10 +24901,51 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23765,7 +24954,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -23775,297 +24963,164 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	23184
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
 	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -24086,16 +25141,51 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -24123,8 +25213,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -24136,71 +25224,143 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -24220,11 +25380,51 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
 	.short	22128
 	.short	28500
 	.short	28500
@@ -24265,181 +25465,141 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	1294
-	.short	1294
-	.short	11728
-	.short	28500
-	.short	11728
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	21170
-	.short	28500
-	.short	5455
-	.short	5455
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	206
-	.short	206
-	.short	9648
-	.short	27411
-	.short	21170
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	206
-	.short	206
-	.short	206
-	.short	3375
-	.short	14897
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	5455
-	.short	5455
-	.short	28500
-	.short	28500
-	.short	3375
-	.short	206
-	.short	25331
-	.short	28500
-	.short	28500
-	.short	16977
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	5455
-	.short	5455
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	14897
-	.short	3375
-	.short	206
-	.short	5455
-	.short	19058
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	5455
-	.short	5455
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	206
-	.short	11728
-	.short	28500
-	.short	11728
-	.short	206
-	.short	21170
-	.short	28500
-	.short	28500
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -24460,11 +25620,51 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
 	.short	22128
 	.short	28500
 	.short	28500
@@ -24505,221 +25705,140 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	16977
-	.short	206
-	.short	7567
-	.short	7567
-	.short	206
-	.short	16977
-	.short	16977
-	.short	11728
-	.short	8591
-	.short	206
-	.short	3375
-	.short	11728
-	.short	11728
-	.short	25331
-	.short	23251
-	.short	206
-	.short	206
-	.short	23251
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	11728
-	.short	9648
-	.short	206
-	.short	9648
-	.short	25331
-	.short	11728
-	.short	11728
-	.short	3375
-	.short	206
-	.short	11728
-	.short	11728
-	.short	16977
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	206
-	.short	3375
-	.short	11728
-	.short	5455
-	.short	206
-	.short	21170
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23251
-	.short	206
-	.short	206
-	.short	23251
-	.short	28500
-	.short	21170
-	.short	206
-	.short	9648
-	.short	28500
-	.short	27411
-	.short	1294
-	.short	1294
-	.short	27411
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23251
-	.short	206
-	.short	206
-	.short	19024
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	7567
-	.short	13809
-	.short	5455
-	.short	206
-	.short	16977
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23251
-	.short	206
-	.short	206
-	.short	23251
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	206
-	.short	11728
-	.short	28500
-	.short	11728
-	.short	206
-	.short	7567
-	.short	28500
-	.short	28500
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -24740,13 +25859,53 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	4152
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -24777,8 +25936,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -24787,179 +25944,141 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	27411
-	.short	28500
-	.short	21170
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
 	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
 	.short	28500
-	.short	9648
-	.short	206
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	206
-	.short	11728
-	.short	28500
-	.short	27411
-	.short	206
-	.short	11728
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	7567
-	.short	206
-	.short	23251
-	.short	14897
-	.short	206
-	.short	14897
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	206
-	.short	9615
-	.short	28500
-	.short	28500
-	.short	23251
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	5455
-	.short	1294
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	206
-	.short	11728
-	.short	28500
-	.short	11728
-	.short	206
-	.short	206
-	.short	21170
-	.short	28500
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -24980,21 +26099,53 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	4152
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -25017,8 +26168,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -25035,123 +26184,223 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	19058
-	.short	206
-	.short	3375
-	.short	16977
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	206
-	.short	11728
-	.short	28500
 	.short	28500
 	.short	28500
-	.short	1294
-	.short	3375
-	.short	3375
-	.short	1294
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
 	.short	28500
-	.short	27411
-	.short	5455
-	.short	1294
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11728
-	.short	206
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	7567
-	.short	13809
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	206
-	.short	11728
 	.short	28500
-	.short	23251
-	.short	206
-	.short	13809
-	.short	11728
-	.short	206
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	1294
-	.short	3375
-	.short	3375
-	.short	1294
 	.short	28500
 	.short	28500
-	.short	25331
-	.short	206
-	.short	5455
-	.short	1294
-	.short	3375
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	1294
-	.short	3375
-	.short	3374
-	.short	1262
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	14897
-	.short	206
-	.short	23251
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	21170
-	.short	25331
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	1294
-	.short	3375
-	.short	3375
-	.short	1294
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	206
-	.short	11728
 	.short	28500
-	.short	11728
-	.short	206
-	.short	3375
-	.short	5455
 	.short	28500
-	.short	206
-	.short	11728
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -25175,17 +26424,144 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -25203,10 +26579,53 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -25224,41 +26643,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -25279,123 +26664,140 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	16977
-	.short	1294
-	.short	206
-	.short	3375
-	.short	23251
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	19058
-	.short	206
-	.short	13809
-	.short	13809
-	.short	206
-	.short	19058
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	16977
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	206
-	.short	7567
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	1294
-	.short	23251
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	19058
-	.short	206
-	.short	13809
-	.short	13809
-	.short	206
-	.short	19058
-	.short	28500
-	.short	28500
-	.short	13809
-	.short	206
-	.short	206
-	.short	21170
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	19058
-	.short	206
-	.short	13809
-	.short	11728
-	.short	206
-	.short	19058
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	25331
-	.short	14897
-	.short	14897
-	.short	14897
-	.short	25331
-	.short	28500
-	.short	19058
-	.short	206
-	.short	13809
-	.short	13809
-	.short	206
-	.short	19058
-	.short	28500
 	.short	28500
-	.short	206
-	.short	11728
 	.short	28500
-	.short	11728
-	.short	206
-	.short	19058
-	.short	206
-	.short	19058
-	.short	206
-	.short	11728
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -25417,14 +26819,52 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
 	.short	22128
 	.short	28500
 	.short	28500
@@ -25465,46 +26905,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -25513,127 +26913,131 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	16977
-	.short	1294
-	.short	3375
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	7567
-	.short	206
-	.short	21170
-	.short	23251
-	.short	206
-	.short	7567
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	13809
-	.short	206
-	.short	7567
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	206
-	.short	3375
-	.short	11728
-	.short	13809
-	.short	25331
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	7567
-	.short	206
-	.short	21170
-	.short	23251
-	.short	206
-	.short	7567
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	206
-	.short	5455
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	7567
-	.short	206
-	.short	21170
-	.short	20081
-	.short	206
-	.short	7567
-	.short	28500
-	.short	11728
-	.short	206
-	.short	27411
-	.short	28500
-	.short	21170
-	.short	206
-	.short	206
-	.short	206
-	.short	21170
-	.short	28500
-	.short	7567
-	.short	206
-	.short	21170
-	.short	23251
-	.short	206
-	.short	7567
-	.short	28500
-	.short	28500
-	.short	206
-	.short	11728
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	5455
-	.short	3375
-	.short	206
-	.short	11728
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -25654,17 +27058,53 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
 	.short	22128
 	.short	28500
 	.short	28500
@@ -25705,28 +27145,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -25736,144 +27154,130 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	3375
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	9648
-	.short	206
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	206
-	.short	11728
-	.short	28500
-	.short	25331
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	25331
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	11728
-	.short	206
-	.short	21170
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25331
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	25331
-	.short	28500
-	.short	28500
-	.short	206
-	.short	7567
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25331
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	25331
-	.short	19058
-	.short	206
-	.short	16977
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	9648
-	.short	206
-	.short	21170
-	.short	25331
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	25331
-	.short	28500
-	.short	206
-	.short	11728
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	21170
-	.short	206
-	.short	206
-	.short	11728
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -25894,17 +27298,53 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
 	.short	22128
 	.short	28500
 	.short	28500
@@ -25945,170 +27385,204 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	7567
-	.short	206
-	.short	9648
-	.short	9648
-	.short	206
-	.short	9648
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	206
-	.short	11728
-	.short	28500
-	.short	14897
-	.short	206
-	.short	9648
-	.short	14897
-	.short	14897
-	.short	9648
-	.short	206
-	.short	14897
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	27411
-	.short	1294
-	.short	3375
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	7567
-	.short	13809
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	206
-	.short	11728
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	11728
-	.short	206
-	.short	11728
-	.short	11728
-	.short	11728
-	.short	21170
-	.short	14897
-	.short	206
-	.short	9648
-	.short	14897
-	.short	14897
-	.short	9648
-	.short	206
-	.short	14897
 	.short	28500
 	.short	28500
-	.short	206
-	.short	7567
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	14897
-	.short	206
-	.short	9648
-	.short	14897
-	.short	13808
-	.short	7535
-	.short	206
-	.short	14897
 	.short	28500
-	.short	5455
-	.short	206
-	.short	7567
-	.short	11728
-	.short	5455
-	.short	206
-	.short	206
-	.short	21170
-	.short	14897
-	.short	206
-	.short	9648
-	.short	14897
-	.short	14897
-	.short	9648
-	.short	206
-	.short	14897
 	.short	28500
-	.short	206
-	.short	11728
 	.short	28500
-	.short	11728
-	.short	206
 	.short	28500
 	.short	28500
-	.short	7567
-	.short	206
-	.short	11728
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	22128
@@ -26141,11 +27615,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26155,6 +27624,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26167,11 +27637,127 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26184,7 +27770,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26193,8 +27778,54 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26217,8 +27848,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26235,6 +27864,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26242,123 +27872,132 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	9648
-	.short	1294
-	.short	206
-	.short	9648
-	.short	27411
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	206
-	.short	11728
 	.short	28500
-	.short	5455
-	.short	1294
-	.short	27411
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	1294
-	.short	5455
 	.short	28500
-	.short	11728
-	.short	206
 	.short	28500
-	.short	28500
-	.short	16977
-	.short	206
-	.short	14897
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	206
-	.short	7567
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	206
-	.short	11728
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	11728
-	.short	206
-	.short	206
-	.short	206
-	.short	206
-	.short	14897
-	.short	5455
-	.short	1294
-	.short	27411
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	1294
-	.short	5455
-	.short	28500
-	.short	28500
-	.short	206
-	.short	7567
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	5455
-	.short	1294
-	.short	27411
-	.short	28500
-	.short	25298
-	.short	22128
-	.short	1294
-	.short	5455
-	.short	28500
-	.short	27411
-	.short	11728
-	.short	1294
-	.short	206
-	.short	5455
-	.short	16977
-	.short	206
-	.short	21170
-	.short	5455
-	.short	1294
-	.short	27411
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	1294
-	.short	5455
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
-	.short	206
-	.short	11728
 	.short	28500
-	.short	11728
-	.short	206
 	.short	28500
 	.short	28500
-	.short	21170
-	.short	206
-	.short	11728
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26379,12 +28018,53 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
 	.short	22128
 	.short	28500
 	.short	28500
@@ -26425,7 +28105,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26442,24 +28121,115 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26467,6 +28237,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26487,12 +28258,54 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26522,14 +28335,139 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26539,6 +28477,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26557,14 +28496,56 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26591,7 +28572,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26624,14 +28604,217 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26661,11 +28844,48 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26690,15 +28910,42 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26731,25 +28978,49 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26763,8 +29034,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26776,6 +29045,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26797,8 +29067,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26816,6 +29084,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26824,6 +29093,35 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26831,7 +29129,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26853,6 +29150,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26863,13 +29161,30 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
-	.short	27411
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26902,9 +29217,50 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26929,7 +29285,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26937,8 +29293,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -26984,6 +29338,26 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27003,8 +29377,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27018,7 +29390,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27033,12 +29405,26 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27072,7 +29458,49 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27097,14 +29525,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
 	.short	22128
 	.short	28500
 	.short	28500
@@ -27145,7 +29565,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27177,10 +29596,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27210,11 +29626,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27235,6 +29651,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	0
+	.short	0
+	.short	0
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27243,10 +29662,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27277,10 +29695,52 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
+	.short	22128
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27305,13 +29765,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27344,11 +29804,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27380,11 +29836,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27415,10 +29870,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27483,10 +29937,50 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
+	.short	22128
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27511,14 +30005,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27583,12 +30076,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	27411
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27622,8 +30110,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
 	.short	28500
 	.short	28500
@@ -27657,10 +30143,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27690,10 +30174,53 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27718,13 +30245,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27757,9 +30283,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27824,13 +30349,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27897,9 +30417,50 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
+	.short	22128
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27924,13 +30485,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27963,8 +30524,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -27996,9 +30556,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28032,10 +30591,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28064,14 +30619,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	22128
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28105,7 +30658,49 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28130,6 +30725,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28137,8 +30733,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28171,6 +30765,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
+	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28201,10 +30796,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28236,9 +30830,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28304,8 +30897,50 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
 	.short	22128
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28330,491 +30965,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	22128
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	23185
-	.short	23185
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	24241
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	26354
-	.short	23185
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25298
-	.short	23185
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	26354
 	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	26354
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	26354
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25298
-	.short	25298
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23185
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
-	.short	23217
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28844,7 +30995,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28854,6 +31004,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28876,8 +31027,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28887,6 +31036,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28910,7 +31060,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28921,6 +31070,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28943,8 +31093,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28956,6 +31104,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28977,8 +31126,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -28990,6 +31137,50 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29011,11 +31202,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29045,7 +31235,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29055,6 +31244,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29084,9 +31274,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29116,12 +31306,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29150,12 +31339,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29183,13 +31372,57 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29212,13 +31445,12 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29251,9 +31483,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	25298
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29286,11 +31517,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29356,14 +31582,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29390,13 +31611,60 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29417,14 +31685,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29457,8 +31724,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29490,9 +31756,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	23185
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29526,9 +31791,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29562,11 +31824,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29596,9 +31854,59 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29617,6 +31925,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29630,7 +31939,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29656,6 +31964,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29663,8 +31972,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29689,6 +31996,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29697,8 +32005,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29724,6 +32030,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29731,8 +32038,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29759,13 +32064,13 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29787,6 +32092,62 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29805,7 +32166,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29836,8 +32196,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29846,6 +32204,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29870,7 +32229,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29878,6 +32236,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29903,8 +32262,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29913,6 +32270,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29937,8 +32295,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29948,6 +32304,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29971,10 +32328,68 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	25298
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -29990,6 +32405,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30005,7 +32421,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30029,6 +32444,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30044,7 +32460,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30061,6 +32476,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30076,8 +32492,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30096,6 +32510,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30110,7 +32525,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30130,6 +32544,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30143,8 +32558,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30154,6 +32567,70 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30168,6 +32645,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30177,8 +32655,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30208,11 +32684,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30241,11 +32716,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30275,6 +32750,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30284,7 +32760,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30309,6 +32784,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30316,8 +32792,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30331,6 +32805,74 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30343,6 +32885,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30350,7 +32893,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30382,9 +32924,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30415,10 +32956,9 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30450,9 +32990,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	23185
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30486,8 +33025,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30505,6 +33042,79 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30515,6 +33125,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30525,6 +33136,245 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30538,6 +33388,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30556,8 +33407,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30573,6 +33422,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30590,7 +33440,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30605,6 +33454,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30623,8 +33473,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30640,6 +33488,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30657,8 +33506,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30668,6 +33515,93 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30691,11 +33625,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30725,11 +33658,11 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30761,10 +33694,10 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30795,9 +33728,8 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30822,6 +33754,95 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30830,7 +33851,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30848,6 +33868,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30863,8 +33884,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30883,6 +33902,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30897,8 +33917,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	24241
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30916,6 +33934,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30931,8 +33950,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	23185
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30951,6 +33968,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
+	.short	22128
 	.short	28500
 	.short	28500
 	.short	28500
@@ -30965,136 +33983,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -31103,84 +33991,99 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	27411
-	.short	23185
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	28500
 	.short	28500
 	.short	28500
@@ -31206,9 +34109,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -31242,32 +34142,7 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
 	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
 	.short	28500
 	.short	28500
 	.short	28500
@@ -31276,8 +34151,6 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	25298
-	.short	25298
 	.short	28500
 	.short	28500
 	.short	28500
@@ -31298,4653 +34171,410 @@ loseBitmap:
 	.short	28500
 	.short	28500
 	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	22128
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23184
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	23185
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	22128
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	26354
-	.short	23185
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	27411
-	.short	25298
-	.short	24241
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	23185
-	.short	24241
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	23185
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	24241
-	.short	23185
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	22128
-	.short	24241
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23217
-	.short	26354
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23217
-	.short	26354
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	22128
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23217
-	.short	26354
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	27411
-	.short	23185
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	25298
-	.short	24241
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	23185
-	.short	25298
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	28500
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	11660
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	11660
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12684
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	11660
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12684
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	11660
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	12716
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	20183
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
-	.short	23388
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	22128
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	22128
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	28500
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
+	.short	8489
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36080,6 +34710,102 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36224,6 +34950,102 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36368,6 +35190,102 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36403,9 +35321,14 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36414,11 +35337,16 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36426,12 +35354,16 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36439,16 +35371,20 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36456,6 +35392,12 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36488,6 +35430,102 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	7870
+	.short	7870
+	.short	7870
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36523,11 +35561,14 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36535,12 +35576,16 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36548,34 +35593,52 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36608,6 +35671,100 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36644,11 +35801,14 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36656,11 +35816,15 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36669,34 +35833,53 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36729,6 +35912,99 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	30653
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36765,23 +36041,30 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36789,11 +36072,14 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36803,21 +36089,37 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	0
+	.short	32767
+	.short	32767
+	.short	1023
+	.short	1023
+	.short	1023
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36852,6 +36154,96 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36889,21 +36281,29 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36912,11 +36312,14 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36926,20 +36329,37 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	0
+	.short	32767
+	.short	32767
+	.short	1023
+	.short	1023
+	.short	1023
+	.short	1023
+	.short	32767
+	.short	32767
+	.short	0
 	.short	23388
 	.short	23388
 	.short	23388
@@ -36976,6 +36396,93 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37014,24 +36521,29 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37040,32 +36552,54 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	0
+	.short	32767
+	.short	32767
+	.short	1023
+	.short	1023
+	.short	1023
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	0
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37106,6 +36640,87 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37146,20 +36761,29 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
+	.short	206
+	.short	206
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37167,27 +36791,55 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
+	.short	206
+	.short	206
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
+	.short	206
+	.short	206
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	0
+	.short	32767
+	.short	32767
+	.short	1023
+	.short	1023
+	.short	6878
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37234,6 +36886,79 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37276,24 +37001,29 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37301,34 +37031,55 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37386,6 +37137,66 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37430,51 +37241,84 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
+	.short	206
+	.short	206
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
+	.short	206
 	.short	23388
+	.short	206
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
+	.short	206
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	206
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37536,6 +37380,60 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37654,6 +37552,12 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	0
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	0
+	.short	0
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37719,6 +37623,52 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	32767
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37843,6 +37793,10 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	23388
 	.short	23388
 	.short	23388
@@ -37911,6 +37865,37 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388
@@ -38123,6 +38108,21 @@ loseBitmap:
 	.short	23388
 	.short	23388
 	.short	23388
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
+	.short	3174
 	.short	23388
 	.short	23388
 	.short	23388

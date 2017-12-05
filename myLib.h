@@ -80,6 +80,7 @@ extern unsigned short *videoBuffer;
 #define CYAN    COLOR(0,31,31)
 #define MAGENTA COLOR(31,0,31)
 #define YELLOW  COLOR(31,31,0)
+#define EGGYOLK COLOR(30,21,7)
 
 // Character and Screen Blocks
 typedef struct {
@@ -198,6 +199,8 @@ void goToPause();
 void goToWin();
 void goToLose();
 void hideSprites();
+void splashBG();
+void pauseBG();
 
 // For handicap
 int gamesLost;

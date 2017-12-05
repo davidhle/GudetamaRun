@@ -13,7 +13,7 @@ typedef unsigned short u16;
 typedef unsigned int u32;
 # 64 "myLib.h"
 extern unsigned short *videoBuffer;
-# 85 "myLib.h"
+# 86 "myLib.h"
 typedef struct {
  u16 tileimg[8192];
 } charblock;
@@ -61,7 +61,7 @@ typedef struct {
 
 
 extern OBJ_ATTR shadowOAM[];
-# 180 "myLib.h"
+# 181 "myLib.h"
 extern unsigned short oldButtons;
 extern unsigned short buttons;
 
@@ -83,6 +83,8 @@ void goToPause();
 void goToWin();
 void goToLose();
 void hideSprites();
+void splashBG();
+void pauseBG();
 
 
 int gamesLost;
@@ -98,9 +100,9 @@ typedef volatile struct {
 
 
 extern DMA *dma;
-# 248 "myLib.h"
+# 251 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
-# 306 "myLib.h"
+# 309 "myLib.h"
 typedef struct{
     const unsigned char* data;
     int length;
@@ -120,18 +122,12 @@ void unmuteSound();
 void stopSound();
 void setupInterrupts();
 void interruptHandler();
-# 364 "myLib.h"
+# 367 "myLib.h"
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
 # 25 "main.c" 2
 # 1 "splash.h" 1
-# 22 "splash.h"
-extern const unsigned short splashTiles[4800];
-
-
-extern const unsigned short splashMap[1024];
-
-
-extern const unsigned short splashPal[256];
+# 20 "splash.h"
+extern const unsigned short splashBitmap[38400];
 # 26 "main.c" 2
 # 1 "bg.h" 1
 # 22 "bg.h"
@@ -144,14 +140,8 @@ extern const unsigned short bgMap[2048];
 extern const unsigned short bgPal[256];
 # 27 "main.c" 2
 # 1 "pause.h" 1
-# 22 "pause.h"
-extern const unsigned short pauseTiles[3856];
-
-
-extern const unsigned short pauseMap[1024];
-
-
-extern const unsigned short pausePal[256];
+# 20 "pause.h"
+extern const unsigned short pauseBitmap[38400];
 # 28 "main.c" 2
 # 1 "game.h" 1
 
@@ -195,8 +185,10 @@ typedef struct
 
 typedef struct
 {
-    int row;
-    int col;
+    int screenRow;
+    int screenCol;
+    int worldRow;
+    int worldCol;
     int rdel;
     int cdel;
     int width;
@@ -237,16 +229,13 @@ void initializeEnemyBullets();
 void hideSprites();
 void updateEnemies();
 void drawNumber(int row, int col, int number, int index);
+void initKnives();
+void updateKnives();
+void drawKnives();
 # 29 "main.c" 2
 # 1 "instructions.h" 1
-# 22 "instructions.h"
-extern const unsigned short instructionsTiles[4960];
-
-
-extern const unsigned short instructionsMap[1024];
-
-
-extern const unsigned short instructionsPal[256];
+# 20 "instructions.h"
+extern const unsigned short instructionsBitmap[38400];
 # 30 "main.c" 2
 # 1 "spritesheet.h" 1
 # 21 "spritesheet.h"
@@ -256,14 +245,8 @@ extern const unsigned short spritesheetTiles[16384];
 extern const unsigned short spritesheetPal[256];
 # 31 "main.c" 2
 # 1 "win.h" 1
-# 22 "win.h"
-extern const unsigned short winTiles[3776];
-
-
-extern const unsigned short winMap[1024];
-
-
-extern const unsigned short winPal[256];
+# 20 "win.h"
+extern const unsigned short winBitmap[38400];
 # 32 "main.c" 2
 # 1 "lose.h" 1
 # 20 "lose.h"
@@ -283,7 +266,7 @@ extern const unsigned char splashMusic[199757];
 # 36 "main.c" 2
 # 1 "bg2.h" 1
 # 22 "bg2.h"
-extern const unsigned short bg2Tiles[336];
+extern const unsigned short bg2Tiles[288];
 
 
 extern const unsigned short bg2Map[1024];
@@ -301,8 +284,25 @@ extern const unsigned char pauseMusic[200201];
 # 39 "main.c" 2
 # 1 "lose2.h" 1
 # 20 "lose2.h"
-extern const unsigned short lose2Bitmap[38640];
+extern const unsigned short lose2Bitmap[38400];
 # 40 "main.c" 2
+# 1 "text.h" 1
+
+void drawChar(int, int, char, unsigned short);
+void drawString(int, int, char *, unsigned short);
+# 41 "main.c" 2
+# 1 "font.h" 1
+
+extern const unsigned char fontdata_6x8[12288];
+# 42 "main.c" 2
+# 1 "splash2.h" 1
+# 20 "splash2.h"
+extern const unsigned short splash2Bitmap[38400];
+# 43 "main.c" 2
+# 1 "pause2.h" 1
+# 20 "pause2.h"
+extern const unsigned short pause2Bitmap[38400];
+# 44 "main.c" 2
 
 
 enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };
@@ -316,6 +316,12 @@ unsigned short oldButtons;
 int hOff;
 int timer = 0;
 int gamesLost;
+int score;
+int instructionsInt;
+int restart;
+
+
+char buffer[41];
 
 
 
@@ -328,6 +334,7 @@ int main()
     setupSounds();
     setupInterrupts();
     gamesLost = 0;
+    restart = 0;
     while(1)
     {
 
@@ -357,36 +364,47 @@ int main()
 }
 
 void goToSplash() {
+    instructionsInt = 0;
+    splashBG();
     waitForVBlank();
     playSoundA(splashMusic , 199757, 11025, 1);
-    loadPalette(splashPal);
-
-    DMANow(3, splashTiles, &((charblock *)0x6000000)[0], 9600/2);
-    DMANow(3, splashMap, &((screenblock *)0x6000000)[31], 2048/2);
-
-    (*(unsigned short *)0x4000000) = 0 | (1<<8);
-    (*(volatile unsigned short*)0x4000008) = (0<<14) | ((0)<<2) | ((31)<<8);
-
     state = SPLASH;
 }
 
-void splash() {
+void splashBG() {
+    (*(unsigned short *)0x4000000) = 3 | (1<<10);
+    if (instructionsInt) {
+        drawFullscreenImage3(splash2Bitmap);
+    } else {
+        drawFullscreenImage3(splashBitmap);
+    }
+}
 
-    if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3)))))
-    {
-        goToInstructions();
+void splash() {
+    if ((!(~(oldButtons)&((1<<7))) && (~buttons & ((1<<7))))) {
+        instructionsInt = 1;
+        splashBG();
+    }
+    if ((!(~(oldButtons)&((1<<6))) && (~buttons & ((1<<6))))) {
+        instructionsInt = 0;
+        splashBG();
+    }
+    if (instructionsInt) {
+        if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
+            goToInstructions();
+        }
+    } else {
+        if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3)))))
+        {
+            goToGame();
+        }
     }
 }
 
 void goToInstructions() {
     waitForVBlank();
-    loadPalette(instructionsPal);
-
-    DMANow(3, instructionsTiles, &((charblock *)0x6000000)[0], 9920/2);
-    DMANow(3, instructionsMap, &((screenblock *)0x6000000)[31], 2048/2);
-
-    (*(unsigned short *)0x4000000) = 0 | (1<<8);
-    (*(volatile unsigned short*)0x4000008) = (0<<14) | ((0)<<2) | ((31)<<8);
+    (*(unsigned short *)0x4000000) = 3 | (1<<10);
+    drawFullscreenImage3(instructionsBitmap);
     state = INSTRUCTIONS;
 }
 
@@ -411,7 +429,7 @@ void goToGame() {
     DMANow(3, bgMap, &((screenblock *)0x6000000)[30], 4096/2);
 
     (*(volatile unsigned short*)0x4000008) = ((1)<<2) | ((28)<<8) | (0<<14);
-    DMANow(3, bg2Tiles, &((charblock *)0x6000000)[1], 672/2);
+    DMANow(3, bg2Tiles, &((charblock *)0x6000000)[1], 576/2);
     DMANow(3, bg2Map, &((screenblock *)0x6000000)[28], 2048/2);
 
     DMANow(3, spritesheetTiles, &((charblock *)0x6000000)[4], 32768/2);
@@ -421,6 +439,7 @@ void goToGame() {
 }
 
 void game() {
+    sprintf(buffer, "%d", score);
     (*(volatile unsigned short *)0x04000014) = hOff;
     timer++;
     waitForVBlank();
@@ -433,16 +452,10 @@ void game() {
 
 void goToWin() {
     waitForVBlank();
-    loadPalette(winPal);
-    DMANow(3, winTiles, &((charblock *)0x6000000)[0], 7552/2);
-    DMANow(3, winMap, &((screenblock *)0x6000000)[31], 2048/2);
-
+    (*(unsigned short *)0x4000000) = 3 | (1<<10);
+    drawFullscreenImage3(winBitmap);
     playSoundA(winMusic , 119001, 11025, 1);
-
-    (*(unsigned short *)0x4000000) = 0 | (1<<8);
-    (*(volatile unsigned short*)0x4000008) = (0<<14) | ((0)<<2) | ((31)<<8);
-    (*(volatile unsigned short *)0x04000010) = 0;
-    (*(volatile unsigned short *)0x04000012) = 0;
+    drawString(92, 110, buffer, ((30) | (21)<<5 | (7)<<10));
     state = WIN;
 }
 
@@ -462,6 +475,7 @@ void goToLose() {
     } else {
         drawFullscreenImage3(loseBitmap);
     }
+    drawString(92, 110, buffer, ((30) | (21)<<5 | (7)<<10));
     playSoundA(loseMusic , 67610, 11025, 1);
     state = LOSE;
 }
@@ -475,23 +489,39 @@ void lose() {
 
 void goToPause() {
     waitForVBlank();
-    loadPalette(pausePal);
-    DMANow(3, pauseTiles, &((charblock *)0x6000000)[0], 7712/2);
-    DMANow(3, pauseMap, &((screenblock *)0x6000000)[31], 2048/2);
+    pauseBG();
     playSoundA(pauseMusic , 200201, 11025, 1);
-    (*(unsigned short *)0x4000000) = 0 | (1<<8);
-    (*(volatile unsigned short*)0x4000008) = (0<<14) | ((0)<<2) | ((31)<<8);
-    (*(volatile unsigned short *)0x04000010) = 0;
-    (*(volatile unsigned short *)0x04000012) = 0;
     state = PAUSE;
 }
 
 void pause() {
     waitForVBlank();
-    if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
-        goToGame();
-    } else if ((!(~(oldButtons)&((1<<2))) && (~buttons & ((1<<2))))) {
-        initialize();
-        goToSplash();
+    if ((!(~(oldButtons)&((1<<7))) && (~buttons & ((1<<7))))) {
+        restart = 1;
+        pauseBG();
+    }
+    if ((!(~(oldButtons)&((1<<6))) && (~buttons & ((1<<6))))) {
+        restart = 0;
+        pauseBG();
+    }
+    if (restart) {
+        if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3))))) {
+            initialize();
+            goToSplash();
+        }
+    } else {
+        if ((!(~(oldButtons)&((1<<3))) && (~buttons & ((1<<3)))))
+        {
+            goToGame();
+        }
+    }
+}
+
+void pauseBG() {
+    (*(unsigned short *)0x4000000) = 3 | (1<<10);
+    if (restart) {
+        drawFullscreenImage3(pause2Bitmap);
+    } else {
+        drawFullscreenImage3(pauseBitmap);
     }
 }

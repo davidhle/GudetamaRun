@@ -39,8 +39,10 @@ typedef struct
 
 typedef struct  
 {
-    int row;
-    int col;
+    int screenRow;
+    int screenCol;
+    int worldRow;
+    int worldCol;
     int rdel;
     int cdel;
     int width;
@@ -81,3 +83,6 @@ void initializeEnemyBullets();
 void hideSprites();
 void updateEnemies();
 void drawNumber(int row, int col, int number, int index);
+void initKnives();
+void updateKnives();
+void drawKnives();

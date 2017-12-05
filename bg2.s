@@ -15,7 +15,7 @@
 	.section	.rodata
 	.align	2
 	.type	bg2Tiles, %object
-	.size	bg2Tiles, 672
+	.size	bg2Tiles, 576
 bg2Tiles:
 	.short	0
 	.short	0
@@ -305,54 +305,6 @@ bg2Tiles:
 	.short	4369
 	.short	4369
 	.short	4369
-	.short	4369
-	.short	0
-	.short	4369
-	.short	0
-	.short	4369
-	.short	0
-	.short	4369
-	.short	0
-	.short	4369
-	.short	0
-	.short	4369
-	.short	0
-	.short	4369
-	.short	0
-	.short	4369
-	.short	0
-	.short	4369
-	.short	0
-	.short	4369
-	.short	0
-	.short	4369
-	.short	0
-	.short	4369
-	.short	0
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	0
-	.short	0
-	.short	0
-	.short	0
-	.short	0
-	.short	0
-	.short	0
-	.short	0
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
-	.short	4369
 	.type	bg2Map, %object
 	.size	bg2Map, 2048
 bg2Map:
@@ -420,7 +372,6 @@ bg2Map:
 	.short	1
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -449,10 +400,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -481,10 +430,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -513,10 +460,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -545,10 +490,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -577,10 +520,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -609,10 +550,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -641,10 +580,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -673,10 +610,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -705,10 +640,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -737,10 +670,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -769,10 +700,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -801,10 +730,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -833,10 +760,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -865,10 +790,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -897,10 +820,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -929,10 +850,8 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	18
 	.short	0
 	.short	0
 	.short	0
@@ -961,39 +880,72 @@ bg2Map:
 	.short	0
 	.short	0
 	.short	0
-	.short	1042
 	.short	0
 	.short	0
-	.short	19
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	20
-	.short	1043
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	0
 	.short	0
 	.short	0
@@ -1384,7 +1336,7 @@ bg2Map:
 	.size	bg2Pal, 512
 bg2Pal:
 	.short	31775
-	.short	15786
+	.short	15488
 	.short	32767
 	.short	0
 	.short	0
