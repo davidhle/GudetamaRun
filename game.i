@@ -10,9 +10,9 @@
 typedef unsigned char u8;
 typedef unsigned short u16;
 typedef unsigned int u32;
-# 64 "myLib.h"
+# 92 "myLib.h"
 extern unsigned short *videoBuffer;
-# 85 "myLib.h"
+# 114 "myLib.h"
 typedef struct {
  u16 tileimg[8192];
 } charblock;
@@ -60,7 +60,7 @@ typedef struct {
 
 
 extern OBJ_ATTR shadowOAM[];
-# 180 "myLib.h"
+# 209 "myLib.h"
 extern unsigned short oldButtons;
 extern unsigned short buttons;
 
@@ -82,6 +82,8 @@ void goToPause();
 void goToWin();
 void goToLose();
 void hideSprites();
+void splashBG();
+void pauseBG();
 
 
 int gamesLost;
@@ -97,9 +99,9 @@ typedef volatile struct {
 
 
 extern DMA *dma;
-# 248 "myLib.h"
+# 279 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
-# 306 "myLib.h"
+# 337 "myLib.h"
 typedef struct{
     const unsigned char* data;
     int length;
@@ -119,7 +121,7 @@ void unmuteSound();
 void stopSound();
 void setupInterrupts();
 void interruptHandler();
-# 364 "myLib.h"
+# 395 "myLib.h"
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
 # 2 "game.c" 2
 # 1 "bg.h" 1
@@ -708,6 +710,11 @@ BULLET bullet2;
 BULLET bullet3;
 ENEMY knives[4];
 
+int blend;
+int ghost_blend = 16;
+int counter = 0;
+int changeBlending = 5;
+
 
 extern int hOff;
 extern int score;
@@ -723,6 +730,11 @@ void initialize() {
  score = 00;
  lives = 3;
  gravCount = 0;
+
+
+ *(unsigned short*)0x4000050 = (1 << 9) | (1 << 12) | (1 << 13) | (1 << 6);
+ blend = 0;
+
  initializePlayer();
  initializeBullets();
  initializeEnemies();
@@ -798,6 +810,15 @@ void draw() {
  for (int i = 0; i < 2; i++) {
      drawBullet(&bullets[i]);
     }
+
+    if (++counter % changeBlending == 0) {
+     ghost_blend--;
+     if (ghost_blend < 0) {
+      ghost_blend = 16;
+     }
+     *(unsigned short*)0x4000052 = (ghost_blend) | ((16-ghost_blend) << 8);
+ }
+
     drawBullet(&bullet1);
     drawBullet(&bullet2);
     drawBullet(&bullet3);
@@ -810,12 +831,12 @@ void draw() {
 void drawPlayer() {
  if (player.superEgg) {
   shadowOAM[0].attr0 = player.worldRow | (0<<13) | (0<<14);
-    shadowOAM[0].attr1 = player.worldCol | (2<<14);
-    shadowOAM[0].attr2 = ((player.aniState % 2 * 4)*32+(16));
+     shadowOAM[0].attr1 = player.worldCol | (2<<14);
+     shadowOAM[0].attr2 = ((player.aniState % 2 * 4)*32+(16));
  } else {
- shadowOAM[0].attr0 = player.worldRow | (0<<13) | (0<<14);
-    shadowOAM[0].attr1 = player.worldCol | (2<<14);
-    shadowOAM[0].attr2 = ((player.aniState % 2 * 4)*32+(0));
+  shadowOAM[0].attr0 = player.worldRow | (0<<13) | (0<<14);
+     shadowOAM[0].attr1 = player.worldCol | (2<<14);
+     shadowOAM[0].attr2 = ((player.aniState % 2 * 4)*32+(0));
  }
 }
 
@@ -826,7 +847,7 @@ void drawBullet(BULLET* b) {
    shadowOAM[b->index].attr0 = (b->row) | (0<<13) | (0<<14);
    shadowOAM[b->index].attr1 = (b->col) | (0<<14);
    shadowOAM[b->index].attr2 = ((0)*32+(4));
-  } else if (b -> shotBy == 1 || b -> shotBy == 2 || b -> shotBy == 3) {
+  } else if ((b -> shotBy == 1 || b -> shotBy == 2 || b -> shotBy == 3) && player.worldCol < 512/2) {
    shadowOAM[b->index].attr0 = (b->row) | (0<<13) | (0<<14);
    shadowOAM[b->index].attr1 = (b->col) | (0<<14);
    shadowOAM[b->index].attr2 = ((1)*32+(4));
@@ -839,18 +860,18 @@ void drawBullet(BULLET* b) {
 void drawEnemies() {
 
  if (ladel.active) {
-  shadowOAM[ladel.index].attr0 = ladel.worldRow | (0<<13) | (0<<14);
-     shadowOAM[ladel.index].attr1 = ladel.worldCol | (3<<14);
+  shadowOAM[ladel.index].attr0 = (0xFF & ladel.worldRow) | (0<<13) | (0<<14);
+     shadowOAM[ladel.index].attr1 = (0x1FF & (121 - hOff)) | (3<<14);
      shadowOAM[ladel.index].attr2 = ((24)*32+(0));
  }
     if (spatula.active) {
-     shadowOAM[spatula.index].attr0 = spatula.worldRow | (0<<13) | (2<<14);
-     shadowOAM[spatula.index].attr1 = spatula.worldCol | (3<<14);
+     shadowOAM[spatula.index].attr0 = (0xFF & spatula.worldRow) | (0<<13) | (2<<14);
+     shadowOAM[spatula.index].attr1 = (0x1FF & (164 - hOff)) | (3<<14);
      shadowOAM[spatula.index].attr2 = ((8)*32+(0));
     }
     if (mitt.active) {
-     shadowOAM[mitt.index].attr0 = mitt.worldRow | (0<<13) | (2<<14);
-     shadowOAM[mitt.index].attr1 = mitt.worldCol | (3<<14);
+     shadowOAM[mitt.index].attr0 = (0xFF & mitt.worldRow) | (0<<13) | (2<<14);
+     shadowOAM[mitt.index].attr1 = (0x1FF & (205 - hOff)) | (3<<14);
      shadowOAM[mitt.index].attr2 = ((16)*32+(0));
     }
     drawKnives();
@@ -882,7 +903,7 @@ void updatePlayer() {
     if((~((*(volatile unsigned short *)0x04000130)) & ((1<<5))) && player.worldCol > 4) {
      if (player.worldCol < 240/2 - player.width || player.worldCol + hOff >= 512 - 240/2 - player.width || hOff == 0) {
       player.worldCol--;
-     } else if ((player.screenCol < 240/2 - player.width/2) && hOff > 0) {
+     } else if ((player.screenCol <= 240/2 - player.width/2 - hOff) && hOff > 0) {
       hOff--;
      }
      player.aniState++;
@@ -892,8 +913,7 @@ void updatePlayer() {
      if (player.worldCol < 240/2 - player.width || player.worldCol + hOff >= 512 - 240/2 - player.width) {
       player.worldCol++;
      } else if ((player.worldCol > 240/2 - player.width || player.worldCol < 512 - 240/2 - player.width)
-      && hOff < 512 - 240
-      && !ladel.active && !spatula.active && !mitt.active) {
+      && hOff < 512 - 240) {
       hOff++;
      }
      player.aniState++;
@@ -932,16 +952,16 @@ void updatePlayer() {
   goToWin();
  }
 
- if ((collision(ladel.worldRow, ladel.worldCol, ladel.height, ladel.width,
-  player.worldRow, player.worldCol, player.height, player.width) && ladel.active)) {
+ if ((collision(ladel.worldRow, 121 - hOff, ladel.height, ladel.width,
+  player.worldRow, player.worldCol, player.height, player.width) && ladel.active && !player.superEgg)) {
   goToLose();
  }
- if ((collision(spatula.worldRow, spatula.worldCol, spatula.height, spatula.width,
-  player.worldRow, player.worldCol, player.height, player.width) && spatula.active)) {
+ if ((collision(spatula.worldRow, 164 - hOff, spatula.height, spatula.width,
+  player.worldRow, player.worldCol, player.height, player.width) && spatula.active && !player.superEgg)) {
   goToLose();
  }
- if ((collision(mitt.worldRow, mitt.worldCol, mitt.height, mitt.width,
-  player.worldRow, player.worldCol, player.height, player.width) && mitt.active)) {
+ if ((collision(mitt.worldRow, 205 - hOff, mitt.height, mitt.width,
+  player.worldRow, player.worldCol, player.height, player.width) && mitt.active && !player.superEgg)) {
   goToLose();
  }
 
@@ -1014,7 +1034,7 @@ void updateEnemies() {
  }
 
  for (int i = 0; i < 2; i++) {
-  if (bullets[i].active && ladel.active && collision(ladel.worldRow, ladel.worldCol, ladel.height, ladel.width,
+  if (bullets[i].active && ladel.active && collision(ladel.worldRow, 121 - hOff, ladel.height, ladel.width,
     bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
     playSoundB(hit, 2068, 11025, 0);
     score += 10;
@@ -1028,7 +1048,7 @@ void updateEnemies() {
      ladel.active = 0;
     }
   }
-  if (bullets[i].active && spatula.active && collision(spatula.worldRow, spatula.worldCol, spatula.height, spatula.width,
+  if (bullets[i].active && spatula.active && collision(spatula.worldRow, 164 - hOff, spatula.height, spatula.width,
     bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
     playSoundB(hit, 2068, 11025, 0);
     score += 10;
@@ -1042,7 +1062,7 @@ void updateEnemies() {
      spatula.active = 0;
     }
   }
-  if (bullets[i].active && mitt.active && collision(mitt.worldRow, mitt.worldCol, mitt.height, mitt.width,
+  if (bullets[i].active && mitt.active && collision(mitt.worldRow, 205 - hOff, mitt.height, mitt.width,
     bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
     playSoundB(hit, 2068, 11025, 0);
     score += 10;
@@ -1060,8 +1080,10 @@ void updateEnemies() {
 
  ladel.screenRow = ladel.worldRow;
  ladel.screenCol = ladel.worldCol - hOff;
+
  spatula.screenRow = ladel.worldRow;
  spatula.screenCol = ladel.worldCol - hOff;
+
  mitt.screenRow = ladel.worldRow;
  mitt.screenCol = ladel.worldCol - hOff;
 }
@@ -1192,11 +1214,11 @@ void drawNumber(int row, int col, int number, int index) {
 void initKnives() {
  for (int i = 0; i < 4; i++) {
   knives[i].worldCol = 265 + 45 * i;
-  knives[i].worldRow = rand()%63 + 16;
+  knives[i].worldRow = rand()%58 + 21;
   if (i % 2) {
-   knives[i].rdel = 3;
+   knives[i].rdel = rand()%4 + 1;
   } else {
-   knives[i].rdel = -3;
+   knives[i].rdel = -1 * (rand()%4 + 1);
   }
   knives[i].height = 32;
   knives[i].width = 5;
@@ -1209,21 +1231,22 @@ void updateKnives() {
  for (int i = 0; i < 4; i++) {
   if (!knives[i].active) {
    shadowOAM[knives[i].index].attr0 = (2<<8);
-  }
-  knives[i].worldRow += knives[i].rdel;
-  if (knives[i].worldRow < 16 || knives[i].worldRow > 160 - knives[i].height - 1) {
-   knives[i].rdel *= -1;
-  } else if (collision(knives[i].screenRow, knives[i].screenCol, knives[i].height, knives[i].width,
+  } else {
+   knives[i].worldRow += knives[i].rdel;
+   if (knives[i].worldRow < 16 || knives[i].worldRow > 160 - knives[i].height - 1) {
+    knives[i].rdel *= -1;
+   } else if (collision(knives[i].screenRow, knives[i].screenCol, knives[i].height, knives[i].width,
       player.worldRow, player.worldCol, player.height, player.width)) {
-   knives[i].worldRow -= 6;
-   knives[i].rdel *= -1;
-   if (!player.superEgg) {
-    lives--;
-    score -= 5;
-   }
+       knives[i].worldRow -= 6;
+       knives[i].rdel *= -1;
+       if (!player.superEgg) {
+        lives--;
+        score -= 5;
+       }
+    }
+   knives[i].screenRow = knives[i].worldRow;
+      knives[i].screenCol = knives[i].worldCol - hOff;
   }
-  knives[i].screenRow = knives[i].worldRow;
-     knives[i].screenCol = knives[i].worldCol - hOff;
  }
 }
 
@@ -1232,7 +1255,11 @@ void drawKnives() {
      for (int i = 0; i < 4; i++) {
       knives[i].active = 1;
       if (knives[i].active) {
-       shadowOAM[knives[i].index].attr0 = (0xFF & knives[i].screenRow) | (0<<13) | (2<<14);
+       if (!player.superEgg) {
+        shadowOAM[knives[i].index].attr0 = (0xFF & knives[i].screenRow) | (0<<13) | (2<<14) | (1<<10);
+       } else {
+        shadowOAM[knives[i].index].attr0 = (0xFF & knives[i].screenRow) | (0<<13) | (2<<14);
+       }
        shadowOAM[knives[i].index].attr1 = (0x1FF & knives[i].screenCol) | (1<<14);
        if (knives[i].rdel < 0) {
         shadowOAM[knives[i].index].attr2 = ((0)*32+(20));

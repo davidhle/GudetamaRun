@@ -18,6 +18,11 @@ BULLET bullet2;
 BULLET bullet3;
 ENEMY knives[KNIFECOUNT];
 
+int blend;// blending on or off
+int ghost_blend = 16;
+int counter = 0;
+int changeBlending = 5;
+
 // To access hOff in main.c
 extern int hOff;
 extern int score;
@@ -33,6 +38,11 @@ void initialize() {
 	score = 00;
 	lives = 3;
 	gravCount = 0;
+
+	// Set up Blending registers
+	REG_BLDMOD = BG1_B | OBJ_B | BACKDROP_B | NORMAL_TRANS;
+	blend = 0;
+
 	initializePlayer();
 	initializeBullets();
 	initializeEnemies();
@@ -108,6 +118,15 @@ void draw() {
 	for (int i = 0; i < BULLETCOUNT; i++) {
     	drawBullet(&bullets[i]);
     }
+
+    if (++counter % changeBlending == 0) {
+    	ghost_blend--;
+    	if (ghost_blend < 0) { 
+    		ghost_blend = 16; 
+    	}
+    	REG_COLEV = WEIGHTOFA(ghost_blend) | WEIGHTOFB(16-ghost_blend);
+	}
+
     drawBullet(&bullet1);
     drawBullet(&bullet2);
     drawBullet(&bullet3);
@@ -120,12 +139,12 @@ void draw() {
 void drawPlayer() {
 	if (player.superEgg) {
 		shadowOAM[0].attr0 = player.worldRow | ATTR0_4BPP | ATTR0_SQUARE;
-    shadowOAM[0].attr1 = player.worldCol | ATTR1_MEDIUM;
-    shadowOAM[0].attr2 = ATTR2_TILEID(player.aniState % 2 * 4, 16);
+    	shadowOAM[0].attr1 = player.worldCol | ATTR1_MEDIUM;
+    	shadowOAM[0].attr2 = ATTR2_TILEID(player.aniState % 2 * 4, 16);
 	} else {
-	shadowOAM[0].attr0 = player.worldRow | ATTR0_4BPP | ATTR0_SQUARE;
-    shadowOAM[0].attr1 = player.worldCol | ATTR1_MEDIUM;
-    shadowOAM[0].attr2 = ATTR2_TILEID(player.aniState % 2 * 4, 0);
+		shadowOAM[0].attr0 = player.worldRow | ATTR0_4BPP | ATTR0_SQUARE;
+    	shadowOAM[0].attr1 = player.worldCol | ATTR1_MEDIUM;
+    	shadowOAM[0].attr2 = ATTR2_TILEID(player.aniState % 2 * 4, 0);
 	}
 }
 
@@ -136,7 +155,7 @@ void drawBullet(BULLET* b) {
 			shadowOAM[b->index].attr0 = (b->row) | ATTR0_4BPP | ATTR0_SQUARE;
 			shadowOAM[b->index].attr1 = (b->col) | ATTR1_TINY;
 			shadowOAM[b->index].attr2 = ATTR2_TILEID(0, 4);
-		} else if (b -> shotBy == 1 || b -> shotBy == 2 || b -> shotBy == 3) {
+		} else if ((b -> shotBy == 1 || b -> shotBy == 2 || b -> shotBy == 3) && player.worldCol < MAPWIDTH/2) {
 			shadowOAM[b->index].attr0 = (b->row) | ATTR0_4BPP | ATTR0_SQUARE;
 			shadowOAM[b->index].attr1 = (b->col) | ATTR1_TINY;
 			shadowOAM[b->index].attr2 = ATTR2_TILEID(1, 4);
@@ -149,18 +168,18 @@ void drawBullet(BULLET* b) {
 void drawEnemies() {
 	// Only draw them if active
 	if (ladel.active) {
-		shadowOAM[ladel.index].attr0 = ladel.worldRow | ATTR0_4BPP | ATTR0_SQUARE;
-    	shadowOAM[ladel.index].attr1 = ladel.worldCol | ATTR1_LARGE;
+		shadowOAM[ladel.index].attr0 = (ROWMASK & ladel.worldRow) | ATTR0_4BPP | ATTR0_SQUARE;
+    	shadowOAM[ladel.index].attr1 = (COLMASK & (121 - hOff)) | ATTR1_LARGE;
     	shadowOAM[ladel.index].attr2 = ATTR2_TILEID(24, 0);
 	}
     if (spatula.active) {
-    	shadowOAM[spatula.index].attr0 = spatula.worldRow | ATTR0_4BPP | ATTR0_TALL;
-    	shadowOAM[spatula.index].attr1 = spatula.worldCol | ATTR1_LARGE;
+    	shadowOAM[spatula.index].attr0 = (ROWMASK & spatula.worldRow) | ATTR0_4BPP | ATTR0_TALL;
+    	shadowOAM[spatula.index].attr1 = (COLMASK & (164 - hOff)) | ATTR1_LARGE;
     	shadowOAM[spatula.index].attr2 = ATTR2_TILEID(8, 0);
     }
     if (mitt.active) {
-    	shadowOAM[mitt.index].attr0 = mitt.worldRow | ATTR0_4BPP | ATTR0_TALL;
-    	shadowOAM[mitt.index].attr1 = mitt.worldCol | ATTR1_LARGE;
+    	shadowOAM[mitt.index].attr0 = (ROWMASK & mitt.worldRow) | ATTR0_4BPP | ATTR0_TALL;
+    	shadowOAM[mitt.index].attr1 = (COLMASK & (205 - hOff)) | ATTR1_LARGE;
     	shadowOAM[mitt.index].attr2 = ATTR2_TILEID(16, 0);
     }
     drawKnives();
@@ -192,7 +211,7 @@ void updatePlayer() {
     if(BUTTON_HELD(BUTTON_LEFT) && player.worldCol > 4) {
     	if (player.worldCol < SCREENWIDTH/2 - player.width || player.worldCol + hOff >= MAPWIDTH - SCREENWIDTH/2 - player.width || hOff == 0) {
     		player.worldCol--;
-    	} else if ((player.screenCol < SCREENWIDTH/2 - player.width/2) && hOff > 0) {
+    	} else if ((player.screenCol <= SCREENWIDTH/2 - player.width/2 - hOff) && hOff > 0) {
     		hOff--;
     	}
     	player.aniState++;
@@ -202,8 +221,7 @@ void updatePlayer() {
     	if (player.worldCol < SCREENWIDTH/2 - player.width || player.worldCol + hOff >= MAPWIDTH - SCREENWIDTH/2 - player.width) {
     		player.worldCol++;
     	} else if ((player.worldCol > SCREENWIDTH/2 - player.width || player.worldCol < MAPWIDTH - SCREENWIDTH/2 - player.width)
-    		&& hOff < MAPWIDTH - SCREENWIDTH
-    		&& !ladel.active && !spatula.active && !mitt.active) {
+    		&& hOff < MAPWIDTH - SCREENWIDTH) {
     		hOff++;
     	}
     	player.aniState++;
@@ -242,16 +260,16 @@ void updatePlayer() {
 		goToWin();
 	}
 	// Lose if you touch an enemy
-	if ((collision(ladel.worldRow, ladel.worldCol, ladel.height, ladel.width, 
-		player.worldRow, player.worldCol, player.height, player.width) && ladel.active)) {
+	if ((collision(ladel.worldRow, 121 - hOff, ladel.height, ladel.width, 
+		player.worldRow, player.worldCol, player.height, player.width) && ladel.active && !player.superEgg)) {
 		goToLose();
 	}
-	if ((collision(spatula.worldRow, spatula.worldCol, spatula.height, spatula.width, 
-		player.worldRow, player.worldCol, player.height, player.width) && spatula.active)) {
+	if ((collision(spatula.worldRow, 164 - hOff, spatula.height, spatula.width, 
+		player.worldRow, player.worldCol, player.height, player.width) && spatula.active && !player.superEgg)) {
 		goToLose();
 	}
-	if ((collision(mitt.worldRow, mitt.worldCol, mitt.height, mitt.width, 
-		player.worldRow, player.worldCol, player.height, player.width) && mitt.active)) {
+	if ((collision(mitt.worldRow, 205 - hOff, mitt.height, mitt.width, 
+		player.worldRow, player.worldCol, player.height, player.width) && mitt.active && !player.superEgg)) {
 		goToLose();
 	}
 
@@ -324,7 +342,7 @@ void updateEnemies() {
 	}
 	// Bullet collision with enemies
 	for (int i = 0; i < BULLETCOUNT; i++) {
-		if (bullets[i].active && ladel.active && collision(ladel.worldRow, ladel.worldCol, ladel.height, ladel.width, 
+		if (bullets[i].active && ladel.active && collision(ladel.worldRow, 121 - hOff, ladel.height, ladel.width, 
 				bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
 				playSoundB(hit, HITLEN, HITFREQ, 0);
 				score += 10;
@@ -338,7 +356,7 @@ void updateEnemies() {
 					ladel.active = 0;
 				} 
 		}
-		if (bullets[i].active && spatula.active && collision(spatula.worldRow, spatula.worldCol, spatula.height, spatula.width, 
+		if (bullets[i].active && spatula.active && collision(spatula.worldRow, 164 - hOff, spatula.height, spatula.width, 
 				bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
 				playSoundB(hit, HITLEN, HITFREQ, 0);
 				score += 10;
@@ -352,7 +370,7 @@ void updateEnemies() {
 					spatula.active = 0;
 				} 
 		}
-		if (bullets[i].active && mitt.active && collision(mitt.worldRow, mitt.worldCol, mitt.height, mitt.width, 
+		if (bullets[i].active && mitt.active && collision(mitt.worldRow, 205 - hOff, mitt.height, mitt.width, 
 				bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
 				playSoundB(hit, HITLEN, HITFREQ, 0);
 				score += 10;
@@ -370,8 +388,10 @@ void updateEnemies() {
 
 	ladel.screenRow = ladel.worldRow;
 	ladel.screenCol = ladel.worldCol - hOff;
+
 	spatula.screenRow = ladel.worldRow;
 	spatula.screenCol = ladel.worldCol - hOff;
+
 	mitt.screenRow = ladel.worldRow;
 	mitt.screenCol = ladel.worldCol - hOff;
 }
@@ -502,11 +522,11 @@ void drawNumber(int row, int col, int number, int index) {
 void initKnives() {
 	for (int i = 0; i < KNIFECOUNT; i++) {
 		knives[i].worldCol = 265 + 45 * i;
-		knives[i].worldRow = rand()%63 + 16;
+		knives[i].worldRow = rand()%58 + 21;
 		if (i % 2) {
-			knives[i].rdel = 3;
+			knives[i].rdel = rand()%4 + 1;
 		} else {
-			knives[i].rdel = -3;
+			knives[i].rdel = -1 * (rand()%4 + 1);
 		}
 		knives[i].height = 32;
 		knives[i].width = 5;
@@ -519,21 +539,22 @@ void updateKnives() {
 	for (int i = 0; i < KNIFECOUNT; i++) {
 		if (!knives[i].active) {
 			shadowOAM[knives[i].index].attr0 = ATTR0_HIDE;
-		}
-		knives[i].worldRow += knives[i].rdel;
-		if (knives[i].worldRow < 16 || knives[i].worldRow > SCREENHEIGHT - knives[i].height - 1) {
-			knives[i].rdel *= -1;
-		} else if (collision(knives[i].screenRow, knives[i].screenCol, knives[i].height, knives[i].width, 
+		} else {
+			knives[i].worldRow += knives[i].rdel;
+			if (knives[i].worldRow < 16 || knives[i].worldRow > SCREENHEIGHT - knives[i].height - 1) {
+				knives[i].rdel *= -1;
+			} else if (collision(knives[i].screenRow, knives[i].screenCol, knives[i].height, knives[i].width, 
 						player.worldRow, player.worldCol, player.height, player.width)) {
-			knives[i].worldRow -= 6;
-			knives[i].rdel *= -1;
-			if (!player.superEgg) {
-				lives--;
-				score -= 5;
-			}
+							knives[i].worldRow -= 6;
+							knives[i].rdel *= -1;
+							if (!player.superEgg) {
+								lives--;
+								score -= 5;
+							}
+				}
+			knives[i].screenRow = knives[i].worldRow;
+    		knives[i].screenCol = knives[i].worldCol - hOff;
 		}
-		knives[i].screenRow = knives[i].worldRow;
-    	knives[i].screenCol = knives[i].worldCol - hOff;
 	}
 }
 
@@ -542,7 +563,11 @@ void drawKnives() {
     	for (int i = 0; i < KNIFECOUNT; i++) {
     		knives[i].active = 1;
     		if (knives[i].active) {
-    			shadowOAM[knives[i].index].attr0 = (ROWMASK & knives[i].screenRow) | ATTR0_4BPP | ATTR0_TALL;
+    			if (!player.superEgg) {
+    				shadowOAM[knives[i].index].attr0 = (ROWMASK & knives[i].screenRow) | ATTR0_4BPP | ATTR0_TALL | ATTR0_BLEND;
+    			} else {
+    				shadowOAM[knives[i].index].attr0 = (ROWMASK & knives[i].screenRow) | ATTR0_4BPP | ATTR0_TALL;
+    			}
     			shadowOAM[knives[i].index].attr1 = (COLMASK & knives[i].screenCol) | ATTR1_SMALL;
     			if (knives[i].rdel < 0) {
     				shadowOAM[knives[i].index].attr2 = ATTR2_TILEID(0, 20);

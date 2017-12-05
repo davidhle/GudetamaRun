@@ -629,6 +629,9 @@ goToPause:
 	@ frame_needed = 0, uses_anonymous_args = 0
 	stmfd	sp!, {r3, lr}
 	ldr	r3, .L78
+	mov	r2, #0
+	str	r2, [r3, #0]
+	ldr	r3, .L78+4
 	mov	lr, pc
 	bx	r3
 	bl	pauseBG
@@ -637,12 +640,12 @@ goToPause:
 	mov	r2, #11008
 	add	r2, r2, #17
 	mov	r3, #1
-	ldr	r0, .L78+4
+	ldr	r0, .L78+8
 	add	r1, r1, #1
-	ldr	ip, .L78+8
+	ldr	ip, .L78+12
 	mov	lr, pc
 	bx	ip
-	ldr	r3, .L78+12
+	ldr	r3, .L78+16
 	mov	r2, #5
 	str	r2, [r3, #0]
 	ldmfd	sp!, {r3, lr}
@@ -650,6 +653,7 @@ goToPause:
 .L79:
 	.align	2
 .L78:
+	.word	restart
 	.word	waitForVBlank
 	.word	pauseMusic
 	.word	playSoundA

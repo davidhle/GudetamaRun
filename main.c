@@ -18,7 +18,10 @@ Known bugs:
 Extra things added:
 - Custom art
 - Losing more than 2 times shows the cheat to the user
-
+- Alpha blending of knives when the player isn't using the cheat
+- No affine sprites, but if I say so myself, I have some (af)FINE sprites !!
+- Added knives because of feedback that the original gameplay was too easy
+    - spawn at random rows and at different speeds (-5 to 5 rdel)
 **/
 
 #include "myLib.h"
@@ -226,6 +229,7 @@ void lose() {
 }
 
 void goToPause() {
+    restart = 0;
     waitForVBlank();
     pauseBG();
     playSoundA(pauseMusic , PAUSEMUSICLEN, PAUSEMUSICFREQ, 1);
