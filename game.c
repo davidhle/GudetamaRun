@@ -203,22 +203,27 @@ void updatePlayer() {
 	}
 	gravCount++;
 	// Player movement
-	if(BUTTON_HELD(BUTTON_LEFT)) {
-        if (player.worldRow < SCREENWIDTH/2 - player.width/2 && hOff > 4) {
-            hOff--;
-        } else if (player.worldCol > 1 && player.worldCol < 512 - player.width - 1) {
-        	player.worldCol--;
-        }
-        player.aniState += 1;
-	} else if(BUTTON_HELD(BUTTON_RIGHT)) {
-        if (player.worldCol > SCREENWIDTH/2 - player.width/2 && hOff < MAPWIDTH - SCREENWIDTH
-        	&& !ladel.active && !spatula.active && !mitt.active) {
-            hOff++;
-        } else if (player.worldCol > 0 && player.worldCol < MAPWIDTH - player.width -8 - hOff) {
-        	player.worldCol++;
-        }
-        player.aniState += 1;
-	} else if (BUTTON_PRESSED(BUTTON_A) && player.bulletTimer >= 16) {
+    if(BUTTON_HELD(BUTTON_LEFT) && player.worldCol > 4) {
+    	if (player.worldCol < SCREENWIDTH/2 - player.width || player.worldCol + hOff >= MAPWIDTH - SCREENWIDTH/2 - player.width || hOff == 0) {
+    		player.worldCol--;
+    	} else if ((player.screenCol < SCREENWIDTH/2 - player.width/2) && hOff > 0) {
+    		hOff--;
+    	}
+    	player.aniState++;
+    }
+    if(BUTTON_HELD(BUTTON_RIGHT)
+        && player.worldCol + player.width < MAPWIDTH - hOff - 4) {
+    	if (player.worldCol < SCREENWIDTH/2 - player.width || player.worldCol + hOff >= MAPWIDTH - SCREENWIDTH/2 - player.width) {
+    		player.worldCol++;
+    	} else if ((player.worldCol > SCREENWIDTH/2 - player.width || player.worldCol < MAPWIDTH - SCREENWIDTH/2 - player.width)
+    		&& hOff < MAPWIDTH - SCREENWIDTH
+    		&& !ladel.active && !spatula.active && !mitt.active) {
+    		hOff++;
+    	}
+    	player.aniState++;
+    }
+
+	if (BUTTON_PRESSED(BUTTON_A) && player.bulletTimer >= 16) {
 		fireBullet();
 		playSoundB(shoot,SHOOTLEN, SHOOTFREQ, 0);
 		player.bulletTimer = 0;
@@ -263,7 +268,7 @@ void updatePlayer() {
 		player.worldRow, player.worldCol, player.height, player.width) && mitt.active)) {
 		goToLose();
 	}
-	
+
 	player.screenRow = player.worldRow;
 	player.screenCol = player.worldCol - hOff;
 

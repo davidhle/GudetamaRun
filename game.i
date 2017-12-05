@@ -417,22 +417,27 @@ void updatePlayer() {
  }
  gravCount++;
 
- if((~((*(volatile unsigned short *)0x04000130)) & ((1<<5)))) {
-        if (player.worldRow < 240/2 - player.width/2 && hOff > 4) {
-            hOff--;
-        } else if (player.worldCol > 1 && player.worldCol < 512 - player.width - 1) {
-         player.worldCol--;
-        }
-        player.aniState += 1;
- } else if((~((*(volatile unsigned short *)0x04000130)) & ((1<<4)))) {
-        if (player.worldCol > 240/2 - player.width/2 && hOff < 512 - 240
-         && !ladel.active && !spatula.active && !mitt.active) {
-            hOff++;
-        } else if (player.worldCol > 0 && player.worldCol < 512 - player.width -8 - hOff) {
-         player.worldCol++;
-        }
-        player.aniState += 1;
- } else if ((!(~(oldButtons)&((1<<0))) && (~buttons & ((1<<0)))) && player.bulletTimer >= 16) {
+    if((~((*(volatile unsigned short *)0x04000130)) & ((1<<5))) && player.worldCol > 4) {
+     if (player.worldCol < 240/2 - player.width || player.worldCol + hOff >= 512 - 240/2 - player.width || hOff == 0) {
+      player.worldCol--;
+     } else if ((player.screenCol < 240/2 - player.width/2) && hOff > 0) {
+      hOff--;
+     }
+     player.aniState++;
+    }
+    if((~((*(volatile unsigned short *)0x04000130)) & ((1<<4)))
+        && player.worldCol + player.width < 512 - hOff - 4) {
+     if (player.worldCol < 240/2 - player.width || player.worldCol + hOff >= 512 - 240/2 - player.width) {
+      player.worldCol++;
+     } else if ((player.worldCol > 240/2 - player.width || player.worldCol < 512 - 240/2 - player.width)
+      && hOff < 512 - 240
+      && !ladel.active && !spatula.active && !mitt.active) {
+      hOff++;
+     }
+     player.aniState++;
+    }
+
+ if ((!(~(oldButtons)&((1<<0))) && (~buttons & ((1<<0)))) && player.bulletTimer >= 16) {
   fireBullet();
   playSoundB(shoot,2299, 11025, 0);
   player.bulletTimer = 0;
@@ -477,8 +482,10 @@ void updatePlayer() {
   player.worldRow, player.worldCol, player.height, player.width) && mitt.active)) {
   goToLose();
  }
+
  player.screenRow = player.worldRow;
  player.screenCol = player.worldCol - hOff;
+
  player.bulletTimer++;
 }
 
