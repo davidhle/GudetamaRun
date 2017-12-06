@@ -85,6 +85,7 @@ void hideSprites();
 void splashBG();
 void pauseBG();
 void sprintf();
+void (*state)();
 
 
 int gamesLost;
@@ -100,9 +101,9 @@ typedef volatile struct {
 
 
 extern DMA *dma;
-# 280 "myLib.h"
+# 281 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
-# 338 "myLib.h"
+# 339 "myLib.h"
 typedef struct{
     const unsigned char* data;
     int length;
@@ -122,7 +123,7 @@ void unmuteSound();
 void stopSound();
 void setupInterrupts();
 void interruptHandler();
-# 396 "myLib.h"
+# 397 "myLib.h"
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
 # 2 "game.c" 2
 # 1 "bg.h" 1
@@ -700,7 +701,6 @@ extern long double wcstold (const wchar_t *, wchar_t **);
 
 # 9 "game.c" 2
 
-
 PLAYER player;
 ENEMY ladel;
 ENEMY spatula;
@@ -710,32 +710,23 @@ BULLET bullet1;
 BULLET bullet2;
 BULLET bullet3;
 ENEMY knives[4];
-
 int blend;
 int ghost_blend = 16;
 int counter = 0;
 int changeBlending = 5;
-
-
 extern int hOff;
 extern int score;
 int lives;
 int gravCount;
-
-
 OBJ_ATTR shadowOAM[128];
 
 void initialize() {
-
  hOff = 0;
  score = 00;
  lives = 3;
  gravCount = 0;
-
-
  *(unsigned short*)0x4000050 = (1 << 9) | (1 << 12) | (1 << 13) | (1 << 6);
  blend = 0;
-
  initializePlayer();
  initializeBullets();
  initializeEnemies();
@@ -743,7 +734,6 @@ void initialize() {
 }
 
 void initializeEnemies() {
-
  ladel.worldRow = 46;
  ladel.worldCol = 121;
  ladel.rdel = 1;
@@ -775,7 +765,6 @@ void initializeEnemies() {
 }
 
 void initializePlayer() {
-
  player.worldRow = 125;
  player.worldCol = 5;
  player.height = 23;
@@ -791,7 +780,6 @@ void initializePlayer() {
 }
 
 void initializeBullets() {
-
  for (int i = 0; i < 2; i++) {
   bullets[i].height = 6;
   bullets[i].width = 8;
@@ -807,7 +795,6 @@ void initializeBullets() {
 
 void draw() {
  drawPlayer();
-
  for (int i = 0; i < 2; i++) {
      drawBullet(&bullets[i]);
     }
@@ -842,7 +829,6 @@ void drawPlayer() {
 }
 
 void drawBullet(BULLET* b) {
-
  if (b -> active) {
   if (!(b -> shotBy)) {
    shadowOAM[b->index].attr0 = (b->row) | (0<<13) | (0<<14);
@@ -859,7 +845,6 @@ void drawBullet(BULLET* b) {
 }
 
 void drawEnemies() {
-
  if (ladel.active) {
   shadowOAM[ladel.index].attr0 = (0xFF & ladel.worldRow) | (0<<13) | (0<<14);
      shadowOAM[ladel.index].attr1 = (0x1FF & (121 - hOff)) | (3<<14);
@@ -900,7 +885,6 @@ void updatePlayer() {
   player.aniState = 14;
  }
  gravCount++;
-
     if((~((*(volatile unsigned short *)0x04000130)) & ((1<<5))) && player.worldCol > 4) {
      if (player.worldCol < 240/2 - player.width - hOff || hOff == 0 || player.worldCol + hOff >= 512 - 240/2 - player.width) {
       player.worldCol--;
@@ -945,14 +929,11 @@ void updatePlayer() {
   player.rdel = player.rdel + player.racc;
   player.worldRow = player.worldRow - player.rdel;
  }
-
-
  if (player.worldCol > 512 - player.width - 73 - hOff
   && player.worldRow + player.height - 1 <= 120
   && player.rdel >= 3) {
   goToWin();
  }
-
  if ((collision(ladel.worldRow, 121 - hOff, ladel.height, ladel.width,
   player.worldRow, player.worldCol, player.height, player.width) && ladel.active && !player.superEgg)) {
   goToLose();
@@ -973,7 +954,6 @@ void updatePlayer() {
 }
 
 void updateBullet(BULLET* b) {
-
  if (b -> active) {
   if (b -> row + b -> height-1 >= 0
             && b -> col + b -> cdel > 0 + player.width - 1
@@ -985,7 +965,6 @@ void updateBullet(BULLET* b) {
    && b -> col + b ->cdel > 4) {
    b -> row -= b -> rdel;
             b -> col -= b -> cdel;
-
             if (collision(b -> row, b -> col, b -> height, b -> width,
       player.worldRow, player.worldCol, player.height, player.width) && b->active
                && !player.superEgg) {
@@ -1000,11 +979,9 @@ void updateBullet(BULLET* b) {
 }
 
 void updateEnemies() {
-
  ladel.worldRow += ladel.rdel;
  spatula.worldRow += spatula.rdel;
  mitt.worldRow += mitt.rdel;
-
  if (!ladel.active) {
   shadowOAM[ladel.index].attr0 = (2<<8);
  }
@@ -1014,7 +991,6 @@ void updateEnemies() {
  if (!mitt.active) {
   shadowOAM[mitt.index].attr0 = (2<<8);
  }
-
  if (ladel.worldRow > 160 - ladel.height - 4 || ladel.worldRow < 46) {
   ladel.rdel *= -1;
   if (ladel.active) {
@@ -1033,7 +1009,6 @@ void updateEnemies() {
    fireEnemyBullet(&bullet3);
   }
  }
-
  for (int i = 0; i < 2; i++) {
   if (bullets[i].active && ladel.active && collision(ladel.worldRow, 121 - hOff, ladel.height, ladel.width,
     bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
@@ -1078,27 +1053,20 @@ void updateEnemies() {
     }
   }
  }
-
  ladel.screenRow = ladel.worldRow;
  ladel.screenCol = ladel.worldCol - hOff;
-
  spatula.screenRow = ladel.worldRow;
  spatula.screenCol = ladel.worldCol - hOff;
-
  mitt.screenRow = ladel.worldRow;
  mitt.screenCol = ladel.worldCol - hOff;
 }
 
 void fireBullet() {
-
  for (int i = 0; i < 2; i++) {
   if (!bullets[i].active) {
-
    bullets[i].row = player.worldRow + player.height / 2;
    bullets[i].col = player.worldCol + player.width;
-
    bullets[i].active = 1;
-
    break;
   }
  }
@@ -1160,7 +1128,6 @@ void hideSprites()
         shadowOAM[i].attr0 = (2<<8);
     }
 }
-
 
 void drawNumber(int row, int col, int number, int index) {
  if (number < 10) {

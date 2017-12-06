@@ -230,6 +230,7 @@ void hideSprites();
 void splashBG();
 void pauseBG();
 void sprintf();
+void (*state)();
 
 // For handicap
 int gamesLost;

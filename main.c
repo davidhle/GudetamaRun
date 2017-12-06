@@ -12,7 +12,7 @@ they shoot bullets and they sequentially shoot faster
 (the spatula shoots faster than the ladel and the
 oven mitt shoots faster than the spatula)
 To win, you need to get to the egg carton, meaning
-you have to jump once you've reached the carton.
+you have to ~jump~ once you've reached the carton.
 
 Extra things added:
 - Custom art
@@ -21,6 +21,7 @@ Extra things added:
 - No affine sprites, but if I say so myself, I have some (af)FINE sprites !!
 - Added knives because of feedback that the original gameplay was too easy
     - spawn at random rows and at different speeds (-5 to 5 rdel excluding 0)
+- Function pointers to replace the state switch statement
 **/
 
 #include "myLib.h"
@@ -43,10 +44,6 @@ Extra things added:
 #include "font.h"
 #include "splash2.h"
 #include "pause2.h"
-
-// State variables
-enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };
-int state;
 
 //allows button pressed to work
 unsigned short buttons;
@@ -77,29 +74,9 @@ int main()
     restart = 0;
     while(1)
     {
-        // allows buttonpressed to work
         oldButtons = buttons;
         buttons = BUTTONS;
-        switch (state) {
-        	case SPLASH:
-        		splash();
-        		break;
-            case INSTRUCTIONS:
-                instructions();
-                break;
-        	case GAME:
-        		game();
-        		break;
-        	case WIN:
-        		win();
-        		break;
-        	case LOSE:
-        		lose();
-        		break;
-        	case PAUSE:
-        		pause();
-        		break;
-        }
+        state();
     }
 }
 
@@ -108,7 +85,7 @@ void goToSplash() {
     splashBG();
     waitForVBlank();
     playSoundA(splashMusic , SPLASHMUSICLEN, SPLASHMUSICFREQ, 1);
-    state = SPLASH;
+    state = splash;
 }
 
 void splashBG() {
@@ -145,11 +122,10 @@ void goToInstructions() {
     waitForVBlank();
     REG_DISPCTL = MODE3 | BG2_ENABLE;
     drawFullscreenImage3(instructionsBitmap);
-    state = INSTRUCTIONS;
+    state = instructions;
 }
 
 void instructions() {
-    // pressing start goes to game
     if (BUTTON_PRESSED(BUTTON_START))
     {
         goToGame();
@@ -167,15 +143,12 @@ void goToGame() {
     REG_BG1CNT = BG_CHARBLOCK(0) | BG_SCREENBLOCK(30) | BG_SIZE_WIDE;
     DMANow(3, bgTiles, &CHARBLOCK[0], bgTilesLen/2);
     DMANow(3, bgMap, &SCREENBLOCK[30], bgMapLen/2);
-
     REG_BG0CNT = BG_CHARBLOCK(1) | BG_SCREENBLOCK(28) | BG_SIZE_SMALL;
     DMANow(3, bg2Tiles, &CHARBLOCK[1], bg2TilesLen/2);
     DMANow(3, bg2Map, &SCREENBLOCK[28], bg2MapLen/2);
-
     DMANow(3, spritesheetTiles, &CHARBLOCK[4], spritesheetTilesLen/2);
     DMANow(3, spritesheetPal, SPRITEPALETTE, 256);
-
-    state = GAME;
+    state = game;
 }
 
 void game() {
@@ -196,7 +169,7 @@ void goToWin() {
     drawFullscreenImage3(winBitmap);
     playSoundA(winMusic , WINMUSICLEN, WINMUSICFREQ, 1);
     drawString(92, 110, buffer, EGGYOLK);
-    state = WIN; 
+    state = win; 
 }
 
 void win() {
@@ -217,7 +190,7 @@ void goToLose() {
     }
     drawString(92, 110, buffer, EGGYOLK);
     playSoundA(loseMusic , LOSEMUSICLEN, LOSEMUSICFREQ, 1);
-    state = LOSE;
+    state = lose;
 }
 
 void lose() {
@@ -232,7 +205,7 @@ void goToPause() {
     restart = 0;
     waitForVBlank();
     pauseBG();
-    state = PAUSE;
+    state = pause;
 }
 
 void pause() {

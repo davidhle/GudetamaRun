@@ -1833,6 +1833,7 @@ draw:
 	.global	counter
 	.global	changeBlending
 	.comm	shadowOAM,1024,4
+	.comm	state,4,4
 	.comm	gamesLost,4,4
 	.comm	player,64,4
 	.comm	bullets,72,4

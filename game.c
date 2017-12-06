@@ -7,7 +7,6 @@
 #include "gudetama.h"
 #include <stdlib.h>
 
-// Struct variables
 PLAYER player;
 ENEMY ladel;
 ENEMY spatula;
@@ -17,32 +16,23 @@ BULLET bullet1;
 BULLET bullet2;
 BULLET bullet3;
 ENEMY knives[KNIFECOUNT];
-
-int blend;// blending on or off
+int blend;
 int ghost_blend = 16;
 int counter = 0;
 int changeBlending = 5;
-
-// To access hOff in main.c
 extern int hOff;
 extern int score;
 int lives;
 int gravCount;
-
-// For sprites' attributes
 OBJ_ATTR shadowOAM[128];
 
 void initialize() {
-	// Background at far left
 	hOff = 0;
 	score = 00;
 	lives = 3;
 	gravCount = 0;
-
-	// Set up Blending registers
 	REG_BLDMOD = BG1_B | OBJ_B | BACKDROP_B | NORMAL_TRANS;
 	blend = 0;
-
 	initializePlayer();
 	initializeBullets();
 	initializeEnemies();
@@ -50,7 +40,6 @@ void initialize() {
 }
 
 void initializeEnemies() {
-	// initialize the enemies
 	ladel.worldRow = 46;
 	ladel.worldCol = 121;
 	ladel.rdel = 1;
@@ -82,7 +71,6 @@ void initializeEnemies() {
 }
 
 void initializePlayer() {
-	// initialize player
 	player.worldRow = 125;
 	player.worldCol = 5;
 	player.height = 23;
@@ -98,7 +86,6 @@ void initializePlayer() {
 }
 
 void initializeBullets() {
-	// loop through all the bullets and initialize them
 	for (int i = 0; i < BULLETCOUNT; i++) {
 		bullets[i].height = 6;
 		bullets[i].width = 8;
@@ -114,7 +101,6 @@ void initializeBullets() {
 
 void draw() {
 	drawPlayer();
-	// draws bullets when active
 	for (int i = 0; i < BULLETCOUNT; i++) {
     	drawBullet(&bullets[i]);
     }
@@ -149,7 +135,6 @@ void drawPlayer() {
 }
 
 void drawBullet(BULLET* b) {
-	// only draw if the bullet's active
 	if (b -> active) {
 		if (!(b -> shotBy)) {
 			shadowOAM[b->index].attr0 = (b->row) | ATTR0_4BPP | ATTR0_SQUARE;
@@ -166,7 +151,6 @@ void drawBullet(BULLET* b) {
 }
 
 void drawEnemies() {
-	// Only draw them if active
 	if (ladel.active) {
 		shadowOAM[ladel.index].attr0 = (ROWMASK & ladel.worldRow) | ATTR0_4BPP | ATTR0_SQUARE;
     	shadowOAM[ladel.index].attr1 = (COLMASK & (121 - hOff)) | ATTR1_LARGE;
@@ -207,7 +191,6 @@ void updatePlayer() {
 		player.aniState = 14;
 	}
 	gravCount++;
-	// Player movement
     if(BUTTON_HELD(BUTTON_LEFT) && player.worldCol > 4) {
     	if (player.worldCol < SCREENWIDTH/2 - player.width - hOff || hOff == 0 || player.worldCol + hOff >= MAPWIDTH - SCREENWIDTH/2 - player.width) {
     		player.worldCol--;
@@ -252,14 +235,11 @@ void updatePlayer() {
 		player.rdel = player.rdel + player.racc;
 		player.worldRow = player.worldRow - player.rdel;
 	}
-
-	// If you reach the end, then you win
 	if (player.worldCol > MAPWIDTH - player.width - 73 - hOff
 		&& player.worldRow + player.height - 1 <= 120
 		&& player.rdel >= 3) {
 		goToWin();
 	}
-	// Lose if you touch an enemy
 	if ((collision(ladel.worldRow, 121 - hOff, ladel.height, ladel.width, 
 		player.worldRow, player.worldCol, player.height, player.width) && ladel.active && !player.superEgg)) {
 		goToLose();
@@ -280,7 +260,6 @@ void updatePlayer() {
 }
 
 void updateBullet(BULLET* b) {
-	// If active, update; otherwise ignore
 	if (b -> active) {
 		if (b -> row + b -> height-1 >= 0
             && b -> col + b -> cdel > 0 + player.width - 1
@@ -292,7 +271,6 @@ void updateBullet(BULLET* b) {
 			&& b -> col + b ->cdel > 4) {
 			b -> row -= b -> rdel;
             b -> col -= b -> cdel;
-            // Collision with player
             if (collision(b -> row, b -> col, b -> height, b -> width, 
 						player.worldRow, player.worldCol, player.height, player.width) && b->active
             			&& !player.superEgg) {
@@ -307,11 +285,9 @@ void updateBullet(BULLET* b) {
 }
 
 void updateEnemies() {
-	// Enemies bounce up and down
 	ladel.worldRow += ladel.rdel;
 	spatula.worldRow += spatula.rdel;
 	mitt.worldRow += mitt.rdel;
-	// Hide sprites if they're not active
 	if (!ladel.active) {
 		shadowOAM[ladel.index].attr0 = ATTR0_HIDE;
 	}
@@ -321,7 +297,6 @@ void updateEnemies() {
 	if (!mitt.active) {
 		shadowOAM[mitt.index].attr0 = ATTR0_HIDE;
 	}
-	// Enemies bounce up and down in bounds
 	if (ladel.worldRow > SCREENHEIGHT - ladel.height - 4 || ladel.worldRow < 46) {
 		ladel.rdel *= -1;
 		if (ladel.active) {
@@ -340,7 +315,6 @@ void updateEnemies() {
 			fireEnemyBullet(&bullet3);
 		}
 	}
-	// Bullet collision with enemies
 	for (int i = 0; i < BULLETCOUNT; i++) {
 		if (bullets[i].active && ladel.active && collision(ladel.worldRow, 121 - hOff, ladel.height, ladel.width, 
 				bullets[i].row, bullets[i].col, bullets[i].height, bullets[i].width)) {
@@ -385,27 +359,20 @@ void updateEnemies() {
 				} 
 		}
 	}
-
 	ladel.screenRow = ladel.worldRow;
 	ladel.screenCol = ladel.worldCol - hOff;
-
 	spatula.screenRow = ladel.worldRow;
 	spatula.screenCol = ladel.worldCol - hOff;
-
 	mitt.screenRow = ladel.worldRow;
 	mitt.screenCol = ladel.worldCol - hOff;
 }
 
 void fireBullet() {
-	// Find the first inactive bullet
 	for (int i = 0; i < BULLETCOUNT; i++) {
 		if (!bullets[i].active) {
-			// Position the new bullet 
 			bullets[i].row = player.worldRow + player.height / 2;
 			bullets[i].col = player.worldCol + player.width;
-			// Take the bullet out of the pool
 			bullets[i].active = 1;
-			// Break out of the loop
 			break;
 		}
 	}
@@ -468,7 +435,6 @@ void hideSprites()
     }
 }
 
-// Number function
 void drawNumber(int row, int col, int number, int index) {
 	if (number < 10) {
 		shadowOAM[index + 1].attr0 = ATTR0_HIDE;
