@@ -2,7 +2,8 @@
 Welcome to Gudetama Run!
 
 Gudetama is an egg that got chosen to be cooked, and is
-running to make his way back home to his egg carton.
+running to make his way back home to his egg carton so
+he can go back to sleep.
 
 Gameplay:
 Make your way to the end of the map by overcoming
@@ -13,15 +14,13 @@ oven mitt shoots faster than the spatula)
 To win, you need to get to the egg carton, meaning
 you have to jump once you've reached the carton.
 
-Known bugs:
-
 Extra things added:
 - Custom art
 - Losing more than 2 times shows the cheat to the user
 - Alpha blending of knives when the player isn't using the cheat
 - No affine sprites, but if I say so myself, I have some (af)FINE sprites !!
 - Added knives because of feedback that the original gameplay was too easy
-    - spawn at random rows and at different speeds (-5 to 5 rdel)
+    - spawn at random rows and at different speeds (-5 to 5 rdel excluding 0)
 **/
 
 #include "myLib.h"
@@ -229,15 +228,14 @@ void lose() {
 }
 
 void goToPause() {
+    playSoundA(pauseMusic , PAUSEMUSICLEN, PAUSEMUSICFREQ, 1);
     restart = 0;
     waitForVBlank();
     pauseBG();
-    playSoundA(pauseMusic , PAUSEMUSICLEN, PAUSEMUSICFREQ, 1);
     state = PAUSE;
 }
 
 void pause() {
-    waitForVBlank();
     if (BUTTON_PRESSED(BUTTON_DOWN)) {
         restart = 1;
         pauseBG();

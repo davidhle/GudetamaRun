@@ -209,9 +209,9 @@ void updatePlayer() {
 	gravCount++;
 	// Player movement
     if(BUTTON_HELD(BUTTON_LEFT) && player.worldCol > 4) {
-    	if (player.worldCol < SCREENWIDTH/2 - player.width || player.worldCol + hOff >= MAPWIDTH - SCREENWIDTH/2 - player.width || hOff == 0) {
+    	if (player.worldCol < SCREENWIDTH/2 - player.width - hOff || hOff == 0 || player.worldCol + hOff >= MAPWIDTH - SCREENWIDTH/2 - player.width) {
     		player.worldCol--;
-    	} else if ((player.screenCol <= SCREENWIDTH/2 - player.width/2 - hOff) && hOff > 0) {
+    	} else if ((player.screenCol < SCREENWIDTH/2 - player.width || player.worldCol - hOff < MAPWIDTH - SCREENWIDTH/2 - player.width) && hOff > 0) {
     		hOff--;
     	}
     	player.aniState++;
@@ -545,7 +545,7 @@ void updateKnives() {
 				knives[i].rdel *= -1;
 			} else if (collision(knives[i].screenRow, knives[i].screenCol, knives[i].height, knives[i].width, 
 						player.worldRow, player.worldCol, player.height, player.width)) {
-							knives[i].worldRow -= 6;
+							knives[i].worldRow -= player.height / 2;
 							knives[i].rdel *= -1;
 							if (!player.superEgg) {
 								lives--;

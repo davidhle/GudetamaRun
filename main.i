@@ -2,7 +2,7 @@
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "main.c"
-# 27 "main.c"
+# 28 "main.c"
 # 1 "myLib.h" 1
 
 
@@ -85,6 +85,7 @@ void goToLose();
 void hideSprites();
 void splashBG();
 void pauseBG();
+void sprintf();
 
 
 int gamesLost;
@@ -100,9 +101,9 @@ typedef volatile struct {
 
 
 extern DMA *dma;
-# 279 "myLib.h"
+# 280 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
-# 337 "myLib.h"
+# 338 "myLib.h"
 typedef struct{
     const unsigned char* data;
     int length;
@@ -122,13 +123,13 @@ void unmuteSound();
 void stopSound();
 void setupInterrupts();
 void interruptHandler();
-# 395 "myLib.h"
+# 396 "myLib.h"
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
-# 28 "main.c" 2
+# 29 "main.c" 2
 # 1 "splash.h" 1
 # 20 "splash.h"
 extern const unsigned short splashBitmap[38400];
-# 29 "main.c" 2
+# 30 "main.c" 2
 # 1 "bg.h" 1
 # 22 "bg.h"
 extern const unsigned short bgTiles[6560];
@@ -138,11 +139,11 @@ extern const unsigned short bgMap[2048];
 
 
 extern const unsigned short bgPal[256];
-# 30 "main.c" 2
+# 31 "main.c" 2
 # 1 "pause.h" 1
 # 20 "pause.h"
 extern const unsigned short pauseBitmap[38400];
-# 31 "main.c" 2
+# 32 "main.c" 2
 # 1 "game.h" 1
 
 
@@ -232,38 +233,38 @@ void drawNumber(int row, int col, int number, int index);
 void initKnives();
 void updateKnives();
 void drawKnives();
-# 32 "main.c" 2
+# 33 "main.c" 2
 # 1 "instructions.h" 1
 # 20 "instructions.h"
 extern const unsigned short instructionsBitmap[38400];
-# 33 "main.c" 2
+# 34 "main.c" 2
 # 1 "spritesheet.h" 1
 # 21 "spritesheet.h"
 extern const unsigned short spritesheetTiles[16384];
 
 
 extern const unsigned short spritesheetPal[256];
-# 34 "main.c" 2
+# 35 "main.c" 2
 # 1 "win.h" 1
 # 20 "win.h"
 extern const unsigned short winBitmap[38400];
-# 35 "main.c" 2
+# 36 "main.c" 2
 # 1 "lose.h" 1
 # 20 "lose.h"
 extern const unsigned short loseBitmap[38400];
-# 36 "main.c" 2
+# 37 "main.c" 2
 # 1 "loseMusic.h" 1
 # 20 "loseMusic.h"
 extern const unsigned char loseMusic[67610];
-# 37 "main.c" 2
+# 38 "main.c" 2
 # 1 "gameMusic.h" 1
 # 20 "gameMusic.h"
 extern const unsigned char gameMusic[139524];
-# 38 "main.c" 2
+# 39 "main.c" 2
 # 1 "splashMusic.h" 1
 # 20 "splashMusic.h"
 extern const unsigned char splashMusic[199757];
-# 39 "main.c" 2
+# 40 "main.c" 2
 # 1 "bg2.h" 1
 # 22 "bg2.h"
 extern const unsigned short bg2Tiles[288];
@@ -273,36 +274,36 @@ extern const unsigned short bg2Map[1024];
 
 
 extern const unsigned short bg2Pal[256];
-# 40 "main.c" 2
+# 41 "main.c" 2
 # 1 "winMusic.h" 1
 # 20 "winMusic.h"
 extern const unsigned char winMusic[119001];
-# 41 "main.c" 2
+# 42 "main.c" 2
 # 1 "pauseMusic.h" 1
 # 20 "pauseMusic.h"
-extern const unsigned char pauseMusic[200201];
-# 42 "main.c" 2
+extern const unsigned char pauseMusic[185569];
+# 43 "main.c" 2
 # 1 "lose2.h" 1
 # 20 "lose2.h"
 extern const unsigned short lose2Bitmap[38400];
-# 43 "main.c" 2
+# 44 "main.c" 2
 # 1 "text.h" 1
 
 void drawChar(int, int, char, unsigned short);
 void drawString(int, int, char *, unsigned short);
-# 44 "main.c" 2
+# 45 "main.c" 2
 # 1 "font.h" 1
 
 extern const unsigned char fontdata_6x8[12288];
-# 45 "main.c" 2
+# 46 "main.c" 2
 # 1 "splash2.h" 1
 # 20 "splash2.h"
 extern const unsigned short splash2Bitmap[38400];
-# 46 "main.c" 2
+# 47 "main.c" 2
 # 1 "pause2.h" 1
 # 20 "pause2.h"
 extern const unsigned short pause2Bitmap[38400];
-# 47 "main.c" 2
+# 48 "main.c" 2
 
 
 enum { SPLASH, INSTRUCTIONS, GAME, WIN, LOSE, PAUSE };
@@ -488,15 +489,14 @@ void lose() {
 }
 
 void goToPause() {
+    playSoundA(pauseMusic , 185569, 11025, 1);
     restart = 0;
     waitForVBlank();
     pauseBG();
-    playSoundA(pauseMusic , 200201, 11025, 1);
     state = PAUSE;
 }
 
 void pause() {
-    waitForVBlank();
     if ((!(~(oldButtons)&((1<<7))) && (~buttons & ((1<<7))))) {
         restart = 1;
         pauseBG();

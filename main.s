@@ -552,22 +552,19 @@ pause:
 	@ frame_needed = 0, uses_anonymous_args = 0
 	stmfd	sp!, {r4, r5, r6, lr}
 	ldr	r5, .L75
-	ldr	r3, .L75+4
-	mov	lr, pc
-	bx	r3
 	ldrh	r3, [r5, #0]
 	tst	r3, #128
 	beq	.L72
-	ldr	r2, .L75+8
+	ldr	r2, .L75+4
 	ldrh	r2, [r2, #0]
 	tst	r2, #128
 	beq	.L71
 .L72:
-	ldr	r4, .L75+12
+	ldr	r4, .L75+8
 .L64:
 	tst	r3, #64
 	beq	.L65
-	ldr	r2, .L75+8
+	ldr	r2, .L75+4
 	ldrh	r2, [r2, #0]
 	ands	r2, r2, #64
 	beq	.L73
@@ -577,7 +574,7 @@ pause:
 	beq	.L66
 	tst	r3, #8
 	beq	.L63
-	ldr	r3, .L75+8
+	ldr	r3, .L75+4
 	ldrh	r3, [r3, #0]
 	tst	r3, #8
 	beq	.L74
@@ -587,7 +584,7 @@ pause:
 .L66:
 	tst	r3, #8
 	beq	.L63
-	ldr	r3, .L75+8
+	ldr	r3, .L75+4
 	ldrh	r3, [r3, #0]
 	tst	r3, #8
 	bne	.L63
@@ -599,14 +596,14 @@ pause:
 	ldrh	r3, [r5, #0]
 	b	.L65
 .L71:
-	ldr	r4, .L75+12
+	ldr	r4, .L75+8
 	mov	r3, #1
 	str	r3, [r4, #0]
 	bl	pauseBG
 	ldrh	r3, [r5, #0]
 	b	.L64
 .L74:
-	ldr	r3, .L75+16
+	ldr	r3, .L75+12
 	mov	lr, pc
 	bx	r3
 	ldmfd	sp!, {r4, r5, r6, lr}
@@ -615,7 +612,6 @@ pause:
 	.align	2
 .L75:
 	.word	oldButtons
-	.word	waitForVBlank
 	.word	buttons
 	.word	restart
 	.word	initialize
@@ -627,24 +623,23 @@ goToPause:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
+	mov	r1, #185344
+	mov	r2, #11008
 	stmfd	sp!, {r3, lr}
-	ldr	r3, .L78
+	ldr	r0, .L78
+	add	r1, r1, #225
+	ldr	ip, .L78+4
+	add	r2, r2, #17
+	mov	r3, #1
+	mov	lr, pc
+	bx	ip
+	ldr	r3, .L78+8
 	mov	r2, #0
 	str	r2, [r3, #0]
-	ldr	r3, .L78+4
+	ldr	r3, .L78+12
 	mov	lr, pc
 	bx	r3
 	bl	pauseBG
-	mov	r1, #199680
-	add	r1, r1, #520
-	mov	r2, #11008
-	add	r2, r2, #17
-	mov	r3, #1
-	ldr	r0, .L78+8
-	add	r1, r1, #1
-	ldr	ip, .L78+12
-	mov	lr, pc
-	bx	ip
 	ldr	r3, .L78+16
 	mov	r2, #5
 	str	r2, [r3, #0]
@@ -653,10 +648,10 @@ goToPause:
 .L79:
 	.align	2
 .L78:
-	.word	restart
-	.word	waitForVBlank
 	.word	pauseMusic
 	.word	playSoundA
+	.word	restart
+	.word	waitForVBlank
 	.word	state
 	.size	goToPause, .-goToPause
 	.align	2
@@ -668,9 +663,9 @@ game:
 	@ frame_needed = 0, uses_anonymous_args = 0
 	ldr	r3, .L83
 	stmfd	sp!, {r4, lr}
-	ldr	r1, .L83+4
+	ldr	r0, .L83+4
 	ldr	r2, [r3, #0]
-	ldr	r0, .L83+8
+	ldr	r1, .L83+8
 	ldr	r3, .L83+12
 	mov	lr, pc
 	bx	r3
@@ -709,8 +704,8 @@ game:
 	.align	2
 .L83:
 	.word	score
-	.word	.LC0
 	.word	buffer
+	.word	.LC0
 	.word	sprintf
 	.word	.LANCHOR0
 	.word	hOff

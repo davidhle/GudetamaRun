@@ -229,6 +229,7 @@ void goToLose();
 void hideSprites();
 void splashBG();
 void pauseBG();
+void sprintf();
 
 // For handicap
 int gamesLost;

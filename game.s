@@ -354,62 +354,62 @@ updatePlayer:
 	tst	r2, #32
 	add	r3, r1, #1
 	str	r3, [r6, #0]
-	bne	.L67
+	bne	.L66
 	ldr	r3, [r4, #12]
 	cmp	r3, #4
 	ldr	r2, .L79
 	bgt	.L65
-.L67:
+.L66:
 	ldr	r5, .L79+8
 .L40:
 	mov	r3, #67108864
 	add	r3, r3, #256
 	ldrh	r3, [r3, #48]
 	tst	r3, #16
-	bne	.L44
+	bne	.L45
 	ldr	r3, [r4, #12]
 	ldr	r2, [r4, #24]
 	ldr	r1, [r5, #0]
 	add	ip, r2, r3
 	rsb	r0, r1, #508
 	cmp	ip, r0
-	blt	.L69
-.L44:
+	blt	.L68
+.L45:
 	ldr	r7, .L79+12
 	ldrh	r2, [r7, #0]
 	tst	r2, #1
-	beq	.L49
+	beq	.L50
 	ldr	r3, .L79+16
 	ldrh	r8, [r3, #0]
 	ands	r8, r8, #1
-	beq	.L70
-.L49:
+	beq	.L69
+.L50:
 	tst	r2, #4
-	beq	.L50
+	beq	.L51
 	ldr	r3, .L79+16
 	ldrh	r3, [r3, #0]
 	ands	r1, r3, #4
-	beq	.L71
-.L50:
+	beq	.L70
+.L51:
 	tst	r2, #2
-	beq	.L68
+	beq	.L67
 	ldr	r3, .L79+16
 	ldrh	r3, [r3, #0]
 	tst	r3, #2
-	beq	.L54
-.L68:
+	beq	.L55
+.L67:
 	ldr	ip, [r4, #8]
-.L53:
+.L54:
 	cmp	ip, #124
-	bgt	.L55
+	bgt	.L56
 	ldr	r3, [r6, #0]
 	ldr	r2, .L79+20
 	smull	r1, r2, r3, r2
 	sub	r2, r2, r3, asr #31
 	add	r2, r2, r2, asl #1
 	cmp	r3, r2
-	beq	.L72
-.L55:
+	beq	.L71
+.L56:
 	ldr	r8, [r4, #24]
 	ldr	r1, [r5, #0]
 	rsb	r3, r8, #436
@@ -419,12 +419,12 @@ updatePlayer:
 	ldr	r6, .L79
 	cmp	lr, r3
 	ldrle	sl, [r6, #28]
-	ble	.L57
+	ble	.L58
 	ldr	sl, [r6, #28]
 	add	r3, ip, sl
 	cmp	r3, #121
-	ble	.L73
-.L57:
+	ble	.L72
+.L58:
 	ldr	r6, .L79+24
 	rsb	r1, r1, #121
 	ldr	r0, [r6, #8]
@@ -437,11 +437,11 @@ updatePlayer:
 	mov	lr, pc
 	bx	r7
 	cmp	r0, #0
-	beq	.L58
+	beq	.L59
 	ldr	r3, [r6, #32]
 	cmp	r3, #0
-	bne	.L74
-.L58:
+	bne	.L73
+.L59:
 	ldr	r6, .L79+32
 	ldr	r1, [r5, #0]
 	ldr	lr, [r4, #8]
@@ -459,11 +459,11 @@ updatePlayer:
 	mov	lr, pc
 	bx	r7
 	cmp	r0, #0
-	beq	.L59
+	beq	.L60
 	ldr	r3, [r6, #32]
 	cmp	r3, #0
-	bne	.L75
-.L59:
+	bne	.L74
+.L60:
 	ldr	r6, .L79+36
 	ldr	r1, [r5, #0]
 	ldr	lr, [r4, #8]
@@ -481,15 +481,15 @@ updatePlayer:
 	mov	lr, pc
 	bx	r7
 	cmp	r0, #0
-	beq	.L60
+	beq	.L61
 	ldr	r3, [r6, #32]
 	cmp	r3, #0
-	beq	.L60
+	beq	.L61
 	ldr	r3, .L79
 	ldr	r3, [r3, #60]
 	cmp	r3, #0
-	beq	.L76
-.L60:
+	beq	.L75
+.L61:
 	ldr	r3, [r4, #52]
 	ldr	r0, [r4, #12]
 	ldr	r2, [r5, #0]
@@ -501,27 +501,27 @@ updatePlayer:
 	add	sp, sp, #20
 	ldmfd	sp!, {r4, r5, r6, r7, r8, sl, lr}
 	bx	lr
-.L75:
+.L74:
 	ldr	r3, .L79
 	ldr	r3, [r3, #60]
+	cmp	r3, #0
+	bne	.L60
+	ldr	r3, .L79+40
+	mov	lr, pc
+	bx	r3
+	b	.L60
+.L73:
+	ldr	r3, [r4, #60]
 	cmp	r3, #0
 	bne	.L59
 	ldr	r3, .L79+40
 	mov	lr, pc
 	bx	r3
 	b	.L59
-.L74:
-	ldr	r3, [r4, #60]
-	cmp	r3, #0
-	bne	.L58
-	ldr	r3, .L79+40
-	mov	lr, pc
-	bx	r3
-	b	.L58
-.L73:
+.L72:
 	ldr	r3, [r6, #16]
 	cmp	r3, #2
-	ble	.L57
+	ble	.L58
 	ldr	r3, .L79+44
 	mov	lr, pc
 	bx	r3
@@ -531,16 +531,16 @@ updatePlayer:
 	ldr	lr, [r6, #12]
 	add	r8, r6, #24
 	ldmia	r8, {r8, sl}	@ phole ldm
-	b	.L57
-.L72:
+	b	.L58
+.L71:
 	ldr	r3, [r4, #16]
 	ldr	r2, [r4, #32]
 	add	r3, r2, r3
 	rsb	ip, r3, ip
 	str	r3, [r4, #16]
 	str	ip, [r4, #8]
-	b	.L55
-.L54:
+	b	.L56
+.L55:
 	ldr	ip, [r4, #8]
 	ldr	r3, .L79
 	cmp	ip, #125
@@ -549,13 +549,13 @@ updatePlayer:
 	rsbeq	ip, r2, #125
 	streq	r2, [r3, #16]
 	streq	ip, [r3, #8]
-	b	.L53
-.L71:
+	b	.L54
+.L70:
 	ldr	r3, [r4, #60]
 	ldr	ip, .L79
 	cmp	r3, #0
 	strne	r1, [ip, #60]
-	bne	.L50
+	bne	.L51
 	mov	lr, #1
 	mov	r1, #16064
 	mov	r2, #11008
@@ -567,11 +567,11 @@ updatePlayer:
 	mov	lr, pc
 	bx	ip
 	ldrh	r2, [r7, #0]
-	b	.L50
-.L70:
+	b	.L51
+.L69:
 	ldr	r3, [r4, #52]
 	cmp	r3, #15
-	ble	.L49
+	ble	.L50
 	bl	fireBullet
 	mov	r1, #2288
 	mov	r2, #11008
@@ -585,33 +585,27 @@ updatePlayer:
 	ldr	r3, .L79
 	ldrh	r2, [r7, #0]
 	str	r8, [r3, #52]
-	b	.L49
-.L69:
+	b	.L50
+.L68:
 	rsb	r0, r2, #120
 	cmp	r3, r0
-	bge	.L77
-.L45:
+	bge	.L76
+.L46:
 	add	r3, r3, #1
 	str	r3, [r4, #12]
-.L47:
+.L48:
 	ldr	r3, [r4, #56]
 	add	r3, r3, #1
 	str	r3, [r4, #56]
-	b	.L44
+	b	.L45
 .L65:
-	ldr	r1, [r2, #24]
-	rsb	r0, r1, #120
-	cmp	r3, r0
-	ldrlt	r5, .L79+8
-	blt	.L41
 	ldr	r5, .L79+8
-	ldr	r0, [r5, #0]
-	rsb	ip, r1, #392
-	add	lr, r0, r3
-	cmp	lr, ip
-	bge	.L41
-	cmp	r0, #0
-	bne	.L42
+	ldr	r0, [r2, #24]
+	ldr	r1, [r5, #0]
+	rsb	ip, r0, #120
+	rsb	lr, r1, ip
+	cmp	r3, lr
+	bge	.L77
 .L41:
 	sub	r3, r3, #1
 	str	r3, [r4, #12]
@@ -620,39 +614,45 @@ updatePlayer:
 	add	r3, r3, #1
 	str	r3, [r4, #56]
 	b	.L40
-.L76:
+.L75:
 	ldr	r3, .L79+40
 	mov	lr, pc
 	bx	r3
-	b	.L60
+	b	.L61
 .L77:
+	cmp	r1, #0
+	beq	.L41
+	rsb	r0, r0, #392
+	add	lr, r1, r3
+	cmp	lr, r0
+	bge	.L41
+	ldr	r2, [r2, #4]
+	cmp	ip, r2
+	bgt	.L44
+	rsb	r3, r1, r3
+	cmp	r0, r3
+	ble	.L43
+.L44:
+	cmp	r1, #0
+	subgt	r1, r1, #1
+	strgt	r1, [r5, #0]
+	b	.L43
+.L76:
 	rsb	r2, r2, #392
 	add	ip, r1, r3
 	cmp	ip, r2
-	bge	.L45
+	bge	.L46
 	cmp	r3, r0
 	ble	.L78
-.L48:
+.L49:
 	cmp	r1, #272
 	addlt	r1, r1, #1
 	strlt	r1, [r5, #0]
-	b	.L47
-.L42:
-	add	r1, r1, r1, lsr #31
-	mov	r3, r1, asr #1
-	rsb	r3, r3, #120
-	ldr	r2, [r2, #4]
-	rsb	r3, r0, r3
-	cmp	r2, r3
-	bgt	.L43
-	cmp	r0, #0
-	subgt	r0, r0, #1
-	strgt	r0, [r5, #0]
-	b	.L43
+	b	.L48
 .L78:
 	cmp	r3, r2
-	bge	.L47
-	b	.L48
+	bge	.L48
+	b	.L49
 .L80:
 	.align	2
 .L79:
@@ -1527,12 +1527,14 @@ updateKnives:
 	cmp	r0, #0
 	ldreq	r3, [r4, #-24]
 	beq	.L173
+	ldr	r2, [r7, #28]
 	ldr	r3, [r4, #-24]
-	ldr	r2, [r4, #-16]
+	ldr	r0, [r4, #-16]
 	ldr	r1, [r7, #60]
-	sub	r3, r3, #6
-	rsb	r2, r2, #0
+	add	r2, r2, r2, lsr #31
+	sub	r3, r3, r2, asr #1
 	cmp	r1, #0
+	rsb	r2, r0, #0
 	str	r3, [r4, #-24]
 	str	r2, [r4, #-16]
 	bne	.L173

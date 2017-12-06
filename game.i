@@ -84,6 +84,7 @@ void goToLose();
 void hideSprites();
 void splashBG();
 void pauseBG();
+void sprintf();
 
 
 int gamesLost;
@@ -99,9 +100,9 @@ typedef volatile struct {
 
 
 extern DMA *dma;
-# 279 "myLib.h"
+# 280 "myLib.h"
 void DMANow(int channel, volatile const void *src, volatile void *dst, unsigned int cnt);
-# 337 "myLib.h"
+# 338 "myLib.h"
 typedef struct{
     const unsigned char* data;
     int length;
@@ -121,7 +122,7 @@ void unmuteSound();
 void stopSound();
 void setupInterrupts();
 void interruptHandler();
-# 395 "myLib.h"
+# 396 "myLib.h"
 int collision(int rowA, int colA, int heightA, int widthA, int rowB, int colB, int heightB, int widthB);
 # 2 "game.c" 2
 # 1 "bg.h" 1
@@ -901,9 +902,9 @@ void updatePlayer() {
  gravCount++;
 
     if((~((*(volatile unsigned short *)0x04000130)) & ((1<<5))) && player.worldCol > 4) {
-     if (player.worldCol < 240/2 - player.width || player.worldCol + hOff >= 512 - 240/2 - player.width || hOff == 0) {
+     if (player.worldCol < 240/2 - player.width - hOff || hOff == 0 || player.worldCol + hOff >= 512 - 240/2 - player.width) {
       player.worldCol--;
-     } else if ((player.screenCol <= 240/2 - player.width/2 - hOff) && hOff > 0) {
+     } else if ((player.screenCol < 240/2 - player.width || player.worldCol - hOff < 512 - 240/2 - player.width) && hOff > 0) {
       hOff--;
      }
      player.aniState++;
@@ -1237,7 +1238,7 @@ void updateKnives() {
     knives[i].rdel *= -1;
    } else if (collision(knives[i].screenRow, knives[i].screenCol, knives[i].height, knives[i].width,
       player.worldRow, player.worldCol, player.height, player.width)) {
-       knives[i].worldRow -= 6;
+       knives[i].worldRow -= player.height / 2;
        knives[i].rdel *= -1;
        if (!player.superEgg) {
         lives--;
